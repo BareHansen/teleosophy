@@ -1,4 +1,4 @@
-# Generates the favicon and app icons. Run from the repository root: python3 design/make-icons.py
+# Generates the favicon and app icons. Run from the repository root: python3 make-icons.py
 from PIL import Image, ImageDraw, ImageFilter
 DEEP=(5,11,22,255); CREAM=(244,234,219,255); NAVY=(30,62,108,255); GOLD=(242,194,122,255)
 

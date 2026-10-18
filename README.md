@@ -19,7 +19,7 @@ Both domains serve the same files from `~/www/` on the Domeneshop web hotel. The
 | `source/.htaccess`, `robots.txt`, `sitemap.xml` | Copies of server files that are **not** deployed automatically |
 | `build.py` | Generates the two pages in `public/` from `source/` plus the short texts defined in the script |
 | `LENS.md`, `CONTEXT.md`, `CLAUDE.md` | Conceptual and editorial reference — read before changing copy |
-| `design/` | Logo and landscape sketches, old logo |
+| `make-icons.py` | Regenerates favicon and app icons |
 | `deploy.sh` | Manual fallback for publishing |
 
 ## Changing the site
