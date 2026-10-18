@@ -46,4 +46,44 @@ at uttrykket er et lån; bare ordlyden følger trinnet.
 |---|---|---|---|---|
 | «jeg tenker» (noonomi) | «datamaskinen jobber og tenker» | «datamaskinen prosesserer informasjon» | – | ✔ |
 | «jeg er» (ontonomi) | «hunden er sulten» | «elektronet er i superposisjon» | – | ✔ |
-| «jeg handler» (teleonomi) | «blomsten snur seg mot solen» | «naturlig seleksjon velger ut de best tilpassede» | – | enkel ✔, standard ? |
+| «jeg handler» (teleonomi) | «blomsten snur seg mot solen» | «naturlig seleksjon velger ut de best tilpassede» | – | ✔ |
+
+## English
+
+Draft translation of the approved Norwegian list. **Status:** all ? until Stein approves.
+
+| Term | Simple wording |
+|---|---|
+| noesis | meaning-making: making meaning through thought, by ordering something as a story |
+| ontonomy | borrowing "I am": lending *being* to something to give it a stable identity |
+| noonomy | borrowing "I think": lending *meaning/thought* to something to understand how it processes or computes |
+| teleonomy | borrowing "I act": lending *action* to something to understand what function it has |
+| epistemology / epistemological | the study of knowledge / about knowledge |
+| meta-epistemology | the preconditions of knowledge |
+| ontology / ontological | the study of being: *I am*, from the first person |
+| distinction | telling apart (one thing from another) |
+| relation / relational | connection / connecting |
+| *Distinction is relation* | *To tell apart is to connect* |
+| actualized / actualization | made real / making real |
+| relational actuality | making connection real |
+| substantialism | the idea that the world consists of finished things, independent of connections |
+| discretize | divide into separate parts |
+| continuity | connectedness without breaks |
+| telos / teleology / teleological | aim / the study of aims / purposeful |
+| teleosophy | wisdom about purposefulness |
+| purposeful being | being directed toward something |
+| being-in-action | being as something one does |
+| first / second / third person | I / you / seen from outside |
+| ego / alter ego / no ego | I / the other I / no I |
+| subject pole / object pole | the one who experiences / what is experienced |
+| first-person certainty | the certainty from within that I am |
+| third-person measurement / description | measurement / description from outside |
+| action axiom | the fundamental insight about action |
+| narrative structure | understanding one's own reality through language |
+| efficacy | the ability to have an effect |
+
+| Borrowing | Simple | Standard |
+|---|---|---|
+| "I think" (noonomy) | "the computer works and thinks" | "the computer processes information" |
+| "I am" (ontonomy) | "the dog is hungry" | "the electron is in superposition" |
+| "I act" (teleonomy) | "the flower turns toward the sun" | "natural selection selects the fittest" |
