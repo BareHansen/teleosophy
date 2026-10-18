@@ -17,11 +17,11 @@ Filosofien har et eget felt for spørsmål om kunnskap: kunnskapslæren, eller e
 Svaret er ikke en ny teori som konkurrerer med fysikk, biologi eller historie. Det er en beskrivelse av den formen alle fag allerede bruker når de vet noe. Derfor kan spørsmål fra helt ulike fag undersøkes på samme grunnlag, uten at alt gjøres om til ett fag.
 
 ### 2
-> Fagene skiller seg i innhold, metode og objekt. Men alle krever det samme for å vite noe: distinksjoner, relasjoner, begreper, perspektiv og aktualisering – at noe faktisk blir virkelig.
+> Fagene skiller seg i innhold, metode og objekt. Men alle krever det samme for å vite noe: distinksjoner (at noe skilles fra noe annet), relasjoner (forbindelser), begreper, perspektiv og aktualisering – at noe faktisk blir virkelig for den som vet.
 
-Epistemologien spør hva som kan vites, og hvordan en påstand kan begrunnes. Meta-epistemologien spør hva som allerede må være aktualisert for at det skal finnes kunnskap, begrunnelse, beskrivelse, uenighet, måling eller påstander i det hele tatt.
+Epistemologien – kunnskapsteorien – spør hva som kan vites, og hvordan en påstand kan begrunnes. Meta-epistemologien stiller spørsmålet som kommer før: hva må allerede være aktualisert for at det skal finnes kunnskap, begrunnelse, beskrivelse, uenighet, måling eller påstander i det hele tatt? Det er ikke et spørsmål om hva vi vet, men om hva det å vite forutsetter.
 
-Dette er ingen ny teori som konkurrerer med fysikk, biologi eller historie, men en redegjørelse for den formelle strukturen fagene allerede bruker. Derfor kan spørsmål fra ulike felt undersøkes på et felles nivå, uten at innholdet deres reduseres til én vitenskap.
+Svaret er derfor ingen ny teori som konkurrerer med fysikk, biologi eller historie. Det er en redegjørelse for den formelle strukturen alle fagene allerede bruker når de vet noe. Fordi strukturen er felles, kan spørsmål fra ulike felt undersøkes på et felles nivå – uten at innholdet deres reduseres til én vitenskap.
 
 ## metaphysics
 
@@ -35,9 +35,11 @@ Nettopp dette er problemet med en gammel og utbredt tanke: at verden består av 
 Løsningen er ikke å finne på en ny teori om hva som ligger bak. Den usjekkede grunnmuren fjernes. I stedet undersøker vi det vi faktisk kan vite noe om: forutsetningene som allerede er virkeliggjort hver gang noen vet noe.
 
 ### 2
-En påstand som verken kan valideres empirisk eller begrunnes som logisk nødvendighet, kan ikke bære systematisk kunnskap. Det er problemet med spekulativ metafysikk om substans: den antar skjulte bærere eller substrater bak tingene, og behandler dem som grunnen for de egenskapene og relasjonene vi faktisk har kunnskap om.
+Metafysikk er filosofiens spørsmål om hva virkeligheten grunnleggende består av. Den blir spekulativ når den sier noe om virkeligheten som verken kan valideres empirisk – ved observasjon og eksperiment – eller begrunnes som logisk nødvendighet. En slik påstand kan ikke bære systematisk kunnskap.
 
-Svaret er ikke å sette én spekulativ metafysikk opp mot en annen. Den udekkede grunnen trekkes tilbake, og meta-epistemologien tar dens plass: studiet av betingelsene som allerede er aktualisert der kunnskap forekommer.
+Det er problemet med det som kalles substansontologi: tanken om at det bak tingene finnes skjulte bærere eller substrater – substanser – som egenskapene og relasjonene vi faktisk har kunnskap om, hviler på. Substansene selv er aldri tilgjengelige for kunnskap, men behandles likevel som grunnen.
+
+Svaret er ikke å sette én spekulativ metafysikk opp mot en annen. Den udekkede grunnen trekkes tilbake, og meta-epistemologien tar dens plass: studiet av betingelsene som allerede er aktualisert der kunnskap forekommer – det vi faktisk har tilgang til.
 
 ## distinction
 
@@ -53,9 +55,11 @@ Dette er et poeng om hvordan vi tenker og vet, og derfor er det rammeverkets gru
 ### 2
 > Å skille er allerede å relatere.
 
-Dette er det analytiske instrumentet. En distinksjon som ikke relaterte noe, ville ikke skille. De to polene i en distinksjon er ikke ferdige ting som deretter kobles sammen – de blir tilgjengelige som poler gjennom selve den skillende relasjonen.
+Dette er det analytiske instrumentet rammeverket bruker overalt. En distinksjon – det å skille noe fra noe annet – er samtidig en relasjon: den forbinder de to sidene den skiller. En distinksjon som ikke relaterte noe, ville ikke skille noe.
 
-Poenget er analytisk, ikke en lære om at bare relasjoner finnes. Relasjon må ikke gjøres til en ny substans.
+Det betyr at de to polene i en distinksjon ikke først finnes som ferdige ting som deretter kobles sammen. De blir tilgjengelige som poler gjennom selve den skillende relasjonen.
+
+Poenget er analytisk – det gjelder hvordan noe i det hele tatt blir tilgjengelig for tenkning – og ikke en lære om at bare relasjoner finnes. Relasjon må derfor ikke gjøres til en ny substans.
 
 ## discretization
 
@@ -69,13 +73,13 @@ Fordi et skille alltid forbinder sidene sine, kan skillet alene aldri skape et f
 Språket gjør ting faste. Det begynner med noe vi gjør: vi skiller noe ut. Så får det et navn, navnet setter seg, og etter hvert ser det ut som en ting som alltid har vært der. Tingen kan være helt virkelig og nyttig der den brukes. Feilen er å tro at den fantes før og uavhengig av forbindelsene den ble skilt ut gjennom. Den feilen har et navn i filosofien: substansialisme, tanken om at verden består av ferdige ting. Løsningen er ikke å slutte å bruke substantiver – navneord – men å huske forbindelsen de kom fra, også når det gjelder rammeverkets egne ord.
 
 ### 2
-Tenkning krever distinksjoner. Å gjøre noe begrepslig tilgjengelig er å diskretisere: å trekke en grense eller gi noe en identitet som er stabil nok til å tenke med. Det er uunnværlig, og distinksjonen er ikke feilen. Feilen er å glemme at grensen er resultatet av en operasjon, og lese den som uavhengig og grunnleggende.
+Tenkning krever distinksjoner. Å gjøre noe begrepslig tilgjengelig er å diskretisere: å dele det opp i avgrensede enheter – å trekke en grense eller gi noe en identitet som er stabil nok til å tenke med. Det er uunnværlig, og distinksjonen er ikke feilen. Feilen er å glemme at grensen er resultatet av en operasjon, og lese den som uavhengig og grunnleggende.
 
-Kontinuitet følger av instrumentet: fordi en distinksjon allerede relaterer polene sine, kan den alene ikke etablere et absolutt brudd mellom dem. Gapet tilhører distinksjonen, ikke det som skilles. Dette er ikke matematisk kontinuitet, ikke et skjult substrat og ingen påstand om fysikk.
+Herfra følger kontinuitet. Fordi en distinksjon allerede relaterer polene sine, kan den alene ikke etablere et absolutt brudd mellom dem. Gapet tilhører distinksjonen, ikke det som skilles. Dette er ikke matematisk kontinuitet, ikke et skjult substrat under distinksjonene og ingen påstand om hva fysikken må finne – det følger av hva en distinksjon er.
 
 [kjede]
 
-Språket stabiliserer: en operasjon får et navn, begrepet setter seg og begynner å se ut som en ting. Tingen kan være fullt virkelig og uunnværlig der den brukes. Substansialisme er å lese den som en uavhengig bærer som fantes før relasjonene den ble artikulert gjennom. Korreksjonen er ikke å slutte å bruke substantiver, men å holde relasjonen synlig – også for rammeverkets egne termer.
+Språket stabiliserer. En operasjon får et navn, begrepet setter seg og begynner å se ut som en ting. Tingen kan være fullt virkelig og uunnværlig innenfor relasjonen den brukes i. Substansialisme er det neste skrittet: å lese den som en uavhengig bærer som fantes før relasjonene den ble artikulert gjennom. Korreksjonen er ikke å slutte å bruke substantiver, men å holde den konstituerende relasjonen synlig – også for rammeverkets egne termer.
 
 ## objectivity
 
@@ -89,11 +93,13 @@ Språket stabiliserer: en operasjon får et navn, begrepet setter seg og begynne
 **Endelig** objektivitet ville være å vite noe uten noe ståsted i det hele tatt – å se verden fra ingensteds. Det er umulig. Å vite krever et ståsted, et ståsted krever at man skiller, og å skille er å forbinde. Denne umulige grensen viser hva objektivitet faktisk krever.
 
 ### 2
-**Formell**, perfekt objektivitet hører til analytisk kunnskap: konklusjonene ligger allerede i premissene. Når et formelt system brukes til å modellere noe eksternt, mister anvendelsen denne sikkerheten. Meta-epistemologien er annerledes: den analyserer det som allerede ligger i tenkningen og handlingen analysen selv aktualiseres gjennom. I førstepersonsvisshet – *jeg er* – sammenfaller den som vet og det som vites, så gyldigheten bevares.
+Objektivitet betyr kunnskap som ikke avhenger av den enkeltes synspunkt. Men den finnes i tre modi – tre former med svært ulik status.
 
-**Empirisk**, kontingent objektivitet hører til kunnskap om eksterne fenomener. Den er betinget av begrepene vi møter fenomenene med, og må være intersubjektivt verifiserbar gjennom observasjon og repetisjon.
+**Formell**, perfekt objektivitet hører til analytisk kunnskap, som logikk og matematikk: konklusjonene ligger allerede i premissene, og analysen gjør bare eksplisitt det som var der. Når et formelt system brukes til å modellere noe eksternt, mister anvendelsen denne sikkerheten, fordi modellen bare tilnærmer seg det den beskriver. Meta-epistemologien er annerledes: den analyserer det som allerede ligger i tenkningen og handlingen analysen selv aktualiseres gjennom. I førstepersonsvisshet – *jeg er* – sammenfaller den som vet og det som vites i samme akt. Det er ingenting eksternt å tilnærme seg, så gyldigheten bevares.
 
-**Ultimat**, umulig objektivitet er et perspektivløst perspektiv. Kunnskap krever perspektiv, perspektiv krever distinksjon, og distinksjon er relasjon. Ultimat objektivitet er derfor ikke en høyere grad, men grensen som gjør betingelsene for objektivitet synlige.
+**Empirisk**, kontingent objektivitet hører til kunnskap om eksterne fenomener. Den er betinget av begrepene og kategoriene vi møter fenomenene med, og må derfor være intersubjektivt verifiserbar – mulig for flere å kontrollere gjennom observasjon og repetisjon.
+
+**Ultimat**, umulig objektivitet ville være et perspektivløst perspektiv: kunnskap fra ingen ståsted. Men kunnskap krever perspektiv, perspektiv krever distinksjon, og distinksjon er relasjon. Ultimat objektivitet er derfor ikke en høyere grad som forskningen kan nærme seg, men grensen som gjør betingelsene for objektivitet synlige.
 
 ## teleosophy
 
@@ -103,9 +109,9 @@ Teleosofi er satt sammen av de greske ordene *telos*, mål, og *sofia*, visdom: 
 Del I handlet om forutsetningene for all kunnskap. Det er grunnlaget teleosofien bygger på. Teleosofien handler om det som er særegent menneskelig – og rekker likevel over alt vi har tilgang til, fordi ingen undersøkelse kan tre ut av det ståstedet der mennesker vet og handler.
 
 ### 2
-Teleosofi betyr visdom om målrettethet. Objektet er mennesket som målrettet væren. Målrettethet er ikke en egenskap lagret i en menneskelig substans, men formen til aktualisert væren-i-handling – å være som noe man gjør.
+Teleosofi – av gresk *telos*, mål – betyr visdom om målrettethet. Objektet er mennesket som målrettet væren: et vesen som er rettet mot mål. Målrettethet er ikke en egenskap lagret i en menneskelig substans, men formen til aktualisert væren-i-handling – å være som noe man gjør.
 
-Meta-epistemologien er den bredere grunnen og gir teleosofien dens fundament. Teleosofien er smal i objekt – det som er særegent menneskelig – men rekker alt som er tilgjengelig for oss, fordi ingen undersøkelse kan tre ut av perspektivet der menneskelig viten og handling aktualiseres.
+Meta-epistemologien i Del I er den bredere grunnen og gir teleosofien dens fundament. Teleosofien er smal i objekt – det som er særegent menneskelig – men rekker alt som er tilgjengelig for oss. Grunnen er at ingen undersøkelse kan tre ut av perspektivet der menneskelig viten og handling aktualiseres.
 
 ## i-am
 
@@ -115,7 +121,9 @@ Alt annet på denne siden vendes mot ett faktum: *jeg er*. Det er det å være, 
 Det finnes ikke ved å måle utenfra, slik vi måler temperatur eller vekt. Og det kan ikke tas feil av slik en påstand om at noe finnes kan: du kan ta feil om at noe er der, men ikke om at du er.
 
 ### 2
-Væren aktualisert i første person – faktumet instrumentet vendes mot. Det er væren uten videre predikat: punktet der den som vet og det som vites, sammenfaller i én akt. Det etableres ikke gjennom tredjepersonsmåling, og det kan ikke tas feil av slik en påstand om at en X eksisterer kan.
+Dette er væren aktualisert i første person – faktumet hele det analytiske instrumentet vendes mot. Det er væren uten videre predikat: ikke *hva* jeg er, bare *at* jeg er. Her sammenfaller den som vet og det som vites i én akt.
+
+Derfor etableres det ikke gjennom tredjepersonsmåling – måling utenfra – og det kan ikke tas feil av slik en påstand om at en X eksisterer kan. En eksistenspåstand kan vise seg å være gal; *jeg er* kan ikke det.
 
 ## ontology
 
@@ -131,11 +139,11 @@ Spørsmålet blir da hva som følger av å være virkeliggjort gjennom forbindel
 ### 2
 > Ontologi er studiet av væren – væren som relasjonell aktualitet, ikke en skjult substans bak fenomenene.
 
-Ingenting av dette forkaster ontologien. Det som bryter sammen, er spekulativ substansontologi som fundament. Ontologien gjenopptar sin bokstavelige oppgave: den menneskelige væren er mennesket som er, og det direkte tilgjengelige førstepersonsfaktumet er ikke et hypotetisk substrat, men *jeg er*.
+Ingenting av dette forkaster ontologien, filosofiens studium av hva det vil si å være. Det som bryter sammen, er spekulativ substansontologi som fundament. Ontologien gjenopptar sin bokstavelige oppgave: den menneskelige væren er mennesket som er, og det direkte tilgjengelige førstepersonsfaktumet er ikke et hypotetisk substrat, men *jeg er*.
 
-Ontologien spør da hva som følger av å være aktualisert gjennom relasjon, ikke hvilken substans som må ligge bak. Derfor kan rammeverket hevde, ontologisk og uten forbehold: menneskelig væren er målrettet væren – ikke at den fremstår slik, men at det gjelder væren selv.
+Ontologien spør da hva som følger av å være aktualisert gjennom relasjon – relasjonell aktualitet – og ikke hvilken substans som må ligge bak. På denne grunnen kan rammeverket hevde, ontologisk og uten forbehold: menneskelig væren er målrettet væren. Ikke at den fremstår som målrettet eller erfares slik, men at det gjelder væren selv.
 
-Væren og eksistens er ikke det samme. *Jeg er* er aktualisering i første person, uten predikat. «X eksisterer» er en påstand gjort innenfor en distinksjon, og kan ta feil på en måte *jeg er* ikke kan.
+Væren og eksistens er ikke det samme. *Jeg er* er aktualisering i første person, uten predikat. «X eksisterer» er en påstand gjort innenfor en begrepslig distinksjon, og kan derfor ta feil på en måte *jeg er* ikke kan.
 
 ## human-form
 
@@ -151,11 +159,11 @@ Overskriften er en presis, men tett beskrivelse av hva som er særegent ved å v
 **Aktualisert** – virkeliggjort: å være som noe som skjer, ikke en hvilende evne, en lagret egenskap eller en skjult ting.
 
 ### 2
-Væren, slik den er tilgjengelig i menneskets første person, er narrativt formidlet metakognitiv selvbevissthet aktualisert. Uttrykket er bevisst komprimert:
+Væren, slik den er tilgjengelig i menneskets første person, er narrativt formidlet metakognitiv selvbevissthet aktualisert. Uttrykket er bevisst komprimert; hvert ledd sier noe bestemt:
 
-**Narrativt formidlet** – menneskelig gjenkjennelse går gjennom ord, og *jeg er* er allerede en narrativ struktur: en organisering i tid og mening som gjør at et nå kan holdes i relasjon til et da. Ikke fortellerkunst eller litterær form.
+**Narrativt formidlet** – menneskelig gjenkjennelse går gjennom ord, og *jeg er* er allerede en narrativ struktur. Narrativ betyr her organisering i tid og mening: det som gjør at et nå kan holdes i relasjon til et da. Ikke fortellerkunst eller litterær form.
 
-**Metakognitiv** – i *jeg er* tar erkjennelsen sin egen aktualisering som objekt.
+**Metakognitiv** – kognisjon som er rettet mot seg selv. I *jeg er* tar erkjennelsen sin egen aktualisering som objekt.
 
 **Selvbevissthet** – formen er førstepersons: ikke bare det er, men *jeg er*.
 
@@ -169,9 +177,9 @@ Væren, slik den er tilgjengelig i menneskets første person, er narrativt formi
 Tidligere ble dette formulert *Sum et Cogito, ergo Ago* – «jeg er og jeg tenker, derfor handler jeg». Men «derfor» gir inntrykk av at det ene kommer først og forårsaker det andre. Den modne formen fjerner pilen.
 
 ### 2
-Tre perspektiver på én aktualisering – ikke tre stadier, lag, komponenter eller årsaker. *Cogito* impliserer allerede et jeg, og å tenke er allerede noe som gjøres. Fra første person er væren tenkning er handling: dimensjoner vi kan skille analytisk, ved én akt.
+*Sum*, *Cogito*, *Ago* – latin for *jeg er*, *jeg tenker*, *jeg handler* – er tre perspektiver på én aktualisering, ikke tre stadier, lag, komponenter eller årsaker. *Cogito* impliserer allerede et jeg, og å tenke er allerede noe som gjøres. Fra første person er væren tenkning er handling: dimensjoner vi kan skille analytisk, ved én og samme akt.
 
-Den tidligere formuleringen *Sum et Cogito, ergo Ago* var produktiv, men ikke presis nok, fordi *ergo* («derfor») innførte rekkefølge og årsak. Den modne formen fjerner pilen.
+Den tidligere formuleringen *Sum et Cogito, ergo Ago* var produktiv, men ikke presis nok: *ergo* – «derfor» – innførte rekkefølge og årsak mellom det som er én akt. Den modne formen fjerner pilen.
 
 ## purposeful-being
 
@@ -181,7 +189,9 @@ Den tidligere formuleringen *Sum et Cogito, ergo Ago* var produktiv, men ikke pr
 Derfor er det å forstå egen virkelighet gjennom språk og det å ha et mål ikke to forskjellige mekanismer, men én. De konkrete målene vi setter oss, er deler vi skiller ut av denne større målrettetheten.
 
 ### 2
-Narrativ struktur og telos er ikke to mekanismer. Narrativ struktur gjør rettethet mulig: en situasjon nå kan holdes i relasjon til et mål som ennå ikke er aktualisert, og dette målet regulerer atferden nå. Konkrete mål er analytiske diskretiseringer innenfor den bredere teleologiske strukturen.
+Narrativ struktur og telos – mål – er ikke to mekanismer. Narrativ struktur er det som gjør rettethet mulig: en foreliggende situasjon kan holdes i relasjon til et mål som ennå ikke er aktualisert, og dette målet, tilstede som en narrativt strukturert relasjon, regulerer atferden nå.
+
+Konkrete mål er derfor ikke noe som kommer i tillegg. De er analytiske diskretiseringer – utsnitt vi skiller ut – innenfor den bredere teleologiske strukturen.
 
 ## persons
 
@@ -197,15 +207,15 @@ Narrativ struktur og telos er ikke to mekanismer. Narrativ struktur gjør rettet
 Noe kan fungere som «den andre jeg» i en forbindelse uten at det dermed er vist å være et jeg, eller noe som handler mot mål.
 
 ### 2
-> Analytisk atskilte perspektiver, ikke separate sfærer. Første og andre person er subjektpolen – den som erfarer – og tredje person er objektpolen – det som erfares.
+> Første, andre og tredje person er analytisk atskilte perspektiver, ikke separate sfærer. Første og andre person utgjør subjektpolen – den som erfarer – og tredje person objektpolen – det som erfares – i den relasjonelle distinksjonen selv/ikke-selv.
 
 **Første person – Ego.** Direkte aktualisering: *jeg er*, *jeg tenker*, *jeg handler*.
 
-**Andre person – Alter Ego.** Kategorien en annen møtes under som du: en motpart, en subjektpol. Avledet fra Ego, og ikke et empirisk bevis for et skjult indre i den andre. Her gjelder handlingsaksiomet: *jeg handler* – *du handler*.
+**Andre person – Alter Ego.** Den relasjonelle kategorien en annen møtes under som du: en motpart, en subjektpol. Den er avledet fra Ego, og er ikke et empirisk bevis for at den andre har et skjult indre. Her gjelder handlingsaksiomet: *jeg handler* – *du handler*.
 
-**Tredje person – Ingen Ego.** Beskrivelse som abstraherer bort førstepersonsperspektivet, slik at beskrivelser kan stabiliseres og sammenlignes intersubjektivt. Feilen er ikke abstraksjonen, men å behandle den som forut for aktualiseringen den abstraherer fra.
+**Tredje person – Ingen Ego.** Beskrivelse som abstraherer bort førstepersonsperspektivet, slik at beskrivelser kan stabiliseres og sammenlignes intersubjektivt – slik vitenskapen arbeider. Feilen er ikke abstraksjonen, men å behandle den som forut for aktualiseringen den abstraherer fra.
 
-Et system kan fungere som Alter Ego i en relasjon uten dermed å være etablert som et Ego eller en teleologisk aktør.
+Et system kan fungere som Alter Ego i en relasjon uten dermed å være etablert som et Ego eller en teleologisk aktør – noe som handler mot mål.
 
 ## borrowed-language
 
@@ -221,13 +231,13 @@ Slike lån er alltid nødvendige, og ikke feil i seg selv. Feilen er å lese lå
 Oppgaven er å se forskjell på et nyttig lån og det å la grammatikken gjøre lånet til en ting.
 
 ### 2
-Når vi beskriver verden i tredjeperson, låner vi alltid språk for væren, mening og handling. *Elektronet er i superposisjon. Datamaskinen prosesserer informasjon. Naturlig seleksjon velger ut de best tilpassede.*
+Når vi beskriver verden i tredjeperson, låner vi alltid språk for væren, mening og handling. *Elektronet er i superposisjon. Datamaskinen prosesserer informasjon. Naturlig seleksjon velger ut de best tilpassede.* Ingen av disse beskrivelsene handler om et jeg, men alle bruker ord som har sin opprinnelse der.
 
 Rammeverket gir lånene navn: **ontonomi** er lån av «jeg er» for å stabilisere identitet, **noonomi** er lån av «jeg tenker» for å forstå prosessering og beregning, og **teleonomi** er lån av «jeg handler» for å forstå funksjon. Lånene er alltid uunnværlige og ikke feil i seg selv. Feilen er å lese det lånte språket som om beskrivelsen selv etablerte væren, mening eller mål slik de er aktualisert i første person.
 
 [tabell]
 
-Oppgaven er å skille nyttig, beskrivende bruk fra det å la grammatikken gjøre lånet til noe som finnes.
+Oppgaven er å skille nyttig, beskrivende bruk fra grammatisk tingliggjøring – at grammatikken får lånet til å se ut som noe som finnes.
 
 ## action
 
@@ -245,13 +255,13 @@ Verdi oppstår hos den som erfarer: å verdsette er en forbindelse virkeliggjort
 ### 2
 > *Ago* gjenkjent i andre person: *jeg handler* – *du handler*.
 
-Den direkte tilgangen er *jeg handler*. Gjenkjennelsen av en motpart som du gjør *du handler* tilgjengelig, og aksiomet artikulerer denne strukturen. En seriøs benektelse er selv atferd rettet mot et mål.
+Den direkte tilgangen er *jeg handler*. Gjenkjennelsen av en motpart som du gjør *du handler* tilgjengelig, og handlingsaksiomet artikulerer denne strukturen. Aksiomet kan ikke benektes uten å bekreftes: en seriøs benektelse er selv atferd rettet mot et mål.
 
-Handling er atferd regulert av telos – et mål. Observerbar bevegelse er ikke kriteriet: å tenke, velge, planlegge eller veie en innvending er også handling. Handlingens motsetning er ikke irrasjonell handling, men atferd som er reaktiv eller adaptiv uten et narrativt aktualisert mål.
+Handling er atferd regulert av telos – et mål. Observerbar bevegelse er derfor ikke kriteriet: å tenke, velge, planlegge eller veie en innvending er også handling. Handlingens motsetning er ikke irrasjonell handling, men atferd som er reaktiv eller adaptiv uten et narrativt aktualisert mål.
 
-Å teoretisere er selv målrettet virksomhet. Teori om handling er allerede et tilfelle av praksisen den analyserer – teori om praksis gjennom praktisert teoretisering.
+Å teoretisere er selv målrettet virksomhet: en teoretiker skiller, relaterer, begrepsliggjør, prøver implikasjoner og søker en konklusjon. Teori om handling er dermed allerede et tilfelle av praksisen den analyserer – teori om praksis gjennom praktisert teoretisering.
 
-Verdi konstitueres ved subjektpolen: å verdsette er en relasjon aktualisert av et målrettet vesen. Handling er rasjonell i form fordi den relaterer midler til et mål; målene selv er verken rasjonelle eller irrasjonelle. Om midlene når målet, er et spørsmål om effektivitet.
+Verdi konstitueres ved subjektpolen: å verdsette er en relasjon aktualisert av et målrettet vesen. At verdier er subjektive, er selv et objektivt faktum. Handling er rasjonell i form fordi den relaterer midler til et mål; målene selv er verken rasjonelle eller irrasjonelle. Om midlene faktisk når målet, er et spørsmål om effektivitet.
 
 ## social
 
@@ -261,6 +271,8 @@ Samfunn bygger på at vi gjenkjenner hverandre som «den andre jeg», gjennom fe
 Når vi gjenkjenner en annen som et jeg, åpner det også for etikk – spørsmålet om hvordan vi bør behandle hverandre. Den andre kan møtes som en som erfarer, med egne mål som betyr noe, eller behandles bare som et middel for egne mål.
 
 ### 2
-Samfunn og sivilisasjon hviler på gjensidig gjenkjennelse av Alter Ego gjennom konvergerende narrative strukturer – felles forståelse som gjør kommunikasjon og koordinering i stor skala mulig. Penger, institusjoner, roller, rettslige kategorier og normer blir forståelige innenfor slike felles meningsstrukturer. Dette betyr ikke at samfunnet er en fiksjon; det viser den formelle betingelsen som gjør noe tilgjengelig som sosialt fenomen.
+Samfunn og sivilisasjon hviler på gjensidig gjenkjennelse av Alter Ego gjennom konvergerende narrative strukturer – felles måter å organisere mening på, som gjør kommunikasjon og koordinering i stor skala mulig. Penger, institusjoner, roller, rettslige kategorier og normer blir forståelige innenfor slike tilstrekkelig felles meningsstrukturer.
 
-Gjenkjennelsen av et Alter Ego åpner også den etiske relasjonen: en motpart kan møtes som en subjektpol med eget telos, eller behandles utelukkende som objekt for egne mål.
+Dette betyr ikke at samfunnet er en fiksjon. Det identifiserer den formelle betingelsen som gjør noe tilgjengelig som sosialt fenomen i det hele tatt.
+
+Gjenkjennelsen av et Alter Ego åpner også den etiske relasjonen: en motpart kan møtes som en subjektpol hvis eget telos er relevant for samhandlingen, eller behandles utelukkende som objekt for egne mål.

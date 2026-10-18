@@ -18,11 +18,11 @@ Philosophy has its own field for questions about knowledge: the study of knowled
 The answer is not a new theory competing with physics, biology or history. It is a description of the form every field already uses when it knows anything. That is why questions from very different fields can be examined on the same ground, without turning everything into one field.
 
 ### 2
-> Disciplines differ in content, method and object. But all of them require the same in order to know: distinctions, relations, concepts, perspective and actualization – something actually being made real.
+> Disciplines differ in content, method and object. But all of them require the same in order to know: distinctions (something being told apart from something else), relations (connections), concepts, perspective and actualization – something actually becoming real for the one who knows.
 
-Epistemology asks what can be known, and how a claim can be justified. Meta-epistemology asks what must already be actualized for there to be knowledge, justification, description, disagreement, measurement or claims at all.
+Epistemology – the theory of knowledge – asks what can be known, and how a claim can be justified. Meta-epistemology asks the question that comes before: what must already be actualized for there to be knowledge, justification, description, disagreement, measurement or claims at all? It is not a question of what we know, but of what knowing presupposes.
 
-This is no new theory competing with physics, biology or history, but an account of the formal structure the disciplines already use. That is why questions from different fields can be examined at a common level, without reducing their content to a single science.
+The answer is therefore no new theory competing with physics, biology or history. It is an account of the formal structure every discipline already uses when it knows anything. Because the structure is shared, questions from different fields can be examined at a common level – without reducing their content to a single science.
 
 ## metaphysics
 
@@ -36,9 +36,11 @@ That is exactly the problem with an old and widespread idea: that the world cons
 The answer is not to invent a new theory of what lies behind. The unchecked foundation is removed. Instead, we examine what we can actually know: the preconditions already made real whenever anyone knows anything.
 
 ### 2
-A claim that can neither be validated empirically nor justified as logical necessity cannot carry systematic knowledge. That is the problem with speculative metaphysics of substance: it posits hidden bearers or substrates behind things, and treats them as the ground of the properties and relations we actually know.
+Metaphysics is philosophy's question of what reality fundamentally consists of. It becomes speculative when it says something about reality that can neither be validated empirically – by observation and experiment – nor justified as logical necessity. Such a claim cannot carry systematic knowledge.
 
-The answer is not to set one speculative metaphysics against another. The unwarranted ground is withdrawn, and meta-epistemology takes its place: the study of the conditions already actualized wherever knowledge occurs.
+That is the problem with what is called substance ontology: the idea that behind things there are hidden bearers or substrates – substances – on which the properties and relations we actually know rest. The substances themselves are never available to knowledge, yet they are treated as the ground.
+
+The answer is not to set one speculative metaphysics against another. The unwarranted ground is withdrawn, and meta-epistemology takes its place: the study of the conditions already actualized wherever knowledge occurs – what we actually have access to.
 
 ## distinction
 
@@ -54,9 +56,11 @@ This is a point about how we think and know, and that is why it is the framework
 ### 2
 > To distinguish is already to relate.
 
-This is the analytical instrument. A distinction that related nothing would not distinguish. The two poles of a distinction are not finished things that are connected afterwards – they become available as poles through the distinguishing relation itself.
+This is the analytical instrument the framework uses throughout. A distinction – telling something apart from something else – is at the same time a relation: it connects the two sides it separates. A distinction that related nothing would distinguish nothing.
 
-The point is analytical, not a doctrine that only relations exist. Relation must not be made into a new substance.
+This means that the two poles of a distinction do not first exist as finished things that are connected afterwards. They become available as poles through the distinguishing relation itself.
+
+The point is analytical – it concerns how anything becomes available to thought at all – and not a doctrine that only relations exist. Relation must therefore not be made into a new substance.
 
 ## discretization
 
@@ -70,13 +74,13 @@ Because a distinction always connects its sides, the distinction alone can never
 Language makes things fixed. It begins with something we do: we single something out. Then it gets a name, the name settles, and after a while it looks like a thing that was always there. The thing can be fully real and useful where it is used. The mistake is believing it existed before and independently of the connections it was singled out through. In philosophy that mistake has a name: substantialism, the idea that the world consists of finished things. The remedy is not to stop using nouns, but to remember the connection they came from – also for the framework's own words.
 
 ### 2
-Thinking requires distinctions. To make something conceptually available is to discretize: to draw a boundary or give something an identity stable enough to think with. This is indispensable, and the distinction is not the error. The error is forgetting that the boundary is the result of an operation, and reading it as independent and fundamental.
+Thinking requires distinctions. To make something conceptually available is to discretize: to divide it into bounded units – to draw a boundary or give something an identity stable enough to think with. This is indispensable, and the distinction is not the error. The error is forgetting that the boundary is the result of an operation, and reading it as independent and fundamental.
 
-Continuity follows from the instrument: because a distinction already relates its poles, it cannot by itself establish an absolute break between them. The gap belongs to the distinction, not to what is distinguished. This is not mathematical continuity, not a hidden substrate, and no claim about physics.
+Continuity follows from this. Because a distinction already relates its poles, it cannot by itself establish an absolute break between them. The gap belongs to the distinction, not to what is distinguished. This is not mathematical continuity, not a hidden substrate beneath the distinctions, and no claim about what physics must find – it follows from what a distinction is.
 
 [kjede]
 
-Language stabilizes: an operation is named, the concept settles and begins to look like a thing. The thing can be fully real and indispensable where it is used. Substantialism is reading it as an independent bearer that existed before the relations it was articulated through. The correction is not to stop using nouns, but to keep the relation visible – also for the framework's own terms.
+Language stabilizes. An operation is named, the concept settles and begins to look like a thing. The thing can be fully real and indispensable within the relation it is used in. Substantialism is the further step: reading it as an independent bearer that existed before the relations it was articulated through. The correction is not to stop using nouns, but to keep the constituting relation visible – also for the framework's own terms.
 
 ## objectivity
 
@@ -90,11 +94,13 @@ Being objective usually means seeing things as they are, regardless of who is lo
 **Ultimate** objectivity would be knowing something from no standpoint at all – seeing the world from nowhere. That is impossible. Knowing requires a standpoint, a standpoint requires telling apart, and to tell apart is to connect. This impossible limit shows what objectivity actually requires.
 
 ### 2
-**Formal**, perfect objectivity belongs to analytic knowledge: the conclusions already lie in the premises. When a formal system is used to model something external, the application loses this certainty. Meta-epistemology is different: it analyses what already lies in the thinking and acting through which the analysis itself is actualized. In first-person certainty – *I am* – the knower and the known coincide, so validity is preserved.
+Objectivity means knowledge that does not depend on an individual point of view. But it comes in three modes – three forms of very different standing.
 
-**Empirical**, contingent objectivity belongs to knowledge of external phenomena. It is conditioned by the concepts we meet phenomena with, and must be intersubjectively verifiable through observation and repetition.
+**Formal**, perfect objectivity belongs to analytic knowledge, such as logic and mathematics: the conclusions already lie in the premises, and analysis only makes explicit what was there. When a formal system is used to model something external, the application loses this certainty, because the model only approximates what it describes. Meta-epistemology is different: it analyses what already lies in the thinking and acting through which the analysis itself is actualized. In first-person certainty – *I am* – knower and known coincide in the same act. There is nothing external to approximate, so validity is preserved.
 
-**Ultimate**, impossible objectivity is a perspective without perspective. Knowledge requires perspective, perspective requires distinction, and distinction is relation. Ultimate objectivity is therefore not a higher degree, but the limit that makes the conditions of objectivity visible.
+**Empirical**, contingent objectivity belongs to knowledge of external phenomena. It is conditioned by the concepts and categories we meet phenomena with, and must therefore be intersubjectively verifiable – checkable by others through observation and repetition.
+
+**Ultimate**, impossible objectivity would be a perspective without perspective: knowledge from no standpoint. But knowledge requires perspective, perspective requires distinction, and distinction is relation. Ultimate objectivity is therefore not a higher degree that inquiry might approach, but the limit that makes the conditions of objectivity visible.
 
 ## teleosophy
 
@@ -104,9 +110,9 @@ Teleosophy is made of the Greek words *telos*, aim, and *sophia*, wisdom: wisdom
 Part I was about the preconditions of all knowledge. That is the ground teleosophy builds on. Teleosophy is about what is distinctly human – and still reaches everything available to us, because no inquiry can step outside the standpoint where human beings know and act.
 
 ### 2
-Teleosophy means wisdom about purposefulness. Its object is the human being as purposeful being. Purposefulness is not a property stored in a human substance, but the form of actualized being-in-action – being as something one does.
+Teleosophy – from Greek *telos*, aim – means wisdom about purposefulness. Its object is the human being as purposeful being: a being directed toward aims. Purposefulness is not a property stored in a human substance, but the form of actualized being-in-action – being as something one does.
 
-Meta-epistemology is the broader ground and gives teleosophy its foundation. Teleosophy is narrow in object – what is distinctly human – yet reaches everything available to us, because no inquiry can step outside the perspective in which human knowing and acting are actualized.
+The meta-epistemology of Part I is the broader ground and gives teleosophy its foundation. Teleosophy is narrow in object – what is distinctly human – yet reaches everything available to us. The reason is that no inquiry can step outside the perspective in which human knowing and acting are actualized.
 
 ## i-am
 
@@ -116,7 +122,9 @@ Everything else on this page is turned toward one fact: *I am*. It is being as y
 It is not found by measuring from outside, the way we measure temperature or weight. And it cannot be mistaken the way a claim that something exists can: you can be wrong that something is there, but not that you are.
 
 ### 2
-Being actualized in the first person – the fact the instrument is turned toward. It is being without further predicate: the point where knower and known coincide in one act. It is not established through third-person measurement, and it cannot be mistaken the way a claim that an X exists can.
+This is being actualized in the first person – the fact the whole analytical instrument is turned toward. It is being without further predicate: not *what* I am, only *that* I am. Here knower and known coincide in one act.
+
+That is why it is not established through third-person measurement – measurement from outside – and why it cannot be mistaken the way a claim that an X exists can. A claim of existence can turn out to be wrong; *I am* cannot.
 
 ## ontology
 
@@ -132,11 +140,11 @@ To be and to exist are not the same. *I am* is being made real from within, with
 ### 2
 > Ontology is the study of being – being as relational actuality, not a hidden substance behind phenomena.
 
-None of this discards ontology. What collapses is speculative substance ontology as foundation. Ontology resumes its literal task: human being is the human being who is, and the directly available first-person fact is not a hypothetical substrate, but *I am*.
+None of this discards ontology, philosophy's study of what it means to be. What collapses is speculative substance ontology as foundation. Ontology resumes its literal task: human being is the human being who is, and the directly available first-person fact is not a hypothetical substrate, but *I am*.
 
-Ontology then asks what follows from being actualized through relation, not what substance must lie behind. That is why the framework can claim, ontologically and without qualification: human being is purposeful being – not that it appears so, but that it holds for being itself.
+Ontology then asks what follows from being actualized through relation – relational actuality – and not what substance must lie behind. On this ground the framework can claim, ontologically and without qualification: human being is purposeful being. Not that it appears purposeful or is experienced as such, but that it holds for being itself.
 
-Being and existence are not the same. *I am* is first-person actualization without predicate. "X exists" is a claim made within a distinction, and can be mistaken in a way *I am* cannot.
+Being and existence are not the same. *I am* is first-person actualization without predicate. "X exists" is a claim made within a conceptual distinction, and can therefore be mistaken in a way *I am* cannot.
 
 ## human-form
 
@@ -152,11 +160,11 @@ The heading is a precise but dense description of what is distinctive about bein
 **Actualized** – made real: being as something happening, not a dormant capacity, a stored property or a hidden thing.
 
 ### 2
-Being, as it is available in the human first person, is narratively mediated metacognitive self-awareness actualized. The expression is deliberately compressed:
+Being, as it is available in the human first person, is narratively mediated metacognitive self-awareness actualized. The expression is deliberately compressed; each part says something definite:
 
-**Narratively mediated** – human recognition goes through words, and *I am* is already a narrative structure: an organization in time and meaning that lets a now be held in relation to a then. Not storytelling or literary form.
+**Narratively mediated** – human recognition goes through words, and *I am* is already a narrative structure. Narrative here means organization in time and meaning: what lets a now be held in relation to a then. Not storytelling or literary form.
 
-**Metacognitive** – in *I am*, cognition takes its own actualization as object.
+**Metacognitive** – cognition turned toward itself. In *I am*, cognition takes its own actualization as object.
 
 **Self-awareness** – the form is first-personal: not merely there is, but *I am*.
 
@@ -170,9 +178,9 @@ Being, as it is available in the human first person, is narratively mediated met
 This was once formulated *Sum et Cogito, ergo Ago* – "I am and I think, therefore I act". But "therefore" suggests that one comes first and causes the other. The mature form removes the arrow.
 
 ### 2
-Three perspectives on one actualization – not three stages, layers, components or causes. *Cogito* already implies an I, and thinking is already something done. From the first person, being is thinking is acting: dimensions we can distinguish analytically, of one act.
+*Sum*, *Cogito*, *Ago* – Latin for *I am*, *I think*, *I act* – are three perspectives on one actualization, not three stages, layers, components or causes. *Cogito* already implies an I, and thinking is already something done. From the first person, being is thinking is acting: dimensions we can distinguish analytically, of one and the same act.
 
-The earlier formulation *Sum et Cogito, ergo Ago* was productive but not precise enough, because *ergo* ("therefore") introduced priority and causality. The mature form removes the arrow.
+The earlier formulation *Sum et Cogito, ergo Ago* was productive but not precise enough: *ergo* – "therefore" – introduced order and causality into what is one act. The mature form removes the arrow.
 
 ## purposeful-being
 
@@ -182,7 +190,9 @@ Having an aim requires that we can hold on to something that is not yet there. L
 That is why understanding one's own reality through language and having an aim are not two different mechanisms, but one. The concrete aims we set ourselves are parts we single out within this larger purposefulness.
 
 ### 2
-Narrative structure and telos are not two mechanisms. Narrative structure makes directedness possible: a present situation can be held in relation to an aim not yet actualized, and this aim regulates behaviour now. Concrete goals are analytical discretizations within the broader teleological structure.
+Narrative structure and telos – aim – are not two mechanisms. Narrative structure is what makes directedness possible: a present situation can be held in relation to an aim not yet actualized, and this aim, present as a narratively structured relation, regulates behaviour now.
+
+Concrete goals are therefore not something added on. They are analytical discretizations – parts we single out – within the broader teleological structure.
 
 ## persons
 
@@ -198,15 +208,15 @@ Narrative structure and telos are not two mechanisms. Narrative structure makes 
 Something can function as "the other I" in a connection without thereby being shown to be an I, or something that acts toward aims.
 
 ### 2
-> Analytically distinct perspectives, not separate spheres. First and second person are the subject pole – the one who experiences – and third person is the object pole – what is experienced.
+> First, second and third person are analytically distinct perspectives, not separate spheres. First and second person make up the subject pole – the one who experiences – and third person the object pole – what is experienced – in the relational distinction self/non-self.
 
 **First person – Ego.** Direct actualization: *I am*, *I think*, *I act*.
 
-**Second person – Alter Ego.** The category under which another is met as you: a counterpart, a subject pole. Derived from Ego, and not empirical proof of a hidden inner life in the other. Here the action axiom holds: *I act* – *you act*.
+**Second person – Alter Ego.** The relational category under which another is met as you: a counterpart, a subject pole. It is derived from Ego, and is not empirical proof that the other has a hidden inner life. Here the action axiom holds: *I act* – *you act*.
 
-**Third person – No Ego.** Description that abstracts away the first-person perspective, so that descriptions can be stabilized and compared intersubjectively. The error is not the abstraction, but treating it as prior to the actualization it abstracts from.
+**Third person – No Ego.** Description that abstracts away the first-person perspective, so that descriptions can be stabilized and compared intersubjectively – the way science works. The error is not the abstraction, but treating it as prior to the actualization it abstracts from.
 
-A system can function as Alter Ego in a relation without thereby being established as an Ego or a teleological agent.
+A system can function as Alter Ego in a relation without thereby being established as an Ego or a teleological agent – something acting toward aims.
 
 ## borrowed-language
 
@@ -222,13 +232,13 @@ Such borrowing is always necessary, and not wrong in itself. The error is readin
 The task is to tell a useful borrowing apart from letting grammar turn the borrowing into a thing.
 
 ### 2
-When we describe the world in the third person, we always borrow the language of being, meaning and action. *The electron is in superposition. The computer processes information. Natural selection selects the fittest.*
+When we describe the world in the third person, we always borrow the language of being, meaning and action. *The electron is in superposition. The computer processes information. Natural selection selects the fittest.* None of these descriptions is about an I, but all use words that originate there.
 
 The framework names the borrowings: **ontonomy** borrows "I am" to stabilize identity, **noonomy** borrows "I think" to understand processing and computation, and **teleonomy** borrows "I act" to understand function. These borrowings are always indispensable and not errors in themselves. The error is reading the borrowed language as though the description itself established being, meaning or aims as they are actualized in the first person.
 
 [tabell]
 
-The task is to distinguish useful descriptive use from letting grammar turn the borrowing into something that exists.
+The task is to distinguish useful descriptive use from grammatical reification – grammar making the borrowing look like something that exists.
 
 ## action
 
@@ -246,13 +256,13 @@ Value arises with the one who experiences: valuing is a connection made real by 
 ### 2
 > *Ago* recognized in the second person: *I act* – *you act*.
 
-The direct access is *I act*. Recognizing a counterpart as you makes *you act* available, and the axiom articulates this structure. A serious denial is itself behaviour directed toward an aim.
+The direct access is *I act*. Recognizing a counterpart as you makes *you act* available, and the action axiom articulates this structure. The axiom cannot be denied without being confirmed: a serious denial is itself behaviour directed toward an aim.
 
-Action is behaviour regulated by telos – an aim. Observable movement is not the criterion: thinking, choosing, planning or weighing an objection is also action. The opposite of action is not irrational action, but behaviour that is reactive or adaptive without a narratively actualized aim.
+Action is behaviour regulated by telos – an aim. Observable movement is therefore not the criterion: thinking, choosing, planning or weighing an objection is also action. The opposite of action is not irrational action, but behaviour that is reactive or adaptive without a narratively actualized aim.
 
-Theorizing is itself purposeful activity. A theory of action is already an instance of the practice it analyses – theory of practice through practised theorizing.
+Theorizing is itself purposeful activity: a theorist distinguishes, relates, conceptualizes, tests implications and seeks a conclusion. A theory of action is thus already an instance of the practice it analyses – theory of practice through practised theorizing.
 
-Value is constituted at the subject pole: valuing is a relation actualized by a purposeful being. Action is rational in form because it relates means to an aim; aims themselves are neither rational nor irrational. Whether the means achieve the aim is a question of efficacy.
+Value is constituted at the subject pole: valuing is a relation actualized by a purposeful being. That values are subjective is itself an objective fact. Action is rational in form because it relates means to an aim; aims themselves are neither rational nor irrational. Whether the means actually achieve the aim is a question of efficacy.
 
 ## social
 
@@ -262,6 +272,8 @@ Society rests on our recognizing one another as "the other I", through shared wa
 Recognizing another as an I also opens up ethics – the question of how we ought to treat one another. The other can be met as one who experiences, with aims of their own that matter, or be treated merely as a means to one's own aims.
 
 ### 2
-Society and civilization rest on mutual recognition of Alter Ego through converging narrative structures – shared understanding that makes communication and coordination possible at scale. Money, institutions, roles, legal categories and norms become intelligible within such shared structures of meaning. This does not mean society is a fiction; it identifies the formal condition that makes something available as a social phenomenon.
+Society and civilization rest on mutual recognition of Alter Ego through converging narrative structures – shared ways of organizing meaning that make communication and coordination possible at scale. Money, institutions, roles, legal categories and norms become intelligible within such sufficiently shared structures of meaning.
 
-Recognizing an Alter Ego also opens the ethical relation: a counterpart can be met as a subject pole with its own telos, or treated solely as an object for one's own aims.
+This does not mean society is a fiction. It identifies the formal condition that makes something available as a social phenomenon at all.
+
+Recognizing an Alter Ego also opens the ethical relation: a counterpart can be met as a subject pole whose own telos is relevant to the interaction, or treated solely as an object for one's own aims.

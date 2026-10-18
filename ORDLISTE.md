@@ -7,6 +7,9 @@ hverdagsuttrykk på det enkle trinnet. **Status:** ✔ = godkjent av Stein, ? = 
 Det enkle trinnet sier det samme som det tekniske, bare uten fagord.
 Enkel gir mest kontekst – hva metafysikk, ontologi, objektivitet osv. er – vevd naturlig
 inn i teksten. Jo høyere trinn, jo mindre forklaring; Teknisk forklarer ingenting som fagfolk kan.
+Standard beholder fagordene, men forklarer dem i forbifarten første gang og viser
+resonnementet – hvorfor det ene følger av det andre. Enkel bytter ut ordene, Standard forklarer
+dem, Teknisk forutsetter dem.
 
 | Fagord | Enkelt uttrykk | Status |
 |---|---|---|
