@@ -469,6 +469,8 @@
   /* ---------------------------------------------------------- the landscape (landing view) */
   var IMG = { w: 3600, h: 1027, sunX: 0.5, sunY: 0.5 };   /* cropped so the sun on the horizon is the exact centre */
   var tex = gl.createTexture(), imgReady = false, imgT0 = 0;
+  /* With reduced motion the figure is drawn on demand (scroll, resize, image, fonts), not in a loop */
+  var redraw = function () {};
   gl.bindTexture(gl.TEXTURE_2D, tex);
   gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, 1, 1, 0, gl.RGB, gl.UNSIGNED_BYTE, new Uint8Array([5, 11, 22]));
   ["TEXTURE_WRAP_S", "TEXTURE_WRAP_T"].forEach(function (k) { gl.texParameteri(gl.TEXTURE_2D, gl[k], gl.CLAMP_TO_EDGE); });
@@ -480,7 +482,10 @@
       try {
         gl.bindTexture(gl.TEXTURE_2D, tex);
         gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, im);
-        imgReady = true; imgT0 = performance.now();
+        imgReady = true;
+        /* with reduced motion there is no fade-in, and no animation loop to show the image: draw once now */
+        imgT0 = performance.now() - (reduce ? 1000 : 0);
+        redraw();
       } catch (e) { /* no landscape; the mark is drawn on the dark field */ }
     };
     im.src = src;
@@ -514,8 +519,8 @@
     if (k) stripBot = k.getBoundingClientRect().top + window.pageYOffset - 26;
     if (stripBot - stripTop < 200) stripBot = stripTop + 200;
   }
-  window.addEventListener("load", measureStrip);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(measureStrip);
+  window.addEventListener("load", function () { measureStrip(); redraw(); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { measureStrip(); redraw(); });
 
   var fadeX = 0;
   function measureFade() {
@@ -634,6 +639,7 @@
       pending = true;
       requestAnimationFrame(function (n) { pending = false; frame(n); });
     };
+    redraw = req;
     window.addEventListener("scroll", req, { passive: true });
     window.addEventListener("resize", req);
     req();
