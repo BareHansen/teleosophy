@@ -241,6 +241,8 @@ UI = {
    axioms=["Distinction is relation.", "I am."],
    sub="Two insights, and the analytical unpacking of what follows from them.", scroll="Scroll",
    other=("NO", "Norsk", "https://teleosofiskinstitutt.no/", "no"),
+   locale="en_US", locale_alt="nb_NO",
+   og_alt="The mark of the Institute of Teleosophy — a circle divided by one stroke, cream and navy — centred on the sun at the horizon.",
    footer=["A registered non-profit research institute in Norway.", "Wiki content at meta-epistemology.org is published under CC BY 4.0."]),
  "no": dict(src="no.html", out="no.html", lang="no",
    title="Teleosofisk Institutt — formell meta-epistemologi",
@@ -249,6 +251,8 @@ UI = {
    axioms=["Distinksjon er relasjon.", "Jeg er."],
    sub="To innsikter, og den analytiske utpakkingen av det som følger av dem.", scroll="Bla",
    other=("EN", "English", "https://instituteofteleosophy.org/", "en"),
+   locale="nb_NO", locale_alt="en_US",
+   og_alt="Teleosofisk Institutts merke — en sirkel delt av én strek, krem og marine — med sentrum i solen ved horisonten.",
    footer=["En registrert ideell forskningsstiftelse i Norge.", "Innholdet i wikien på meta-epistemology.org er publisert under CC BY 4.0."]),
 }
 
@@ -421,6 +425,23 @@ def build(lang):
 <meta name="theme-color" content="#050b16">
 <link rel="canonical" href="{u["canon"]}">
 <link rel="icon" href="images/mark.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{u["brand"]}">
+<meta property="og:title" content="{u["title"]}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{u["canon"]}">
+<meta property="og:image" content="{u["canon"]}images/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{u["og_alt"]}">
+<meta property="og:locale" content="{u["locale"]}">
+<meta property="og:locale:alternate" content="{u["locale_alt"]}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{u["title"]}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{u["canon"]}images/og.jpg">
 <link rel="alternate" hreflang="en" href="https://instituteofteleosophy.org/">
 <link rel="alternate" hreflang="no" href="https://teleosofiskinstitutt.no/">
 <link rel="alternate" hreflang="x-default" href="https://instituteofteleosophy.org/">
