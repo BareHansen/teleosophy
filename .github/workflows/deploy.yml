@@ -1,0 +1,83 @@
+# Publishes the Institute website (instituteofteleosophy.org / teleosofiskinstitutt.no)
+# to the Domeneshop web root whenever public/ changes on main.
+#
+# What it does:
+#   1. backs up the current live files on the server to ~/backups/teleosofisk-<timestamp>/
+#   2. copies public/ into ~/www/ (adds and overwrites; never deletes)
+# What it never touches: www/wiki/ (the MediaWiki), .htaccess, robots.txt, sitemap.xml
+#
+# Required repository secrets (Settings -> Secrets and variables -> Actions):
+#   DOMENESHOP_SSH_PASSWORD   the SSH password (SSHPASS in ~/.config/meta-epistemology/server-credentials)
+#   DOMENESHOP_KNOWN_HOSTS    output of:  ssh-keyscan login.domeneshop.no
+
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:   # "Run workflow" button in the Actions tab
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  SSH_TARGET: instituteofteleo@login.domeneshop.no
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the site is complete
+        run: |
+          for f in index.html no.html styles.css site.js images/mark.svg images/horizon.jpg; do
+            test -s "public/$f" || { echo "Missing: public/$f"; exit 1; }
+          done
+
+      - name: Prepare SSH
+        env:
+          KNOWN_HOSTS: ${{ secrets.DOMENESHOP_KNOWN_HOSTS }}
+        run: |
+          test -n "${{ secrets.DOMENESHOP_SSH_PASSWORD }}" || { echo "Secret DOMENESHOP_SSH_PASSWORD is not set"; exit 1; }
+          test -n "$KNOWN_HOSTS" || { echo "Secret DOMENESHOP_KNOWN_HOSTS is not set"; exit 1; }
+          sudo apt-get update -qq && sudo apt-get install -y -qq sshpass rsync
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      - name: Back up the live files on the server
+        env:
+          SSHPASS: ${{ secrets.DOMENESHOP_SSH_PASSWORD }}
+        run: |
+          sshpass -e ssh -o StrictHostKeyChecking=yes "$SSH_TARGET" '
+            d=~/backups/teleosofisk-$(date +%Y%m%d-%H%M%S)
+            mkdir -p "$d/images"
+            cd ~/www
+            for f in index.html no.html styles.css site.js; do [ -f "$f" ] && cp -p "$f" "$d/"; done
+            [ -d images ] && cp -p images/* "$d/images/" 2>/dev/null
+            echo "Backed up to $d"'
+
+      - name: Upload
+        env:
+          SSHPASS: ${{ secrets.DOMENESHOP_SSH_PASSWORD }}
+        run: |
+          rsync -rltvz --checksum --chmod=D755,F644 \
+            --exclude 'images/horizon-data.js' --exclude '.DS_Store' \
+            -e "sshpass -e ssh -o StrictHostKeyChecking=yes" \
+            public/ "$SSH_TARGET:www/"
+
+      - name: Check the live site
+        run: |
+          sleep 3
+          for u in https://instituteofteleosophy.org/ https://teleosofiskinstitutt.no/; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "$u")
+            echo "$u -> $code"
+            [ "$code" = "200" ] || exit 1
+          done

@@ -1,0 +1,45 @@
+# Canonical language domains for the Institute of Teleosophy site.
+# This file sits in ~/www/ and applies to instituteofteleosophy.org and
+# teleosofiskinstitutt.no, which share the same document root.
+#
+# Canonical model:
+#   https://instituteofteleosophy.org/  -> English page (index.html)
+#   https://teleosofiskinstitutt.no/    -> Norwegian page (no.html)
+#
+# All variant URLs (file paths, wrong-language-on-wrong-domain) 301 to
+# the canonical URL. The /wiki/ subtree is untouched — it belongs to the
+# wiki and is handled by MediaWiki's own canonical-host redirect.
+
+RewriteEngine On
+
+# --- Norwegian domain: file-path URLs -> canonical root ---
+# THE_REQUEST holds the original request line, so this only fires when the
+# client literally asked for the file — not for the internal rewrite below.
+RewriteCond %{HTTP_HOST} ^(www\.)?teleosofiskinstitutt\.no$ [NC]
+RewriteCond %{THE_REQUEST} \s/(index\.html|no\.html)[\s?]
+RewriteRule ^ https://teleosofiskinstitutt.no/ [R=301,L]
+
+# --- Norwegian domain: serve the Norwegian page at / ---
+RewriteCond %{HTTP_HOST} ^(www\.)?teleosofiskinstitutt\.no$ [NC]
+RewriteRule ^/?$ /no.html [L]
+
+# --- International domain: /index.html -> / ---
+RewriteCond %{HTTP_HOST} ^(www\.)?instituteofteleosophy\.org$ [NC]
+RewriteCond %{THE_REQUEST} \s/index\.html[\s?]
+RewriteRule ^ https://instituteofteleosophy.org/ [R=301,L]
+
+# --- International domain: Norwegian page lives on the .no domain ---
+RewriteCond %{HTTP_HOST} ^(www\.)?instituteofteleosophy\.org$ [NC]
+RewriteCond %{THE_REQUEST} \s/no\.html[\s?]
+RewriteRule ^ https://teleosofiskinstitutt.no/ [R=301,L]
+
+# --- Serve SVG favicon if available ---
+RewriteCond %{HTTP_HOST} ^(www\.)?instituteofteleosophy\.org$ [NC]
+RewriteCond %{REQUEST_URI} ^/images/logo\.png$
+RewriteCond %{DOCUMENT_ROOT}/images/logo.svg -f
+RewriteRule ^images/logo\.png$ /images/logo.svg [L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?teleosofiskinstitutt\.no$ [NC]
+RewriteCond %{REQUEST_URI} ^/images/logo\.png$
+RewriteCond %{DOCUMENT_ROOT}/images/logo.svg -f
+RewriteRule ^images/logo\.png$ /images/logo.svg [L]

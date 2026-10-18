@@ -1,0 +1,30 @@
+name: CSS Lint
+
+on:
+  push:
+    branches: [main]
+    paths: ['public/**/*.css', '.stylelintrc.json']
+  pull_request:
+    paths: ['public/**/*.css', '.stylelintrc.json']
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint and syntax-check CSS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install --no-save stylelint stylelint-config-standard csstree
+      - name: Syntax (must pass)
+        run: |
+          for f in public/*.css; do
+            node -e "require('csstree').parse(require('fs').readFileSync('$f','utf8'),{onParseError:e=>{console.error('$f: '+e.message);process.exit(1)}})" && echo "ok  $f"
+          done
+      - name: Style (advisory)
+        run: npx stylelint "public/**/*.css" --config .stylelintrc.json
+        continue-on-error: true

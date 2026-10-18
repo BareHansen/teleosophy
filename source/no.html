@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teleosofisk Institutt — formell meta-epistemologi</title>
+<meta name="description" content="Teleosofisk Institutt er en registrert norsk ideell organisasjon som arbeider med formell meta-epistemologi: studiet av hva som allerede må være aktualisert for at det i det hele tatt skal finnes kunnskap, begrunnelse eller en påstand.">
+<link rel="canonical" href="https://teleosofiskinstitutt.no/">
+<link rel="icon" href="images/logo.png">
+<link rel="alternate" hreflang="no" href="https://teleosofiskinstitutt.no/">
+<link rel="alternate" hreflang="en" href="https://instituteofteleosophy.org/">
+<link rel="alternate" hreflang="x-default" href="https://instituteofteleosophy.org/">
+<link rel="stylesheet" href="styles.css">
+<script>
+/* Markerer at JS er tilgjengelig (reveal-animasjonen legges bare på da) og tar
+   i bruk et lagret fargetema før første tegning. Ingenting av dette er
+   nødvendig for at siden skal kunne leses. */
+(function () {
+  var d = document.documentElement;
+  d.className += " js";
+  var theme;
+  try { theme = localStorage.getItem("theme"); } catch (e) {}
+  d.setAttribute("data-theme", theme === "light" ? "light" : "dark");
+  /* If site.js never runs, the reveal gate is removed so no prose stays hidden. */
+  window.ungate = function () { d.className = d.className.replace(/\bjs\b/g, "").trim(); };
+})();
+</script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="b97d4ee5-205d-4a35-af86-c001f4d36a56"></script>
+</head>
+<body>
+
+<div class="bg-mesh"></div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">
+      <img src="images/logo.png" alt="" width="32" height="32">
+      <span>Teleosofisk Institutt</span>
+    </a>
+    <div class="nav-actions">
+      <div class="nav-links">
+        <a href="#meta-epistemology">Rammeverk</a>
+        <a href="#wiki">Kunnskapsbase</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+      <div class="lang-toggle">
+        <a href="https://instituteofteleosophy.org/" hreflang="en" lang="en">EN</a>
+        <a class="active" href="/" hreflang="no" lang="no" aria-current="page">NO</a>
+      </div>
+      <button class="btn-icon" type="button" id="theme-toggle" aria-label="Tema">
+        <span id="theme-icon">🌙</span>
+      </button>
+      <button class="btn-icon menu-toggle" type="button" id="menu-toggle" aria-label="Meny" aria-expanded="false">
+        <span>☰</span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="#meta-epistemology">Rammeverk</a>
+    <a href="#wiki">Kunnskapsbase</a>
+    <a href="#contact">Kontakt</a>
+    <div class="nav-mobile-lang">
+      <a href="https://instituteofteleosophy.org/" hreflang="en" lang="en">English</a>
+      <a href="/" hreflang="no" lang="no">Norsk</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<div class="hero">
+  <div class="hero-content">
+    <img src="images/logo.png" class="hero-logo" alt="" width="96" height="96">
+    <h1>Teleosofisk Institutt</h1>
+    <p class="subtitle"><strong>Det finnes en felles formell grunn som all kunnskap deler.</strong></p>
+    <p class="subtitle">Fagene skiller seg fra hverandre i innhold, metode og objekt. De skiller seg
+    ikke i om det å vite krever distinksjoner, relasjoner, begrepslig artikulering, perspektiv og
+    aktualisering. Meta-epistemologien gjør denne felles formen eksplisitt.</p>
+    <div class="hero-actions">
+      <a href="https://meta-epistemology.org" class="btn-primary">
+        <span>Gå til kunnskapsbasen</span>
+        <span>→</span>
+      </a>
+      <a href="#meta-epistemology" class="btn-secondary">Les om rammeverket</a>
+    </div>
+  </div>
+  <div class="scroll-hint">↓</div>
+</div>
+
+<section id="meta-epistemology">
+  <div class="section-inner">
+    <div class="section-label reveal">Meta-epistemologi</div>
+    <h2 class="reveal">Grunnen fagene allerede står på</h2>
+
+    <p class="reveal">Epistemologien spør hva som kan vites, og hvordan en påstand kan begrunnes.
+    <a class="wl" href="https://meta-epistemology.org/index.php/Meta-epistemology">Meta-epistemologien</a> stiller det forutgående spørsmålet: hva må allerede være <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> for at
+    det i det hele tatt skal finnes kunnskap, begrunnelse, beskrivelse, uenighet, <a class="wl" href="https://meta-epistemology.org/index.php/Measurement">måling</a> eller en
+    påstand.</p>
+
+    <p class="reveal">Svaret er ikke en ny teori som konkurrerer med fysikk, biologi eller historie.
+    Det er en redegjørelse for den formelle epistemologiske strukturen disse fagene allerede
+    benytter når de vet noe som helst. Dette er også det som muliggjør en annen form for
+    tverrfaglighet: spørsmål fra ulike felt kan undersøkes på et felles epistemologisk nivå uten at
+    deres empiriske innhold reduseres til én vitenskap. Den felles grunnen er formell, ikke en
+    blanding av fagstoff.</p>
+
+    <h3 class="reveal">Hvorfor spekulativ metafysikk ikke kan tjene som grunn</h3>
+
+    <p class="reveal">En påstand som verken kan valideres empirisk eller forankres som ren logisk
+    nødvendighet, mangler den dekningen som kreves for å bære systematisk kunnskap. Dette er
+    vanskeligheten ved <strong>spekulativ metafysisk <a class="wl" href="https://meta-epistemology.org/index.php/Substance_Ontology">substansontologi</a></strong>: den postulerer
+    skjulte bærere, substrater eller uavhengig bestående ting, og behandler dem så som grunnen for
+    de egenskapene og relasjonene som faktisk er tilgjengelige for kunnskap.</p>
+
+    <p class="reveal">Svaret er ikke å møte én spekulativ metafysikk med en annen. Den udekkede
+    grunnen trekkes tilbake, og formell meta-epistemologi tar dens plass: studiet av de betingelsene
+    som allerede er <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> der kunnskap forekommer.</p>
+
+    <h3 class="reveal">Ontologien gjenvunnet</h3>
+
+    <p class="reveal">Ingenting av dette forkaster <a class="wl" href="https://meta-epistemology.org/index.php/Ontology">ontologien</a>. Det som bryter sammen, er spekulativ
+    <a class="wl" href="https://meta-epistemology.org/index.php/Substance_Ontology">substansontologi</a> som <strong>fundament</strong> — ikke studiet av væren. Ontologien gjenopptar
+    sin bokstavelige oppgave. Den menneskelige væren er mennesket som <strong>er</strong>, og det
+    direkte tilgjengelige førstepersonsfaktumet er ikke et hypotetisk substrat, men <strong>jeg
+    er</strong>.</p>
+
+    <p class="reveal"><a class="wl" href="https://meta-epistemology.org/index.php/Ontology">Ontologi</a> på denne grunnen er studiet av væren som <strong>relasjonell
+    aktualitet</strong>. Den spør hva som følger av å være <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> og artikulert gjennom
+    <a class="wl" href="https://meta-epistemology.org/index.php/Relation">relasjon</a>, snarere enn hvilken <a class="wl" href="https://meta-epistemology.org/index.php/Substance">substans</a> som må ligge bak aktualiseringen. Derfor kan rammeverket
+    hevde, ontologisk og uten forbehold: <strong>menneskelig væren er formålsrettet væren</strong>.
+    Ikke at den fremstår som formålsrettet, eller erfares som formålsrettet, men at det gjelder
+    væren selv.</p>
+  </div>
+</section>
+
+<section id="foundation" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <div class="section-label reveal">Fundament</div>
+    <h2 class="reveal">Et instrument, et faktum, og det som følger</h2>
+
+    <p class="reveal">Fundamentet er kompakt. Det finnes et analytisk instrument, et faktum
+    instrumentet rettes mot, og konsekvenser som følger av å vende det ene mot det andre. Dette er
+    ikke trinn i en rekkefølge, og ordenen nedenfor er kun fremstillingsmessig.</p>
+
+    <dl class="cards">
+      <div class="card reveal">
+        <dt><strong>Distinksjon er relasjon</strong> (kontinuitetsaksiomet)</dt>
+        <dd><p>Det analytiske instrumentet. Å skille er allerede å relatere: en <a class="wl" href="https://meta-epistemology.org/index.php/Distinction">distinksjon</a> som ikke
+        relaterte noe, ville ikke skille. De to polene i en distinksjon er ikke først tilgjengelige
+        som ferdige ting og først deretter forbundet — de blir tilgjengelige som poler gjennom selve
+        den skillende relasjonen. Dette er et analytisk poeng, ikke læren om at bare <a class="wl" href="https://meta-epistemology.org/index.php/Relation">relasjoner</a>
+        finnes. Relasjon må ikke innsettes som en ny <a class="wl" href="https://meta-epistemology.org/index.php/Substance">substans</a>.</p></dd>
+      </div>
+      <div class="card reveal">
+        <dt><strong>Jeg er</strong> (værensaksiomet)</dt>
+        <dd><p>Væren <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> i <a class="wl" href="https://meta-epistemology.org/index.php/First_Person">første person</a>, og faktumet instrumentet vendes mot. Det er væren
+        uttrykt uten ytterligere predikat: punktet der den som vet og det som vites, sammenfaller i
+        én akt. Det etableres ikke gjennom tredjepersonsmåling, og det kan ikke tas feil av på den
+        måten en eksistenspåstand om en X kan.</p></dd>
+      </div>
+      <div class="card reveal">
+        <dt><strong>Sum, Cogito, Ago</strong> — Jeg er. Jeg tenker. Jeg handler.</dt>
+        <dd><p>Tre perspektiver på én <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisering</a> — ikke tre stadier, lag, komponenter eller
+        årsaker. <a class="wl" href="https://meta-epistemology.org/index.php/Cogito">Cogito</a> impliserer allerede et jeg, og det å tenke er allerede noe som gjøres. Fra
+        <a class="wl" href="https://meta-epistemology.org/index.php/First_Person">første person</a> er væren tenkning er handling: analytisk atskillbare dimensjoner ved én
+        akt.</p></dd>
+      </div>
+      <div class="card reveal">
+        <dt><strong>Menneskelig handling er målrettet adferd</strong> (handlingsaksiomet)</dt>
+        <dd><p>Dette er Ago gjenkjent i <a class="wl" href="https://meta-epistemology.org/index.php/Second_Person">andre person</a>. Den direkte tilgangen er jeg handler;
+        gjenkjennelsen av en motpart som du gjør du handler tilgjengelig, og aksiomet artikulerer
+        denne strukturen. En seriøs benektelse av det er selv atferd rettet mot et mål.</p></dd>
+      </div>
+    </dl>
+
+    <h3 class="reveal">Diskretisering og kontinuitet</h3>
+
+    <p class="reveal">Tenkning krever <a class="wl" href="https://meta-epistemology.org/index.php/Distinction">distinksjoner</a>. Å gjøre noe begrepslig tilgjengelig er å
+    <strong><a class="wl" href="https://meta-epistemology.org/index.php/Discretization">diskretisere</a></strong>: å artikulere en <a class="wl" href="https://meta-epistemology.org/index.php/Boundary">grense</a>, identitet eller enhet som er stabil nok å
+    tenke med. Dette er uunnværlig, og det å trekke distinksjonen er ikke feilen. Feilen er å glemme
+    operasjonen distinksjonen ble gjort ved, og lese den stabiliserte grensen som uavhengig
+    fundamental.</p>
+
+    <p class="reveal">Epistemologisk <a class="wl" href="https://meta-epistemology.org/index.php/Continuity">kontinuitet</a> følger av instrumentet. Fordi en <a class="wl" href="https://meta-epistemology.org/index.php/Distinction">distinksjon</a>
+    allerede relaterer sine poler, kan distinksjonen alene ikke etablere et absolutt brudd mellom
+    dem. Dette er ikke matematisk kontinuitet, ikke et skjult kontinuerlig substrat under
+    distinksjonene, og ingen påstand om hva fysikken må finne. <strong>Gapet tilhører distinksjonen,
+    ikke uavhengig det som skilles.</strong></p>
+
+    <h3 class="reveal">Substansialisme</h3>
+
+    <p class="reveal">Språket stabiliserer. En operasjon nominaliseres, begrepet setter seg, og
+    begrepet begynner å se ut som en ting: operasjon, <a class="wl" href="https://meta-epistemology.org/index.php/Distinction">distinksjon</a>, stabilisering, navn,
+    tilsynelatende ting. Den navngitte tingen kan være fullt ut virkelig og funksjonelt uunnværlig
+    innenfor den relasjonen den brukes i. <strong><a class="wl" href="https://meta-epistemology.org/index.php/Substantialism">Substansialisme</a></strong> er det videre skrittet å
+    lese den som en uavhengig fundamental bærer som fantes forut for de relasjonene den ble
+    artikulert gjennom.</p>
+
+    <p class="reveal">Korreksjonen er ikke å slutte å bruke substantiver. Den er å holde den
+    konstituerende relasjonen synlig — også for rammeverkets egne termer.</p>
+
+    <h3 class="reveal">Objektivitet, i tre modi</h3>
+
+    <p class="reveal"><strong><a class="wl" href="https://meta-epistemology.org/index.php/Formal_Objectivity">Formell, perfekt objektivitet</a></strong> hører til analytisk
+    kunnskap. Konklusjonene er allerede implisitte og latente i premissene; analysen gjør
+    eksplisitt hva som allerede var inneholdt i dem. Ingen ny empirisk innhold tilføres, og ingen
+    ekstern referent approximeres. Når et formelt system brukes til å modellere et eksternt
+    fenomen, imidlertid, approximerer dets aksiomer den referenten, og anvendelsen mister apodiktisk
+    gyldighet. Meta-epistemologien er annerledes: den anvender formell analyse på det som allerede
+    er implisitt i den tenkning og handling som selve analysen aktualiseres gjennom. I
+    <a class="wl" href="https://meta-epistemology.org/index.php/First_Person">førstepersons</a>visshet — jeg er —
+    sammenfaller den som vet og det som vites i samme akt. Referenten er derfor ikke ekstern og
+    approximeres ikke, slik at apodiktisk gyldighet bevares i anvendelsen.</p>
+
+    <p class="reveal"><strong><a class="wl" href="https://meta-epistemology.org/index.php/Empirical_Objectivity">Empirisk, kontingent objektivitet</a></strong> hører til
+    kunnskap om eksterne fenomener. Dens objektivitet er betinget av de kognitive kategoriene og
+    begrepslige rammeverkene som fenomener blir tilgjengelige for kunnskap gjennom. Gyldig
+    empirisk kunnskap må derfor være
+    <a class="wl" href="https://meta-epistemology.org/index.php/Intersubjectivity">intersubjektivt</a>
+    verifiserbar gjennom observasjon og repetisjon. Uten slik validering er en påstand ikke
+    empirisk kunnskap: den er enten en formell proposisjon hvis gyldighet er analytisk, eller
+    spekulasjon om hva som ligger hinsides mulig validering.</p>
+
+    <p class="reveal"><strong><a class="wl" href="https://meta-epistemology.org/index.php/Ultimate_Objectivity">Ultimat, umulig objektivitet</a></strong> er det
+    grensebegrepet for et perspektivløst perspektiv. Det er epistemisk umulig. Kunnskap krever
+    perspektiv; perspektiv krever <a class="wl" href="https://meta-epistemology.org/index.php/Distinction">distinksjon</a>; og
+    <a class="wl" href="https://meta-epistemology.org/index.php/Distinction_is_Relation">distinksjon er relasjon</a>. Det kan
+    derfor ikke finnes kunnskap fra utenfor enhver <a class="wl" href="https://meta-epistemology.org/index.php/Relation">relasjon</a> og ethvert perspektiv.
+    Ultimat objektivitet er ikke en høyere grad av objektivitet som undersøkelsen kanskje til slutt
+    kan oppnå, men den umulige grensen mot hvilken betingelsene for objektivitet blir synlige.</p>
+  </div>
+</section>
+
+<section id="teleosophy" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <div class="section-label reveal">Teleosofi</div>
+    <h2 class="reveal">Visdom om målrettethet</h2>
+
+    <p class="reveal">Teleosofi betyr <strong>visdom om <a class="wl" href="https://meta-epistemology.org/index.php/Purpose">målrettethet</a></strong>. Dens objekt er
+    den menneskelige væren som formålsrettet væren. Formålsrettethet er ikke en egenskap lagret inne
+    i en menneskelig <a class="wl" href="https://meta-epistemology.org/index.php/Substance">substans</a>; det er formen til <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> væren-i-handling. Logisk er
+    meta-epistemologien den bredere grunnen, og gir teleosofien dens fundament.</p>
+
+    <p class="reveal">Væren, slik den er tilgjengelig i menneskets <a class="wl" href="https://meta-epistemology.org/index.php/First_Person">første person</a>, er <strong>narrativt
+    formidlet metakognitiv selvbevissthet <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a></strong>. Uttrykket er bevisst komprimert.</p>
+
+    <dl class="cards">
+      <div class="card reveal">
+        <dt><strong>Narrativt formidlet</strong></dt>
+        <dd><p>Menneskelig gjenkjennelse er tilgjengelig gjennom ord, og jeg er er allerede en
+        <a class="wl" href="https://meta-epistemology.org/index.php/Narrative_Structure">narrativ struktur</a>. Narrativ betyr her temporal semantisk-syntaktisk organisering:
+        organiseringen som gjør at et nå kan holdes i <a class="wl" href="https://meta-epistemology.org/index.php/Relation">relasjon</a> til et da. Det betyr ikke
+        fortellerkunst, underholdning, selvbiografi eller litterær form.</p></dd>
+      </div>
+      <div class="card reveal">
+        <dt><strong>Metakognitiv</strong></dt>
+        <dd><p>I jeg er tar erkjennelsen sin egen <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisering</a> som objekt.</p></dd>
+      </div>
+      <div class="card reveal">
+        <dt><strong>Selvbevissthet</strong></dt>
+        <dd><p>Formen er <a class="wl" href="https://meta-epistemology.org/index.php/First_Person">førstepersons</a>. Ikke bare det er, men jeg er.</p></dd>
+      </div>
+      <div class="card reveal">
+        <dt><strong>Aktualisert</strong></dt>
+        <dd><p>Væren i akt — ikke en hvilende evne, en lagret egenskap eller en skjult
+        <a class="wl" href="https://meta-epistemology.org/index.php/Substance">substans</a>.</p></dd>
+      </div>
+    </dl>
+
+    <p class="reveal"><a class="wl" href="https://meta-epistemology.org/index.php/Narrative_Structure">Narrativ struktur</a> og <a class="wl" href="https://meta-epistemology.org/index.php/Telos">telos</a> er ikke to mekanismer. Narrativ struktur er det som
+    gjør rettethet mulig: en foreliggende situasjon kan holdes i <a class="wl" href="https://meta-epistemology.org/index.php/Relation">relasjon</a> til et mål som ennå ikke
+    er <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a>, og dette målet, tilstedeværende som en narrativt strukturert relasjon, regulerer
+    atferden nå. Konkrete mål er analytiske <a class="wl" href="https://meta-epistemology.org/index.php/Discretization">diskretiseringer</a> innenfor denne bredere <a class="wl" href="https://meta-epistemology.org/index.php/Teleology">teleologiske</a>
+    strukturen.</p>
+
+    <p class="reveal">Teleosofien er smal i objekt — det som er distinkt menneskelig i denne
+    formelle forstand — og rekker samtidig alt som er tilgjengelig for oss, fordi ingen undersøkelse
+    kan tre ut av perspektivet der menneskelig viten og handling <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualiseres</a>.</p>
+
+    <h3 class="reveal">Handling, der teori og praksis møtes</h3>
+
+    <p class="reveal"><strong><a class="wl" href="https://meta-epistemology.org/index.php/Action">Handling</a></strong> er atferd regulert av <a class="wl" href="https://meta-epistemology.org/index.php/Telos">telos</a>. Observerbar bevegelse
+    er ikke kriteriet: å tenke, velge, planlegge, veie en innvending eller holde et mål mot en
+    foreliggende situasjon er selv handling. <strong><a class="wl" href="https://meta-epistemology.org/index.php/Behavior">Atferd</a></strong>, i den kontrasterende
+    betydningen, er atferd som er reaktiv eller adaptiv uten narrativt <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> telos.
+    Handlingens motsetning er derfor ikke irrasjonell handling, men atferd som ikke er regulert av
+    et mål.</p>
+
+    <p class="reveal">Å teoretisere er selv formålsrettet virksomhet. En teoretiker skiller,
+    relaterer, begrepsliggjør, prøver implikasjoner, besvarer innvendinger og søker en konklusjon.
+    Teori om handling er allerede et tilfelle av den praksisen den analyserer, og ingen bro fra
+    teori til senere anvendelse er nødvendig: <strong>teori om praksis gjennom praktisert
+    teoretisering</strong>.</p>
+
+    <p class="reveal">Dette er også den forstand der det finnes et observerbart fenomen som a
+    priori-kunnskap er mulig om: <strong>væren-i-handling</strong>. Fenomenet <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualiseres</a> i
+    praksis, men den relevante formelle kunnskapen induseres ikke fra et utvalg observerte tilfeller.
+    Det å spørre, benekte, teoretisere eller argumentere instansierer allerede formålsrettet
+    væren.</p>
+
+    <h3 class="reveal">Verdi, rasjonalitet og effektivitet</h3>
+
+    <p class="reveal"><a class="wl" href="https://meta-epistemology.org/index.php/Value">Verdi</a> konstitueres ved <a class="wl" href="https://meta-epistemology.org/index.php/Subject_Pole">subjektpolen</a>: å verdsette er en <a class="wl" href="https://meta-epistemology.org/index.php/Relation">relasjon</a> <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> av
+    et formålsrettet vesen. At verdier er subjektive, er selv et objektivt strukturelt faktum, og
+    kan derfor tjene som utgangspunkt for formell analyse i stedet for som en hindring for den.</p>
+
+    <p class="reveal"><a class="wl" href="https://meta-epistemology.org/index.php/Action">Handling</a> er rasjonell i form fordi handling er å relatere midler til et mål.
+    <strong>Mål er verken rasjonelle eller irrasjonelle.</strong> Rasjonaliteten ligger i
+    <a class="wl" href="https://meta-epistemology.org/index.php/Means_End_Relation">middel–mål-relasjonen</a>; hvorvidt de valgte midlene faktisk oppnår målet, er et spørsmål om
+    effektivitet.</p>
+
+    <h3 class="reveal">Første, andre og tredje person</h3>
+
+    <p class="reveal">Første, andre og <a class="wl" href="https://meta-epistemology.org/index.php/Third_Person">tredje person</a> er analytisk atskilte perspektiver, ikke
+    separate sfærer. <a class="wl" href="https://meta-epistemology.org/index.php/First_Person">Første person</a> er <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisering</a> som jeg. <a class="wl" href="https://meta-epistemology.org/index.php/Second_Person">Andre person</a> er gjenkjennelsen av en
+    motpart som du — <strong><a class="wl" href="https://meta-epistemology.org/index.php/Alter_Ego">alter ego</a></strong> — en relasjonell kategori, ikke et empirisk bevis for
+    at et annet vesen inneholder et skjult førstepersons indre. <strong>Alter-ego-projeksjon er ikke
+    en slutning fra sosial observasjon. Den er en betingelse for at noe i det hele tatt kan
+    observeres som et sosialt fenomen.</strong> Et system kan fungere som et alter ego i en
+    <a class="wl" href="https://meta-epistemology.org/index.php/Relation">relasjon</a> uten dermed å
+    være etablert som et Ego eller en teleologisk aktør. Tredje person er upersonlig beskrivelse,
+    som abstraherer fra førstepersonspolen slik at beskrivelser kan stabiliseres og sammenlignes
+    <a class="wl" href="https://meta-epistemology.org/index.php/Intersubjectivity">intersubjektivt</a>. Tredjepersonsabstraksjon er uunnværlig for vitenskapen; feilen er å glemme at
+    det er en abstraksjon, og behandle den som forutgående for den aktualiseringen den abstraherer
+    fra.</p>
+
+    <p class="reveal">Samfunn og sivilisasjon hviler på gjensidig gjenkjennelse av <a class="wl" href="https://meta-epistemology.org/index.php/Alter_Ego">alter ego</a> gjennom
+    konvergerende <a class="wl" href="https://meta-epistemology.org/index.php/Narrative_Structure">narrative strukturer</a> som muliggjør kommunikasjon og koordinering i stor skala.
+    <a class="wl" href="https://meta-epistemology.org/index.php/Money">Penger</a>, institusjoner, roller, rettslige kategorier og normer blir sosialt forståelige innenfor
+    tilstrekkelig konvergerende meningsstrukturer. Dette er ikke påstanden om at samfunnet er en
+    fiksjon. Det identifiserer den formelle betingelsen som gjør fenomener tilgjengelige som sosiale
+    fenomener. Gjenkjennelsen av et alter ego åpner også den etiske relasjonen: en motpart kan møtes
+    som en <a class="wl" href="https://meta-epistemology.org/index.php/Subject_Pole">subjektpol</a> hvis eget <a class="wl" href="https://meta-epistemology.org/index.php/Telos">telos</a> er relevant for samhandlingen, eller behandles utelukkende som
+    objekt for egne mål.</p>
+
+    <p class="reveal">Der væren-, menings- og formålsspråk føres over i tredjepersonsbeskrivelse,
+    markerer rammeverket lånet: <strong><a class="wl" href="https://meta-epistemology.org/index.php/Ontonomy">ontonomi</a></strong> for stabiliserte kategorier for væren og
+    identitet, <strong><a class="wl" href="https://meta-epistemology.org/index.php/Noonomy">noonomi</a></strong> for kategorier for mening, informasjon og kunnskap,
+    <strong><a class="wl" href="https://meta-epistemology.org/index.php/Teleonomy">teleonomi</a></strong> for formålskategorier. Slike lån er ofte uunnværlige, og er ikke i
+    seg selv en feil. Feilen er å lese det lånte språket som om beskrivelsen selv etablerte
+    <a class="wl" href="https://meta-epistemology.org/index.php/First_Person">førstepersons</a> væren, <a class="wl" href="https://meta-epistemology.org/index.php/Actualization">aktualisert</a> mening eller <a class="wl" href="https://meta-epistemology.org/index.php/Telos">telos</a>.</p>
+  </div>
+</section>
+
+
+<section id="wiki" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <div class="section-label reveal">Kunnskapsbase</div>
+    <h2 class="reveal">Wikien på meta-epistemology.org</h2>
+
+    <p class="reveal">Wikien er instituttets analytiske korpus og hoveddestinasjonen for lesere som
+    vil i dybden. Den anvender samme grunn på et voksende utvalg emner — fysikk, biologi, økonomi,
+    etikk, psykologi, historie, språk, teknologi og andre — slik at en leser kan komme inn gjennom
+    et felt de allerede bryr seg om, og møte rammeverket lokalt.</p>
+
+    <p class="reveal">Formålet er ikke å samle artikler. Det er å gjøre implikasjoner som var
+    latente, <strong>eksplisitte, mulige å granske, varige og tilgjengelige</strong>. Implisitt
+    betyr ikke opplagt: en konsekvens kan være fullt ut inneholdt i premissene og likevel kreve
+    betydelig analytisk arbeid å utlede. Hver artikkel er dette arbeidet, gjort om til noe som kan
+    leses, siteres, gjenbrukes og bestrides.</p>
+
+    <p class="reveal">Enkeltanalyser fremstilles ved å anvende den kompakte linsen på én referent,
+    og kan være tilstandsløse — linsen og ett emne, uten det foregående korpuset — slik at
+    gjentakende strukturer utledes på nytt i stedet for å kopieres videre. KI brukes som et
+    instrument i denne prosessen, og er ingen intellektuell autoritet: den utvider bredden
+    implikasjoner kan søkes og artikuleres over, men den leverer ikke gyldighet.</p>
+
+    <p class="reveal">Wikien er publisert under <strong>CC BY 4.0</strong>, slik at arbeidet kan
+    leses, siteres, gjenbrukes med kreditering og bevares utover én person eller plattform.</p>
+
+    <div class="reveal" style="margin-top: 2.5rem;">
+      <a href="https://meta-epistemology.org" class="btn-primary">
+        <span>Gå til kunnskapsbasen</span>
+        <span>→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="institute" style="border-top: 1px solid var(--border);">
+  <div class="section-inner">
+    <div class="section-label reveal">Instituttet</div>
+    <h2 class="reveal">Hvorfor Instituttet finnes</h2>
+
+    <p class="reveal"><strong>Teleosofisk Institutt — <span lang="en">Institute of Teleosophy</span> — er en
+    registrert norsk ideell organisasjon. Det ble etablert for å bevare, artikulere, utvikle og gjøre
+    tilgjengelig et korpus av formell kunnskap hvis gyldighet ikke avhenger av personlig eller
+    institusjonell autoritet.</strong></p>
+
+    <p class="reveal"><strong>Instituttet finnes fordi kunnskap er skjør. Arbeid som bare finnes i et
+    begrenset sett dokumenter eller systemer, kan gå tapt. Formålet er å gi kunnskapskorpuset
+    <a class="wl" href="https://meta-epistemology.org/index.php/Continuity">kontinuitet</a> utover dets
+    opprinnelige artikulasjon, og å plassere det der andre kan granske det, bruke det, utlede fra det
+    og kritisere det.</strong></p>
+
+    <p class="reveal"><strong>Det pågående arbeidet omfatter dette nettstedet, wikien og fortsatt
+    formell analyse og artikulasjon av implikasjonene i det meta-epistemologiske grunnlaget.</strong></p>
+
+    <h3 class="reveal" id="contact">Kontakt</h3>
+
+    <p class="reveal">Instituttet ledes av Stein Michael Hansen.</p>
+
+    <div class="contact-grid">
+      <div class="contact-item reveal">
+        <label>Administrasjon</label>
+        <a href="mailto:admin@instituteofteleosophy.org">admin@instituteofteleosophy.org</a>
+      </div>
+      <div class="contact-item reveal">
+        <label>Direktør</label>
+        <a href="mailto:stein.hansen@instituteofteleosophy.org">stein.hansen@instituteofteleosophy.org</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <img src="images/logo.png" class="footer-logo" alt="" width="40" height="40">
+  <p class="footer-text">
+    <span>Teleosofisk Institutt · Institute of Teleosophy</span><br>
+    <span>En registrert ideell forskningsinstitusjon i Norge.</span><br>
+    <span>Wiki-innhold på meta-epistemology.org er publisert under CC BY 4.0.</span>
+  </p>
+  <div class="footer-links">
+    <a href="https://meta-epistemology.org">Kunnskapsbase</a>
+    <a href="#institute">Om</a>
+    <a href="mailto:admin@instituteofteleosophy.org">Kontakt</a>
+    <a href="https://instituteofteleosophy.org/" hreflang="en" lang="en">English</a>
+  </div>
+</footer>
+
+<script src="site.js" defer onerror="ungate()"></script>
+</body>
+</html>

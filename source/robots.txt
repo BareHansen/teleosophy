@@ -1,0 +1,17 @@
+# robots.txt for instituteofteleosophy.org / teleosofiskinstitutt.no
+# (same docroot — this file is served on both domains)
+#
+# /wiki/ is the physical hosting location of the wiki. Its only public
+# identity is meta-epistemology.org, and requests there now 301-redirect.
+# Disallowing it here additionally prevents crawlers/archives from
+# indexing it as duplicate content under this domain.
+
+# Claude's fetch agent gets full access, including /wiki/ — when a user
+# shares a link, fetching it directly is preferable to blocking.
+User-agent: Claude-User
+Allow: /
+
+User-agent: *
+Disallow: /wiki/
+
+Sitemap: https://instituteofteleosophy.org/sitemap.xml

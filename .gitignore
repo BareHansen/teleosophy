@@ -1,0 +1,6 @@
+.DS_Store
+*.backup
+*.bak
+*.orig
+*.new
+wiki/
