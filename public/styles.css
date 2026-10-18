@@ -286,7 +286,8 @@ html:not(.gl) .hero-inner { background: rgba(5,11,22,0.55); padding: 1.5rem 2rem
 
 @media (max-width: 480px) { .bar-links .kb { display: none; } }
 @media (max-width: 1100px) { .level-label { display: none; } }
-@media (max-width: 380px) { .level-name { min-width: 0; } .level input { width: 3.6rem; } }
+@media (max-width: 820px), (max-aspect-ratio: 5/4) and (max-width: 1180px) { .level { gap: 0.45rem; margin-left: 0.75rem; } .level input { width: 2.8rem; } }
+@media (max-width: 380px) { .level-name { min-width: 0; } .level input { width: 2.4rem; } }
 
 /* ------------------------------------------------------------- small screens: the figure lives in a band */
 
