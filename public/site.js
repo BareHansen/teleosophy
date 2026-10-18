@@ -145,57 +145,6 @@
     updateRail(scrollStage());
   }
 
-  /* ---------------------------------------------------------- section stepping (desktop)
-     One wheel gesture moves to the next or previous section heading. A section
-     taller than the view (e.g. with "read more" open) is stepped through a
-     screen at a time before moving on. Keyboard, links and the
-     scrollbar are untouched. Not used in the band layout (phones, upright tablets). */
-  (function () {
-    var lockStart = 0, lastWheel = 0, lastAbs = 0, locked = false;
-    function top(el) { return el.getBoundingClientRect().top + window.pageYOffset; }
-    function go(y) {
-      locked = true; lockStart = performance.now();
-      window.scrollTo({ top: Math.max(0, Math.round(y)), behavior: reduce ? "auto" : "smooth" });
-    }
-    window.addEventListener("wheel", function (e) {
-      if (isBand() || e.ctrlKey || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
-      if (e.target.closest && e.target.closest("textarea, select, [contenteditable]")) return;
-      var now = performance.now(), abs = Math.abs(e.deltaY);
-      var gap = now - lastWheel, prev = lastAbs;
-      lastWheel = now; lastAbs = abs;
-      if (locked) {
-        /* After a step, trackpad momentum keeps sending events with falling deltas.
-           Swallow those; release when the step has had time to finish and either
-           the events paused, a new swipe starts (delta rises again), or 1.2 s passed. */
-        var age = now - lockStart;
-        var fresh = gap > 120 || (abs > prev * 1.5 && abs >= 8);
-        if (age < 550 || (!fresh && age < 1200)) { e.preventDefault(); return; }
-        locked = false;
-        if (abs < 6) { e.preventDefault(); return; }
-      }
-      if (abs < 3) { e.preventDefault(); return; }   /* momentum tail: no drift, no step */
-      /* Stops: every section heading; inside a section taller than the view,
-         page-sized steps down to where its end is in view; finally the footer. */
-      var vh = window.innerHeight, cur = window.pageYOffset, dir = e.deltaY > 0 ? 1 : -1;
-      var max = document.documentElement.scrollHeight - vh, pts = [], k, t, h, y;
-      for (k = 0; k < sections.length; k++) {
-        t = top(sections[k]); h = sections[k].offsetHeight;
-        pts.push(t);
-        if (h > vh * 1.2) {   /* small overflow is mostly padding: no extra stop */
-          for (y = t + vh * 0.8; y < t + h - vh - vh * 0.2; y += vh * 0.8) pts.push(y);
-          pts.push(t + h - vh);
-        }
-      }
-      pts.push(max);
-      var target = null;
-      if (dir > 0) { for (k = 0; k < pts.length; k++) if (pts[k] > cur + 4) { target = pts[k]; break; } }
-      else { for (k = pts.length - 1; k >= 0; k--) if (pts[k] < cur - 4) { target = pts[k]; break; } }
-      if (target === null) return;
-      e.preventDefault();
-      go(Math.min(max, target));
-    }, { passive: false });
-  })();
-
   /* ---------------------------------------------------------- WebGL */
   var gl = null;
   try {
