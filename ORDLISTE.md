@@ -5,6 +5,8 @@ hverdagsuttrykk på det enkle trinnet. **Status:** ✔ = godkjent av Stein, ? = 
 
 **Prinsipp:** Alle trinn forklarer presist. Trinnene skiller seg i språk, ikke i presisjon.
 Det enkle trinnet sier det samme som det tekniske, bare uten fagord.
+Enkel gir mest kontekst – hva metafysikk, ontologi, objektivitet osv. er – vevd naturlig
+inn i teksten. Jo høyere trinn, jo mindre forklaring; Teknisk forklarer ingenting som fagfolk kan.
 
 | Fagord | Enkelt uttrykk | Status |
 |---|---|---|

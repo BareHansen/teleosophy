@@ -10,9 +10,9 @@ begynner med `> ` er ingressen. Avsnitt skilles med tom linje. `**fet**`, `*kurs
 ## meta-epistemology
 
 ### 1
-> Fagene handler om ulike ting og bruker ulike metoder. Men i alle fag krever det å vite noe det samme: at man skiller, forbinder, setter ord på, ser fra et ståsted og at noe blir virkeliggjort.
+> Fysikk, biologi, historie og alle andre fag handler om ulike ting og bruker ulike metoder. Men i alle fag krever det å vite noe det samme: at man skiller ting fra hverandre, ser hvordan de henger sammen, setter ord på dem, ser dem fra et ståsted – og at noe faktisk blir virkelig for den som vet.
 
-Kunnskapslæren spør hva vi kan vite, og hvordan en påstand kan begrunnes. Her stilles et spørsmål som kommer før: hva må allerede være virkeliggjort for at det i det hele tatt skal finnes kunnskap, begrunnelser, beskrivelser, uenighet, målinger eller påstander? Det er spørsmålet om forutsetningene for kunnskap.
+Filosofien har et eget felt for spørsmål om kunnskap: kunnskapslæren, eller epistemologien. Den spør hva vi kan vite, og hvordan vi kan begrunne det vi påstår. Her stilles et spørsmål som kommer enda før: hva må allerede være virkeliggjort for at det i det hele tatt skal finnes kunnskap, begrunnelser, beskrivelser, uenighet, målinger eller påstander? Det er spørsmålet om forutsetningene for kunnskap. «Meta» betyr her det som ligger forut for – derav navnet meta-epistemologi.
 
 Svaret er ikke en ny teori som konkurrerer med fysikk, biologi eller historie. Det er en beskrivelse av den formen alle fag allerede bruker når de vet noe. Derfor kan spørsmål fra helt ulike fag undersøkes på samme grunnlag, uten at alt gjøres om til ett fag.
 
@@ -26,9 +26,13 @@ Dette er ingen ny teori som konkurrerer med fysikk, biologi eller historie, men 
 ## metaphysics
 
 ### 1
-En påstand som verken kan sjekkes med observasjon eller bevises med ren logikk, kan ikke bære kunnskap. Det er problemet med tanken om at verden består av skjulte, ferdige ting bak det vi ser – «bærere» eller «underlag» som egenskapene og forbindelsene skal hvile på. Ingen kan sjekke dem, men de behandles likevel som grunnen.
+Metafysikk er den delen av filosofien som spør hva virkeligheten egentlig består av – også bak det vi kan se og måle. Mye metafysikk er spekulativ: den sier noe om hvordan verden er, uten at det kan sjekkes.
 
-Løsningen er ikke å sette en ny slik tanke i stedet. Den usjekkede grunnen trekkes tilbake. I stedet undersøker vi forutsetningene som allerede er virkeliggjort der det finnes kunnskap.
+Vi kan vite noe på to måter: ved å observere og teste, slik naturvitenskapen gjør, eller ved ren logikk, slik matematikken gjør. En påstand som verken kan sjekkes på den ene eller den andre måten, kan ikke bære kunnskap.
+
+Nettopp dette er problemet med en gammel og utbredt tanke: at verden består av skjulte, ferdige ting – substanser – bak det vi ser, og at egenskapene og forbindelsene vi faktisk kjenner, hviler på dem. Ingen kan sjekke slike skjulte ting, men de behandles likevel som grunnmuren.
+
+Løsningen er ikke å finne på en ny teori om hva som ligger bak. Den usjekkede grunnmuren fjernes. I stedet undersøker vi det vi faktisk kan vite noe om: forutsetningene som allerede er virkeliggjort hver gang noen vet noe.
 
 ### 2
 En påstand som verken kan valideres empirisk eller begrunnes som logisk nødvendighet, kan ikke bære systematisk kunnskap. Det er problemet med spekulativ metafysikk om substans: den antar skjulte bærere eller substrater bak tingene, og behandler dem som grunnen for de egenskapene og relasjonene vi faktisk har kunnskap om.
@@ -40,9 +44,11 @@ Svaret er ikke å sette én spekulativ metafysikk opp mot en annen. Den udekkede
 ### 1
 > Å skille er allerede å forbinde.
 
-Når du skiller noe fra noe annet, forbinder du dem samtidig. Et skille som ikke forbandt noe, ville ikke skille noe. De to sidene finnes ikke først som ferdige ting som så kobles sammen; de blir sider nettopp gjennom skillet som forbinder dem.
+All tenkning begynner med å skille noe fra noe annet. Men når du skiller to ting, forbinder du dem samtidig: de er nettopp det som står på hver sin side av det samme skillet. Et skille som ikke forbandt noe, ville ikke skille noe.
 
-Dette er et poeng om hvordan vi tenker og vet – ikke en påstand om at bare forbindelser finnes. Forbindelsen må ikke gjøres til en ny «ting».
+De to sidene finnes ikke først som ferdige ting som så kobles sammen; de blir sider gjennom skillet som forbinder dem. «Over» gir ingen mening uten «under».
+
+Dette er et poeng om hvordan vi tenker og vet, og derfor er det rammeverkets grunnleggende verktøy. Det er ikke en påstand om at bare forbindelser finnes. Forbindelsen må ikke gjøres til en ny «ting».
 
 ### 2
 > Å skille er allerede å relatere.
@@ -54,13 +60,13 @@ Poenget er analytisk, ikke en lære om at bare relasjoner finnes. Relasjon må i
 ## discretization
 
 ### 1
-For å tenke må vi skille. Å gjøre noe tenkbart er å dele det opp: å trekke en grense eller gi noe en identitet som er stabil nok til å tenke med. Det er nødvendig, og det er ikke feil å skille. Feilen er å glemme at grensen ble trukket, og tro at den fantes for seg selv.
+For å tenke må vi skille. Å gjøre noe tenkbart er å dele det opp i avgrensede deler: å trekke en grense eller gi noe en identitet som er stabil nok til å tenke med. Det er nødvendig, og det er ikke feil å skille. Feilen er å glemme at grensen ble trukket, og tro at den fantes for seg selv.
 
-Fordi et skille alltid forbinder sidene sine, kan skillet alene aldri skape et absolutt brudd mellom dem. Mellomrommet hører til skillet, ikke til tingene i seg selv. Dette er ikke matematikk, ikke et skjult «underlag» og ingen påstand om hva fysikken vil finne.
+Fordi et skille alltid forbinder sidene sine, kan skillet alene aldri skape et fullstendig brudd mellom dem. Mellomrommet hører til skillet, ikke til tingene i seg selv. Dette sier ingenting om matematikk eller om hva fysikken vil finne; det sier noe om hva et skille er.
 
 [kjede]
 
-Språket gjør ting faste. En handling får et navn, navnet setter seg, og etter hvert ser det ut som en ting. Tingen kan være helt virkelig og nyttig der den brukes. Feilen – tanken om at verden består av ferdige ting – er å tro at den fantes før og uavhengig av forbindelsene den ble skilt ut gjennom. Løsningen er ikke å slutte å bruke substantiver, men å holde forbindelsen synlig – også for rammeverkets egne ord.
+Språket gjør ting faste. Det begynner med noe vi gjør: vi skiller noe ut. Så får det et navn, navnet setter seg, og etter hvert ser det ut som en ting som alltid har vært der. Tingen kan være helt virkelig og nyttig der den brukes. Feilen er å tro at den fantes før og uavhengig av forbindelsene den ble skilt ut gjennom. Den feilen har et navn i filosofien: substansialisme, tanken om at verden består av ferdige ting. Løsningen er ikke å slutte å bruke substantiver – navneord – men å huske forbindelsen de kom fra, også når det gjelder rammeverkets egne ord.
 
 ### 2
 Tenkning krever distinksjoner. Å gjøre noe begrepslig tilgjengelig er å diskretisere: å trekke en grense eller gi noe en identitet som er stabil nok til å tenke med. Det er uunnværlig, og distinksjonen er ikke feilen. Feilen er å glemme at grensen er resultatet av en operasjon, og lese den som uavhengig og grunnleggende.
@@ -74,11 +80,13 @@ Språket stabiliserer: en operasjon får et navn, begrepet setter seg og begynne
 ## objectivity
 
 ### 1
-**Formell** objektivitet er fullkommen. Den gjelder ren logikk: konklusjonen ligger allerede i utgangspunktet, og analysen gjør den bare synlig. Brukes logikken til å beskrive noe utenfor oss, forsvinner denne fullkomne sikkerheten. Men når vi undersøker det som allerede ligger i vår egen tenkning og handling, beholdes den – for i *jeg er* er den som vet og det som vites ett og det samme.
+Å være objektiv betyr vanligvis å se ting som de er, uavhengig av hvem som ser. Men objektivitet finnes i tre former, og de er svært forskjellige.
 
-**Erfaringsbasert** objektivitet er betinget. Den gjelder kunnskap om verden rundt oss, og avhenger av begrepene vi møter verden med. Derfor må den kunne sjekkes av flere, gjennom observasjon og gjentakelse.
+**Formell** objektivitet er fullkommen. Den gjelder ren logikk og matematikk: konklusjonen ligger allerede i utgangspunktet, og analysen gjør den bare synlig. Brukes logikken til å beskrive noe utenfor oss, forsvinner denne fullkomne sikkerheten, fordi beskrivelsen bare kan komme nær det den beskriver. Men når vi undersøker det som allerede ligger i vår egen tenkning og handling, beholdes den – for i *jeg er* er den som vet og det som vites ett og det samme.
 
-**Endelig** objektivitet – å vite noe uten noe ståsted i det hele tatt – er umulig. Å vite krever et ståsted, et ståsted krever at man skiller, og å skille er å forbinde. Denne umulige grensen viser hva objektivitet faktisk krever.
+**Erfaringsbasert** objektivitet er betinget. Den gjelder kunnskap om verden rundt oss – det naturvitenskapen undersøker – og avhenger av begrepene vi møter verden med. Derfor må den kunne sjekkes av flere, gjennom observasjon og gjentakelse.
+
+**Endelig** objektivitet ville være å vite noe uten noe ståsted i det hele tatt – å se verden fra ingensteds. Det er umulig. Å vite krever et ståsted, et ståsted krever at man skiller, og å skille er å forbinde. Denne umulige grensen viser hva objektivitet faktisk krever.
 
 ### 2
 **Formell**, perfekt objektivitet hører til analytisk kunnskap: konklusjonene ligger allerede i premissene. Når et formelt system brukes til å modellere noe eksternt, mister anvendelsen denne sikkerheten. Meta-epistemologien er annerledes: den analyserer det som allerede ligger i tenkningen og handlingen analysen selv aktualiseres gjennom. I førstepersonsvisshet – *jeg er* – sammenfaller den som vet og det som vites, så gyldigheten bevares.
@@ -90,9 +98,9 @@ Språket stabiliserer: en operasjon får et navn, begrepet setter seg og begynne
 ## teleosophy
 
 ### 1
-Teleosofi betyr visdom om målrettethet. Den handler om mennesket som et vesen som er rettet mot noe. Å være rettet mot noe er ikke en egenskap som ligger lagret inne i mennesket; det er formen på det å være, slik det virkeliggjøres i det man gjør.
+Teleosofi er satt sammen av de greske ordene *telos*, mål, og *sofia*, visdom: visdom om målrettethet. Den handler om mennesket som et vesen som er rettet mot noe – noe vi vil, søker eller forsøker å nå. Å være rettet mot noe er ikke en egenskap som ligger lagret inne i mennesket, slik en ting kan ha en farge; det er formen på det å være, slik det virkeliggjøres i det man gjør.
 
-Forutsetningene for kunnskap fra Del I er grunnlaget teleosofien bygger på. Teleosofien handler om det som er særegent menneskelig – og rekker likevel over alt vi har tilgang til, fordi ingen undersøkelse kan tre ut av det ståstedet der mennesker vet og handler.
+Del I handlet om forutsetningene for all kunnskap. Det er grunnlaget teleosofien bygger på. Teleosofien handler om det som er særegent menneskelig – og rekker likevel over alt vi har tilgang til, fordi ingen undersøkelse kan tre ut av det ståstedet der mennesker vet og handler.
 
 ### 2
 Teleosofi betyr visdom om målrettethet. Objektet er mennesket som målrettet væren. Målrettethet er ikke en egenskap lagret i en menneskelig substans, men formen til aktualisert væren-i-handling – å være som noe man gjør.
@@ -102,7 +110,9 @@ Meta-epistemologien er den bredere grunnen og gir teleosofien dens fundament. Te
 ## i-am
 
 ### 1
-Dette er det å være, virkeliggjort som jeg – faktumet alt annet her vendes mot. Det er væren uten noe mer lagt til: stedet der den som vet og det som vites er ett og det samme. Det finnes ikke ved å måle utenfra, og det kan ikke tas feil av slik en påstand om at noe finnes kan.
+Alt annet på denne siden vendes mot ett faktum: *jeg er*. Det er det å være, slik du har det innenfra – ikke noe du har lest deg til eller målt. Ingenting er lagt til, ikke engang hva du er: bare at du er. Her er den som vet og det som vites ett og det samme.
+
+Det finnes ikke ved å måle utenfra, slik vi måler temperatur eller vekt. Og det kan ikke tas feil av slik en påstand om at noe finnes kan: du kan ta feil om at noe er der, men ikke om at du er.
 
 ### 2
 Væren aktualisert i første person – faktumet instrumentet vendes mot. Det er væren uten videre predikat: punktet der den som vet og det som vites, sammenfaller i én akt. Det etableres ikke gjennom tredjepersonsmåling, og det kan ikke tas feil av slik en påstand om at en X eksisterer kan.
@@ -112,11 +122,11 @@ Væren aktualisert i første person – faktumet instrumentet vendes mot. Det er
 ### 1
 > Ontologi er læren om å være – å være som virkeliggjøring av forbindelse, ikke en skjult ting bak det vi ser.
 
-Dette forkaster ikke læren om å være. Det som faller, er tanken om skjulte, ferdige ting som grunnlag. Læren om å være får tilbake sin bokstavelige oppgave: mennesket som er. Det vi har direkte tilgang til, innenfra, er ikke et tenkt underlag, men *jeg er*.
+Ontologi er den delen av filosofien som spør hva det vil si å være. Svaret har ofte vært skjulte, ferdige ting – substanser – bak det vi ser. Det som faller her, er den tanken som grunnlag, ikke selve spørsmålet om å være. Læren om å være får tilbake sin bokstavelige oppgave: mennesket som er. Det vi har direkte tilgang til, innenfra, er ikke et tenkt underlag, men *jeg er*.
 
 Spørsmålet blir da hva som følger av å være virkeliggjort gjennom forbindelser – ikke hvilken skjult ting som må ligge bak. Derfor kan rammeverket si, uten forbehold: menneskelig væren er å være rettet mot noe. Ikke at det ser slik ut eller føles slik, men at det gjelder selve det å være.
 
-Å være og å eksistere er ikke det samme. *Jeg er* er virkeliggjøring innenfra, uten noe lagt til. «X eksisterer» er en påstand gjort ved å skille, og en slik påstand kan ta feil på en måte *jeg er* ikke kan.
+Å være og å eksistere er ikke det samme. *Jeg er* er virkeliggjøring innenfra, uten noe lagt til. «X eksisterer» er en påstand gjort ved å skille noe ut, og en slik påstand kan ta feil på en måte *jeg er* ikke kan.
 
 ### 2
 > Ontologi er studiet av væren – væren som relasjonell aktualitet, ikke en skjult substans bak fenomenene.
@@ -130,11 +140,11 @@ Væren og eksistens er ikke det samme. *Jeg er* er aktualisering i første perso
 ## human-form
 
 ### 1
-Det å være, slik et menneske har tilgang til det innenfra, kan sies med uttrykket over. Det er tett, så her er det pakket ut:
+Overskriften er en presis, men tett beskrivelse av hva som er særegent ved å være menneske, sett innenfra. Her er den pakket ut, ord for ord:
 
 **Narrativt formidlet** – vi kjenner oss igjen gjennom språk, og *jeg er* er allerede en forståelse av egen virkelighet gjennom språk. Det betyr her at et nå kan holdes sammen med et da – ikke fortellerkunst eller selvbiografi.
 
-**Metakognitiv** – i *jeg er* blir det å vite sitt eget objekt: jeg vet at jeg er.
+**Metakognitiv** – kognisjon er det å vite og erkjenne; «meta» betyr at det vendes mot seg selv. I *jeg er* blir det å vite sitt eget objekt: jeg vet at jeg er.
 
 **Selvbevissthet** – formen er jeg-form. Ikke bare at noe er, men *jeg er*.
 
@@ -154,7 +164,7 @@ Væren, slik den er tilgjengelig i menneskets første person, er narrativt formi
 ## sum-cogito-ago
 
 ### 1
-*Jeg er*, *jeg tenker* og *jeg handler* er tre måter å se én og samme virkeliggjøring på – ikke tre trinn, lag, deler eller årsaker. Å tenke forutsetter allerede et jeg, og å tenke er allerede noe man gjør. Sett innenfra er det å være, det å tenke og det å handle ett: tre sider vi kan skille i analysen, av én akt.
+*Sum*, *Cogito* og *Ago* er latin for *jeg er*, *jeg tenker* og *jeg handler*. De er tre måter å se én og samme virkeliggjøring på – ikke tre trinn, lag, deler eller årsaker. Å tenke forutsetter allerede et jeg, og å tenke er allerede noe man gjør. Sett innenfra er det å være, det å tenke og det å handle ett: tre sider av én akt, som vi kan skille fra hverandre i analysen.
 
 Tidligere ble dette formulert *Sum et Cogito, ergo Ago* – «jeg er og jeg tenker, derfor handler jeg». Men «derfor» gir inntrykk av at det ene kommer først og forårsaker det andre. Den modne formen fjerner pilen.
 
@@ -166,7 +176,9 @@ Den tidligere formuleringen *Sum et Cogito, ergo Ago* var produktiv, men ikke pr
 ## purposeful-being
 
 ### 1
-Å forstå egen virkelighet gjennom språk og det å ha et mål er ikke to forskjellige mekanismer. Språket er det som gjør det mulig å være rettet mot noe: situasjonen nå kan holdes sammen med et mål som ennå ikke er virkeliggjort – og det målet styrer det vi gjør nå. Konkrete mål er deler vi skiller ut av denne større målrettetheten.
+Å ha et mål forutsetter at vi kan holde fast ved noe som ennå ikke er der. Det er språket som gjør det mulig: gjennom ord kan situasjonen nå holdes sammen med et mål som ennå ikke er virkeliggjort – og det målet styrer det vi gjør nå.
+
+Derfor er det å forstå egen virkelighet gjennom språk og det å ha et mål ikke to forskjellige mekanismer, men én. De konkrete målene vi setter oss, er deler vi skiller ut av denne større målrettetheten.
 
 ### 2
 Narrativ struktur og telos er ikke to mekanismer. Narrativ struktur gjør rettethet mulig: en situasjon nå kan holdes i relasjon til et mål som ennå ikke er aktualisert, og dette målet regulerer atferden nå. Konkrete mål er analytiske diskretiseringer innenfor den bredere teleologiske strukturen.
@@ -174,13 +186,13 @@ Narrativ struktur og telos er ikke to mekanismer. Narrativ struktur gjør rettet
 ## persons
 
 ### 1
-> Tre måter å se på, ikke tre adskilte verdener. Jeg og du er den som erfarer; det som sees utenfra er det som erfares – i skillet mellom selv og ikke-selv.
+> I grammatikken skiller vi mellom første person (jeg), andre person (du) og tredje person (han, hun, den, det). Her er de tre måter å se på, ikke tre adskilte verdener. Jeg og du er den som erfarer; det som sees utenfra er det som erfares.
 
 **Jeg** – virkeliggjøring innenfra: *jeg er*, *jeg tenker*, *jeg handler*.
 
 **Du – den andre jeg** – slik en annen møtes som du: en motpart, en som erfarer. Det er utledet fra mitt eget jeg, og er ikke et bevis for et skjult indre i den andre. Her gjelder den grunnleggende innsikten om handling: *jeg handler* – *du handler*.
 
-**Sett utenfra – ingen jeg** – beskrivelse der jeg-ståstedet er tatt bort, slik at beskrivelser kan gjøres faste og sammenlignes av flere. Det er ikke feil å se bort fra jeg-et; feilen er å tro at beskrivelsen utenfra kommer før det den ser bort fra.
+**Sett utenfra – ingen jeg** – beskrivelse der jeg-ståstedet er tatt bort, slik at beskrivelser kan gjøres faste og sammenlignes av flere. Slik arbeider vitenskapen. Det er ikke feil å se bort fra jeg-et; feilen er å tro at beskrivelsen utenfra kommer før det den ser bort fra.
 
 Noe kan fungere som «den andre jeg» i en forbindelse uten at det dermed er vist å være et jeg, eller noe som handler mot mål.
 
@@ -222,9 +234,9 @@ Oppgaven er å skille nyttig, beskrivende bruk fra det å la grammatikken gjøre
 ### 1
 > *Jeg handler*, gjenkjent i en annen: *du handler*.
 
-Jeg har direkte tilgang til at *jeg handler*. Når jeg møter en annen som du, blir *du handler* tilgjengelig – og den grunnleggende innsikten om handling setter ord på dette. Den som for alvor benekter det, handler selv mot et mål.
+Hva skiller en handling fra en bevegelse? Ikke det vi kan se, men at den er styrt av et mål. Jeg har direkte tilgang til at *jeg handler*. Når jeg møter en annen som du, blir *du handler* tilgjengelig – og den grunnleggende innsikten om handling setter ord på dette. Den som for alvor benekter det, handler selv mot et mål.
 
-Handling er atferd styrt av et mål. Det handler ikke om synlig bevegelse: å tenke, velge, planlegge, veie en innvending eller holde et mål opp mot situasjonen er også handling. Det motsatte av handling er ikke ufornuftig handling, men atferd som bare reagerer eller tilpasser seg, uten et mål.
+Å tenke, velge, planlegge, veie en innvending eller holde et mål opp mot situasjonen er derfor også handling. Det motsatte av handling er ikke ufornuftig handling, men atferd som bare reagerer eller tilpasser seg, uten et mål.
 
 Å lage teori er også målrettet handling: man skiller, forbinder, setter ord på, prøver ut følger, svarer på innvendinger og søker en konklusjon. Teori om handling er derfor allerede et eksempel på det den handler om.
 
@@ -244,9 +256,9 @@ Verdi konstitueres ved subjektpolen: å verdsette er en relasjon aktualisert av 
 ## social
 
 ### 1
-Samfunn bygger på at vi gjenkjenner hverandre som «den andre jeg», gjennom felles måter å forstå virkeligheten på gjennom språk. Det gjør det mulig å snakke sammen og samarbeide i stor skala. Penger, institusjoner, roller, lover og normer gir mening fordi slike forståelser er tilstrekkelig felles. Det betyr ikke at samfunnet er oppdiktet – det viser hva som gjør noe til et samfunnsfenomen i det hele tatt.
+Samfunn bygger på at vi gjenkjenner hverandre som «den andre jeg», gjennom felles måter å forstå virkeligheten på gjennom språk. Det gjør det mulig å snakke sammen og samarbeide i stor skala. En pengeseddel er papir, men den fungerer som penger fordi vi deler en forståelse av hva den er. Slik gir også institusjoner, roller, lover og normer mening. Det betyr ikke at samfunnet er oppdiktet – det viser hva som gjør noe til et samfunnsfenomen i det hele tatt.
 
-Når vi gjenkjenner en annen som et jeg, åpner det også for etikk: den andre kan møtes som en som erfarer, med egne mål som betyr noe – eller behandles bare som et middel for egne mål.
+Når vi gjenkjenner en annen som et jeg, åpner det også for etikk – spørsmålet om hvordan vi bør behandle hverandre. Den andre kan møtes som en som erfarer, med egne mål som betyr noe, eller behandles bare som et middel for egne mål.
 
 ### 2
 Samfunn og sivilisasjon hviler på gjensidig gjenkjennelse av Alter Ego gjennom konvergerende narrative strukturer – felles forståelse som gjør kommunikasjon og koordinering i stor skala mulig. Penger, institusjoner, roller, rettslige kategorier og normer blir forståelige innenfor slike felles meningsstrukturer. Dette betyr ikke at samfunnet er en fiksjon; det viser den formelle betingelsen som gjør noe tilgjengelig som sosialt fenomen.
