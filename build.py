@@ -50,7 +50,7 @@ HITS = []
 
 def highlight(container, lang):
     form = re.compile("|".join(f"(?:{p})" for p in FORM[lang]))
-    term = re.compile("|".join(f"(?:{p})" for p in TERMS[lang]) + r"|\bEgo\b", re.I)
+    term = re.compile(r"(?<!\w)(?:" + "|".join(f"(?:{p})" for p in TERMS[lang]) + r"|\bEgo\b)", re.I)
     seen = {}
     for node in list(container.find_all(string=True)):
         if not node.strip() or node.find_parent(["h2", "h3", "script"]) or node.find_parent(class_=["f", "t", "chain", "card-k"]):
@@ -123,11 +123,18 @@ S = [
       label=T("The analytical instrument · the continuity axiom", "Det analytiske instrumentet · kontinuitetsaksiomet"),
       head=T("Distinction is relation.", "Distinksjon er relasjon."),
       lead=T("To distinguish is already to relate.", "Å skille er allerede å relatere."),
-      body=[("card", 0)]),
+      body=[("card", 0),
+            ("html", T("<p><em>Distinction is relation</em> is a binocular tautology: two expressions articulating one act from different semantic directions. It is apodictic because there is no external coincidence to verify, and productive because <em>distinction</em> and <em>relation</em> carry different conceptual implications even though they name one operation.</p>",
+                       "<p><em>Distinksjon er relasjon</em> er en binokulær tautologi: to uttrykk som artikulerer én akt fra ulike semantiske retninger. Den er apodiktisk fordi det ikke finnes noe ytre sammenfall å verifisere, og produktiv fordi <em>distinksjon</em> og <em>relasjon</em> bærer ulike begrepslige implikasjoner selv om de navngir én operasjon.</p>"))]),
  dict(id="discretization", part=1, rail=T("Discretization and substantialism", "Diskretisering og substansialisme"),
       label=T("Discretization, continuity, substantialism", "Diskretisering, kontinuitet, substansialisme"),
       head="strong:foundation:6:-1", small=True,
-      body=[("src", "foundation", 5), ("src", "foundation", 6), ("comp", "chain"),
+      body=[("src", "foundation", 5),
+            ("html", T("<p>Perception distinguishes relationally. Conception takes relational distinctions together into objects that can be stabilized, named and manipulated through internalized language. Perception and conception are not two metaphysical substances, layers or chronological stages, but analytical perspectives on cognitive structuring. Direct perceptual distinction does not require an explicit verbal narrative first; human conceptual recognition and metacognitive self-awareness are narratively mediated.</p>"
+                       "<p>Knowing is therefore not passive reception of ready-made objects. This does not mean that external reality is invented by the knower. It means that whatever becomes available as an object of knowledge is available through the relational distinctions by which it is articulated.</p>",
+                       "<p>Persepsjon skiller relasjonelt. Konsepsjon tar relasjonelle distinksjoner sammen til objekter som kan stabiliseres, navngis og håndteres gjennom internalisert språk. Persepsjon og konsepsjon er ikke to metafysiske substanser, lag eller kronologiske stadier, men analytiske perspektiver på kognitiv strukturering. Direkte perseptuell distinksjon krever ikke først en eksplisitt verbal narrativ; menneskelig begrepslig gjenkjennelse og metakognitiv selvbevissthet er narrativt formidlet.</p>"
+                       "<p>Å vite er derfor ikke passiv mottakelse av ferdige objekter. Det betyr ikke at den ytre virkeligheten er oppfunnet av den som vet. Det betyr at det som blir tilgjengelig som kunnskapsobjekt, er tilgjengelig gjennom de relasjonelle distinksjonene det artikuleres gjennom.</p>")),
+            ("src", "foundation", 6), ("comp", "chain"),
             ("src", "foundation", 8), ("src", "foundation", 9)]),
  dict(id="objectivity", part=1, rail=T("Objectivity", "Objektivitet"),
       label=T("Objectivity", "Objektivitet"),
@@ -138,7 +145,9 @@ S = [
  dict(id="teleosophy", part=2, chapter="II", rail=T("Teleosophy", "Teleosofi"),
       title=T("Teleosophy", "Teleosofi"), sub=T("Wisdom of purposefulness", "Visdom om målrettethet"),
       head=T("The analytical instrument turned toward the fact: I am.", "Det analytiske instrumentet vendt mot faktumet: jeg er."),
-      body=[("src", "teleosophy", 2), ("src", "teleosophy", 6)]),
+      body=[("src", "teleosophy", 2), ("src", "teleosophy", 6),
+            ("html", T("<p>The instrument is turned toward I am because it is the directly available first-person fact: the point at which knower and known coincide in one act.</p>",
+                       "<p>Instrumentet vendes mot jeg er fordi det er det direkte tilgjengelige førstepersonsfaktumet: punktet der den som vet og det som vites, sammenfaller i én akt.</p>"))]),
  dict(id="i-am", part=2, rail=T("I am", "Jeg er"),
       label=T("The fact · the being axiom", "Faktumet · værensaksiomet"),
       head=T("I am.", "Jeg er."),
@@ -177,15 +186,19 @@ S = [
  dict(id="borrowed-language", part=2, rail=T("Ontonomy, noonomy, teleonomy", "Ontonomi, noonomi, teleonomi"),
       label=T("Genuine and borrowed language", "Genuint og lånt språk"),
       head=T("Ontonomy. Noonomy. Teleonomy.", "Ontonomi. Noonomi. Teleonomi."),
-      body=[("src", "teleosophy", 17), ("comp", "onomies"),
+      body=[("html", T("<p>Where being-, meaning- and purpose-language is carried over into third-person description, the framework marks the borrowing. <strong>Ontonomy</strong> is the borrowing of I am: the stabilizing use of being and identity categories. It must not be confused with ontology, which concerns being as relational actuality. <strong>Noonomy</strong> is the borrowing of I think: meaning-, information-, representation-, memory- or knowledge-language applied in third-person description, where the meaning becomes available through an interpreting subject. <strong>Teleonomy</strong> is the borrowing of I act: purpose-language applied to organized behaviour, function or process. Such borrowing is always indispensable and is not in itself an error. The error is reading the borrowed language as though the description itself established first-person being, actualized meaning or a telos where none has been analytically established.</p>",
+                       "<p>Der væren-, menings- og formålsspråk føres over i tredjepersonsbeskrivelse, markerer rammeverket lånet. <strong>Ontonomi</strong> er lån av jeg er: stabiliserende bruk av værens- og identitetskategorier. Det må ikke forveksles med ontologi, som gjelder væren som relasjonell aktualitet. <strong>Noonomi</strong> er lån av jeg tenker: menings-, informasjons-, representasjons-, minne- og kunnskapsspråk anvendt i tredjepersonsbeskrivelse, der meningen blir tilgjengelig gjennom et fortolkende subjekt. <strong>Teleonomi</strong> er lån av jeg handler: formålsspråk anvendt på organisert atferd, funksjon eller prosess. Slike lån er alltid uunnværlige, og er ikke i seg selv en feil. Feilen er å lese det lånte språket som om beskrivelsen selv etablerte førstepersons væren, aktualisert mening eller et telos der intet er analytisk etablert.</p>")),
+            ("comp", "onomies"),
             ("html", T("<p>Borrowing is always indispensable. The analytical task is to distinguish functional descriptive use from grammatical reification.</p>",
                        "<p>Lån er alltid uunnværlig. Den analytiske oppgaven er å skille funksjonell beskrivende bruk fra grammatisk tingliggjøring.</p>"))]),
  dict(id="action", part=2, rail=T("The action axiom", "Handlingsaksiomet"),
       label=T("The action axiom", "Handlingsaksiomet"),
-      head=T("Human action is purposeful behavior.", "Menneskelig handling er målrettet adferd."),
+      head=T("Human action is purposeful behavior.", "Menneskelig handling er målrettet atferd."),
       lead=T("Ago recognized in the second person.", "Ago gjenkjent i andre person."),
       body=[("card", 3), ("src", "teleosophy", 8), ("src", "teleosophy", 9)],
-      more=[("src", "teleosophy", 10), ("src", "teleosophy", 11), ("src", "teleosophy", 12), ("src", "teleosophy", 13)]),
+      more=[("src", "teleosophy", 10), ("src", "teleosophy", 11), ("src", "teleosophy", 12),
+            ("html", T("<p>Action is necessarily rational in its form: to act is already to employ means relative to an end, as understood by the actor. <strong>Ends are neither rational nor irrational.</strong> Rationality belongs to the form of action. Efficacy belongs to the relation between concrete ends and means: whether the chosen means actually achieve the end.</p>",
+                       "<p>Handling er nødvendigvis rasjonell i formen: å handle er allerede å anvende midler relativt til et mål, slik aktøren forstår det. <strong>Mål er verken rasjonelle eller irrasjonelle.</strong> Rasjonaliteten hører til handlingens form. Effektiviteten hører til forholdet mellom konkrete mål og midler: hvorvidt de valgte midlene faktisk oppnår målet.</p>"))]),
  dict(id="social", part=2, rail=T("Social reality", "Sosial virkelighet"),
       label=T("Social reality", "Sosial virkelighet"),
       head=T("Converging narrative structures.", "Konvergerende narrative strukturer."),
@@ -276,9 +289,16 @@ def kids(sec):
 # third person the object pole, of the relational distinction self/non-self.
 FIXES = {
  "en": [("abstracts from the first-person pole", "abstracts away the first-person perspective"),
-        ("Such borrowing is often", "Such borrowing is always")],
+        ("Such borrowing is often", "Such borrowing is always"),
+        ("When a formal system is used to model an external phenomenon, however, its axioms approximate that referent and its application loses apodictic validity. Meta-epistemology is different: it applies formal analysis",
+         "Applied formal insight takes two forms, depending on whether the referent is external or internal. When a formal system is used to model an external phenomenon, its axioms approximate that referent, and the application becomes conditional: it loses apodictic validity. Meta-epistemology, by contrast, applies formal analysis")],
  "no": [("abstraherer fra førstepersonspolen", "abstraherer bort førstepersonsperspektivet"),
-        ("Slike lån er ofte uunnværlige", "Slike lån er alltid uunnværlige")],
+        ("Slike lån er ofte uunnværlige", "Slike lån er alltid uunnværlige"),
+        ("Ingen ny empirisk innhold tilføres", "Intet nytt empirisk innhold tilføres"),
+        ("Når et formelt system brukes til å modellere et eksternt fenomen, imidlertid, approximerer dets aksiomer den referenten, og anvendelsen mister apodiktisk gyldighet. Meta-epistemologien er annerledes: den anvender formell analyse",
+         "Anvendt formell innsikt har to former, avhengig av om referenten er ekstern eller intern. Når et formelt system brukes til å modellere et eksternt fenomen, approksimerer aksiomene referenten, og anvendelsen blir betinget: den mister apodiktisk gyldighet. Meta-epistemologien anvender derimot formell analyse"),
+        ("approximeres", "approksimeres"),
+        ("er det grensebegrepet", "er grensebegrepet")],
 }
 
 
@@ -290,7 +310,7 @@ def clean(el, lang):
     for s in el.find_all(string=True):
         t = str(s)
         for x, y in FIXES[lang]:
-            t = t.replace(x, y)
+            t = re.sub(r"\s+".join(re.escape(w) for w in x.split()), y, t)
         if t != str(s):
             s.replace_with(t)
     for t in [el] + el.find_all(True):

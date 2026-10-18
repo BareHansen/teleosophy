@@ -51,12 +51,16 @@ All thinking begins with telling something apart from something else. But when y
 
 The two sides do not first exist as finished things that are then linked; they become sides through the distinction that connects them. "Above" makes no sense without "below".
 
+The sentence "to tell apart is to connect" thus says the same thing twice, seen from two sides – rather like two eyes seeing the same thing and together giving depth. That is why it cannot be wrong: there is nothing outside it that has to match. And still it is useful, because "telling apart" and "connecting" lead our thinking in different directions.
+
 This is a point about how we think and know, and that is why it is the framework's basic tool. It is not a claim that only connections exist. Connection must not be turned into a new "thing".
 
 ### 2
 > To distinguish is already to relate.
 
 This is the analytical instrument the framework uses throughout. A distinction – telling something apart from something else – is at the same time a relation: it connects the two sides it separates. A distinction that related nothing would distinguish nothing.
+
+*Distinction is relation* is therefore a binocular tautology: two expressions for one and the same act, seen from different semantic directions – as two eyes see the same thing and give depth. It is apodictic, necessarily true, because there is no external coincidence to check. And it is productive, because *distinction* and *relation* lead thought in different directions even though they name one operation.
 
 This means that the two poles of a distinction do not first exist as finished things that are connected afterwards. They become available as poles through the distinguishing relation itself.
 
@@ -67,6 +71,8 @@ The point is analytical – it concerns how anything becomes available to though
 ### 1
 To think, we must tell apart. Making something thinkable means dividing it into bounded parts: drawing a boundary, or giving something an identity stable enough to think with. That is necessary, and telling apart is not the mistake. The mistake is forgetting that the boundary was drawn, and believing it existed by itself.
 
+Already when we sense, we tell apart – sound from silence, light from shadow. When we form concepts, we gather such distinctions into things we can hold on to, name and think with by means of language. These are not two steps or two layers, but two sides of the same work. Knowing is therefore not receiving finished things. That does not mean we invent the world, but that everything we can know about becomes available through the distinctions we make.
+
 Because a distinction always connects its sides, the distinction alone can never create a complete break between them. The gap belongs to the distinction, not to the things in themselves. This says nothing about mathematics or about what physics will find; it says something about what a distinction is.
 
 [kjede]
@@ -75,6 +81,8 @@ Language makes things fixed. It begins with something we do: we single something
 
 ### 2
 Thinking requires distinctions. To make something conceptually available is to discretize: to divide it into bounded units – to draw a boundary or give something an identity stable enough to think with. This is indispensable, and the distinction is not the error. The error is forgetting that the boundary is the result of an operation, and reading it as independent and fundamental.
+
+Perception – sensing – distinguishes relationally. Conception – concept formation – takes such distinctions together into objects that can be stabilized, named and handled through language. These are not two layers or stages, but two perspectives on how cognition structures. Knowledge is therefore actively structured, not passive reception of ready-made objects. This does not mean reality is invented, but that whatever becomes available as an object of knowledge does so through the distinctions by which it is articulated.
 
 Continuity follows from this. Because a distinction already relates its poles, it cannot by itself establish an absolute break between them. The gap belongs to the distinction, not to what is distinguished. This is not mathematical continuity, not a hidden substrate beneath the distinctions, and no claim about what physics must find – it follows from what a distinction is.
 
@@ -87,7 +95,7 @@ Language stabilizes. An operation is named, the concept settles and begins to lo
 ### 1
 Being objective usually means seeing things as they are, regardless of who is looking. But objectivity comes in three forms, and they are very different.
 
-**Formal** objectivity is perfect. It belongs to pure logic and mathematics: the conclusion is already in the starting point, and analysis only makes it visible. When logic is used to describe something outside us, this perfect certainty is lost, because the description can only come close to what it describes. But when we examine what already lies in our own thinking and acting, it is kept – because in *I am*, the one who knows and what is known are one and the same.
+**Formal** objectivity is perfect. It belongs to pure logic and mathematics: the conclusion is already in the starting point, and analysis only makes it visible. When such insight is applied to something, there are two cases. Used to describe something outside us, the description can only come close to what it describes, and the certainty becomes conditional. Applied to what already lies in our own thinking and acting, the perfect certainty is kept – because in *I am*, the one who knows and what is known are one and the same.
 
 **Experiential** objectivity is conditional. It belongs to knowledge of the world around us – what the natural sciences investigate – and depends on the concepts we meet the world with. That is why it must be checkable by others, through observation and repetition.
 
@@ -96,7 +104,7 @@ Being objective usually means seeing things as they are, regardless of who is lo
 ### 2
 Objectivity means knowledge that does not depend on an individual point of view. But it comes in three modes – three forms of very different standing.
 
-**Formal**, perfect objectivity belongs to analytic knowledge, such as logic and mathematics: the conclusions already lie in the premises, and analysis only makes explicit what was there. When a formal system is used to model something external, the application loses this certainty, because the model only approximates what it describes. Meta-epistemology is different: it analyses what already lies in the thinking and acting through which the analysis itself is actualized. In first-person certainty – *I am* – knower and known coincide in the same act. There is nothing external to approximate, so validity is preserved.
+**Formal**, perfect objectivity belongs to analytic knowledge, such as logic and mathematics: the conclusions already lie in the premises, and analysis only makes explicit what was there. Applied formal insight takes two forms, depending on whether the referent – what the analysis concerns – is external or internal. If the referent is external, as when a formal system models a phenomenon, the model only approximates what it describes, and the application becomes conditional. If the referent is internal – what already lies in the thinking and acting through which the analysis itself is actualized – the application is apodictic, necessarily valid. That is the case of meta-epistemology: in first-person certainty – *I am* – knower and known coincide in the same act.
 
 **Empirical**, contingent objectivity belongs to knowledge of external phenomena. It is conditioned by the concepts and categories we meet phenomena with, and must therefore be intersubjectively verifiable – checkable by others through observation and repetition.
 
@@ -107,12 +115,12 @@ Objectivity means knowledge that does not depend on an individual point of view.
 ### 1
 Teleosophy is made of the Greek words *telos*, aim, and *sophia*, wisdom: wisdom about purposefulness. It is about the human being as a being directed toward something – something we want, seek or try to reach. Being directed toward something is not a property stored inside a person, the way a thing can have a colour; it is the form of being, as it is made real in what one does.
 
-Part I was about the preconditions of all knowledge. That is the ground teleosophy builds on. Teleosophy is about what is distinctly human – and still reaches everything available to us, because no inquiry can step outside the standpoint where human beings know and act.
+Part I was about the preconditions of all knowledge. That is the ground teleosophy builds on. Now the same tool is turned toward *I am* – the place where the one who knows and what is known are one and the same. Teleosophy is about what is distinctly human – and still reaches everything available to us, because no inquiry can step outside the standpoint where human beings know and act.
 
 ### 2
 Teleosophy – from Greek *telos*, aim – means wisdom about purposefulness. Its object is the human being as purposeful being: a being directed toward aims. Purposefulness is not a property stored in a human substance, but the form of actualized being-in-action – being as something one does.
 
-The meta-epistemology of Part I is the broader ground and gives teleosophy its foundation. Teleosophy is narrow in object – what is distinctly human – yet reaches everything available to us. The reason is that no inquiry can step outside the perspective in which human knowing and acting are actualized.
+The meta-epistemology of Part I is the broader ground and gives teleosophy its foundation. The instrument is now turned toward *I am*, because it is the directly available first-person fact: the point at which knower and known coincide in one act. Teleosophy is narrow in object – what is distinctly human – yet reaches everything available to us. The reason is that no inquiry can step outside the perspective in which human knowing and acting are actualized.
 
 ## i-am
 
@@ -234,7 +242,7 @@ The task is to tell a useful borrowing apart from letting grammar turn the borro
 ### 2
 When we describe the world in the third person, we always borrow the language of being, meaning and action. *The electron is in superposition. The computer processes information. Natural selection selects the fittest.* None of these descriptions is about an I, but all use words that originate there.
 
-The framework names the borrowings: **ontonomy** borrows "I am" to stabilize identity, **noonomy** borrows "I think" to understand processing and computation, and **teleonomy** borrows "I act" to understand function. These borrowings are always indispensable and not errors in themselves. The error is reading the borrowed language as though the description itself established being, meaning or aims as they are actualized in the first person.
+The framework names the borrowings: **ontonomy** borrows "I am" to stabilize identity, **noonomy** borrows "I think" to understand processing and computation, and **teleonomy** borrows "I act" to understand function. Ontonomy must not be confused with ontology, which studies being itself. And in a noonomic description, the meaning becomes available through an interpreting subject. These borrowings are always indispensable and not errors in themselves. The error is reading the borrowed language as though the description itself established being, meaning or aims as they are actualized in the first person.
 
 [tabell]
 
@@ -251,7 +259,7 @@ Thinking, choosing, planning, weighing an objection or holding an aim up against
 
 Making theory is also purposeful action: one tells apart, connects, puts into words, tests consequences, answers objections and seeks a conclusion. A theory of action is therefore already an example of what it is about.
 
-Value arises with the one who experiences: valuing is a connection made real by a being directed toward something. Action is rational in form because action is connecting means to an aim. Aims themselves are neither rational nor irrational; whether the means actually reach the aim is a question of the ability to have an effect.
+Value arises with the one who experiences: valuing is a connection made real by a being directed toward something. Action is always rational in form, because to act is to use means to reach an aim as the one acting understands it. Aims themselves are neither rational nor irrational. Whether the chosen means actually reach the aim is a different question: it concerns the ability to have an effect.
 
 ### 2
 > *Ago* recognized in the second person: *I act* – *you act*.
@@ -262,7 +270,7 @@ Action is behaviour regulated by telos – an aim. Observable movement is theref
 
 Theorizing is itself purposeful activity: a theorist distinguishes, relates, conceptualizes, tests implications and seeks a conclusion. A theory of action is thus already an instance of the practice it analyses – theory of practice through practised theorizing.
 
-Value is constituted at the subject pole: valuing is a relation actualized by a purposeful being. That values are subjective is itself an objective fact. Action is rational in form because it relates means to an aim; aims themselves are neither rational nor irrational. Whether the means actually achieve the aim is a question of efficacy.
+Value is constituted at the subject pole: valuing is a relation actualized by a purposeful being. That values are subjective is itself an objective fact. Action is necessarily rational in form, because to act is to employ means relative to an aim as understood by the actor. Aims themselves are neither rational nor irrational. Rationality thus belongs to the form; efficacy belongs to the relation between concrete ends and means – whether the means actually achieve the aim.
 
 ## social
 

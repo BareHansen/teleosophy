@@ -36,6 +36,14 @@ This is not a rejection of ontology.
 
 It is a recovery of ontology from speculative metaphysics.
 
+# Language decided by the founder
+
+- English: *purposeful*, never *purposive*. Norwegian: *målrettet*, never *formålsrettet*.
+- *Ego*, *Alter Ego*, *No Ego* (NO: *Ingen Ego*) are capitalized.
+- Third person *abstracts away the first-person perspective* (NO: *abstraherer bort førstepersonsperspektivet*).
+- Borrowing (ontonomy, noonomy, teleonomy) is *always* indispensable.
+- Reading levels and the simple vocabulary: see `ORDLISTE.md`.
+
 # Ontology recovered: the study of being
 
 Ontology is the study of being.
@@ -58,11 +66,11 @@ The framework can therefore make genuine ontological claims without reverting to
 
 Most importantly:
 
-> **Human being is purposive being.**
+> **Human being is purposeful being.**
 
 This is intended in the full ontological sense.
 
-Purposiveness is not a property stored inside a human substance. It is the form of being actualized through narratively mediated metacognitive self-awareness.
+Purposefulness is not a property stored inside a human substance. It is the form of being actualized through narratively mediated metacognitive self-awareness.
 
 # The analytical instrument: distinction is relation
 
@@ -175,19 +183,19 @@ The mature form removes the arrow:
 
 From the human first-person perspective, being is thinking is acting: analytically distinguishable dimensions of one actualization.
 
-# Human being is purposive being
+# Human being is purposeful being
 
-Teleosophy means **wisdom about purposiveness**.
+Teleosophy means **wisdom about purposefulness**.
 
-Its central object is the human being as purposive being.
+Its central object is the human being as purposeful being.
 
 This is an ontological statement in the full sense intended by the framework.
 
-Human being, as actualized through narratively mediated metacognitive self-awareness, **is purposive**.
+Human being, as actualized through narratively mediated metacognitive self-awareness, **is purposeful**.
 
 This is not metaphysical substance ontology.
 
-Purposiveness is not a hidden property contained in a human substance.
+Purposefulness is not a hidden property contained in a human substance.
 
 It is the form of actualized being-in-action.
 
@@ -263,7 +271,7 @@ It means that whatever becomes available **as an object of knowledge** is availa
 
 **Ego — first person:** direct actualization: *I am. I think. I act.*
 
-**Alter ego — second person:** the relational category under which another is met as **you**, a counterpart or subject pole.
+**Alter Ego — second person:** the relational category under which another is met as **you**, a counterpart or subject pole.
 
 Alter ego is derived from Ego. It is not empirical proof of another hidden interior.
 
@@ -271,7 +279,7 @@ The second person makes meaningful interaction possible. This is why the action 
 
 A system may function as an alter ego in a relation without thereby being established as an Ego or teleological agent.
 
-**Third person:** impersonal description abstracts from the first-person pole and enables stable, intersubjectively comparable descriptions.
+**Third person:** impersonal description abstracts away the first-person perspective and enables stable, intersubjectively comparable descriptions. First and second person are the subject pole, third person the object pole, of the relational distinction self/non-self. Third person is **No Ego**.
 
 The mistake is not third-person abstraction. The mistake is forgetting the abstraction and treating it as ontologically prior to first-person actualization.
 
@@ -287,13 +295,13 @@ It identifies the formal condition under which phenomena are available as social
 
 Value is constituted at the subject pole.
 
-To value is a relation actualized by a purposive being.
+To value is a relation actualized by a purposeful being.
 
 The subjectivity of value is itself an objective structural fact and can therefore serve as a starting point for formal analysis.
 
 # Rationality and efficacy
 
-Human action is necessarily rational in its **form**.
+Human action is necessarily rational in its **form**. Rationality belongs to the form; efficacy belongs to the relation between concrete ends and means.
 
 To act already means employing means relative to an end as understood by the actor.
 
@@ -319,7 +327,7 @@ The correction is to retain awareness of the relational operation they stabilize
 
 # Ontonomy
 
-**Ontonomy** marks the projected or stabilizing use of being/identity categories in third-person description.
+**Ontonomy** — the borrowing of *I am* — marks the projected or stabilizing use of being/identity categories in third-person description.
 
 Ontonomy is not necessarily an error.
 
@@ -333,7 +341,7 @@ Ontonomy must not be confused with ontology itself. Ontology, recovered from spe
 
 **Noesis** is meaning/thought actualized.
 
-**Noonomy** marks meaning-, information-, representation-, memory- or knowledge-language applied in third-person description where the meaning becomes available through an interpreting subject.
+**Noonomy** — the borrowing of *I think* — marks meaning-, information-, representation-, memory- or knowledge-language applied in third-person description where the meaning becomes available through an interpreting subject.
 
 Borrowed language can be functionally excellent.
 
@@ -341,9 +349,9 @@ The analytical question is what work the description performs and where meaning 
 
 # Teleology and teleonomy
 
-**Teleology** is purpose actualized: telos in purposive being.
+**Teleology** is purpose actualized: telos in purposeful being.
 
-**Teleonomy** marks purpose-language applied in third-person description to organized behavior, function or process.
+**Teleonomy** — the borrowing of *I act* — marks purpose-language applied in third-person description to organized behavior, function or process.
 
 The use itself is not the error.
 
@@ -351,13 +359,13 @@ The error is reading borrowed purpose-language as establishing a first-person te
 
 # Genuine and borrowed language
 
-Ontonomy, noonomy and teleonomy track projected third-person use corresponding to:
+Ontonomy, noonomy and teleonomy are borrowings of *I am*, *I think* and *I act* respectively, tracking projected third-person use corresponding to:
 
 - being / identity;
 - meaning / thought;
 - purpose / action.
 
-Borrowing is often indispensable.
+Borrowing is always indispensable.
 
 The analytical task is to distinguish functional descriptive use from grammatical reification.
 
@@ -365,9 +373,13 @@ The analytical task is to distinguish functional descriptive use from grammatica
 
 **Formal objectivity:** does the conclusion follow analytically from the premises?
 
+**Applied formal insight** has two forms, depending on whether the referent is external or internal. Applied to an external referent, the axioms approximate the referent and the application is conditional. Applied to an internal referent — what is already implicit in the thinking and acting through which the analysis is actualized, as in meta-epistemology — the application is apodictic.
+
 **Empirical objectivity:** knowledge validated through conceptual framing, observation and intersubjective methods.
 
-**First-person certainty:** *I am* is not established by third-person measurement.
+**First-person certainty:** *I am* is not established by third-person measurement. It is the case of an internal referent: knower and known coincide in one act.
+
+**Ultimate objectivity:** the limiting concept of a perspectiveless perspective; epistemically impossible, because knowledge requires perspective, perspective requires distinction, and distinction is relation.
 
 These modes should not be collapsed.
 
@@ -418,7 +430,7 @@ A broader lineage is visible:
 - **Menger:** value is located in valuation, not as a substance in the good.
 - **Böhm-Bawerk:** temporal valuation is located in the acting subject's relation among alternatives, not in goods as a time-substance.
 - **Mises:** teleology belongs to action, not to things.
-- **Meta-epistemology:** value, temporality, meaning, identity and purposiveness can be analyzed as aspects of actualized being and relational articulation rather than properties hidden inside substances.
+- **Meta-epistemology:** value, temporality, meaning, identity and purposefulness can be analyzed as aspects of actualized being and relational articulation rather than properties hidden inside substances.
 
 # A priori knowledge of being-in-action
 
@@ -428,7 +440,7 @@ The phenomenon is actualized.
 
 But the relevant formal knowledge is not induced from a sample of observed cases.
 
-The act of asking, denying, theorizing, distinguishing or arguing already instantiates purposive being.
+The act of asking, denying, theorizing, distinguishing or arguing already instantiates purposeful being.
 
 The formal structure is therefore available prior to any particular external observation.
 
@@ -484,7 +496,7 @@ Being, thinking and acting as simultaneous perspectives on one actualization.
 
 The distinct human form of being under analysis.
 
-> **Human being is purposive being.**
+> **Human being is purposeful being.**
 
 A fully ontological claim without speculative substance ontology.
 

@@ -50,12 +50,16 @@ All tenkning begynner med å skille noe fra noe annet. Men når du skiller to ti
 
 De to sidene finnes ikke først som ferdige ting som så kobles sammen; de blir sider gjennom skillet som forbinder dem. «Over» gir ingen mening uten «under».
 
+Setningen «å skille er å forbinde» sier altså det samme to ganger, sett fra to sider – omtrent som to øyne som ser samme ting og sammen gir dybde. Derfor kan den ikke være feil: det finnes ikke noe utenfor den som må stemme. Og likevel er den nyttig, fordi «å skille» og «å forbinde» får oss til å tenke i hver sin retning.
+
 Dette er et poeng om hvordan vi tenker og vet, og derfor er det rammeverkets grunnleggende verktøy. Det er ikke en påstand om at bare forbindelser finnes. Forbindelsen må ikke gjøres til en ny «ting».
 
 ### 2
 > Å skille er allerede å relatere.
 
 Dette er det analytiske instrumentet rammeverket bruker overalt. En distinksjon – det å skille noe fra noe annet – er samtidig en relasjon: den forbinder de to sidene den skiller. En distinksjon som ikke relaterte noe, ville ikke skille noe.
+
+*Distinksjon er relasjon* er derfor en binokulær tautologi: to uttrykk for én og samme akt, sett fra hver sin semantiske retning – slik to øyne ser samme ting og gir dybde. Den er apodiktisk, altså nødvendig sann, fordi det ikke finnes noe ytre sammenfall å kontrollere. Og den er produktiv, fordi *distinksjon* og *relasjon* fører tanken i ulike retninger selv om de navngir én operasjon.
 
 Det betyr at de to polene i en distinksjon ikke først finnes som ferdige ting som deretter kobles sammen. De blir tilgjengelige som poler gjennom selve den skillende relasjonen.
 
@@ -66,6 +70,8 @@ Poenget er analytisk – det gjelder hvordan noe i det hele tatt blir tilgjengel
 ### 1
 For å tenke må vi skille. Å gjøre noe tenkbart er å dele det opp i avgrensede deler: å trekke en grense eller gi noe en identitet som er stabil nok til å tenke med. Det er nødvendig, og det er ikke feil å skille. Feilen er å glemme at grensen ble trukket, og tro at den fantes for seg selv.
 
+Allerede når vi sanser, skiller vi – lyd fra stillhet, lys fra skygge. Når vi danner begreper, samler vi slike skiller til ting vi kan holde fast, gi navn og tenke med ved hjelp av språket. Det er ikke to trinn eller to lag, men to sider av samme arbeid. Å vite er altså ikke å ta imot ferdige ting. Det betyr ikke at vi finner opp verden, men at alt vi kan vite noe om, blir tilgjengelig gjennom skillene vi gjør.
+
 Fordi et skille alltid forbinder sidene sine, kan skillet alene aldri skape et fullstendig brudd mellom dem. Mellomrommet hører til skillet, ikke til tingene i seg selv. Dette sier ingenting om matematikk eller om hva fysikken vil finne; det sier noe om hva et skille er.
 
 [kjede]
@@ -74,6 +80,8 @@ Språket gjør ting faste. Det begynner med noe vi gjør: vi skiller noe ut. Så
 
 ### 2
 Tenkning krever distinksjoner. Å gjøre noe begrepslig tilgjengelig er å diskretisere: å dele det opp i avgrensede enheter – å trekke en grense eller gi noe en identitet som er stabil nok til å tenke med. Det er uunnværlig, og distinksjonen er ikke feilen. Feilen er å glemme at grensen er resultatet av en operasjon, og lese den som uavhengig og grunnleggende.
+
+Persepsjon – sansningen – skiller relasjonelt. Konsepsjon – begrepsdannelsen – tar slike distinksjoner sammen til objekter som kan stabiliseres, navngis og håndteres gjennom språk. Det er ikke to lag eller stadier, men to perspektiver på hvordan erkjennelsen strukturerer. Kunnskap er derfor aktivt strukturert, ikke passiv mottakelse av ferdige objekter. Det betyr ikke at virkeligheten er oppfunnet, men at det som blir tilgjengelig som kunnskapsobjekt, blir det gjennom distinksjonene det artikuleres gjennom.
 
 Herfra følger kontinuitet. Fordi en distinksjon allerede relaterer polene sine, kan den alene ikke etablere et absolutt brudd mellom dem. Gapet tilhører distinksjonen, ikke det som skilles. Dette er ikke matematisk kontinuitet, ikke et skjult substrat under distinksjonene og ingen påstand om hva fysikken må finne – det følger av hva en distinksjon er.
 
@@ -86,7 +94,7 @@ Språket stabiliserer. En operasjon får et navn, begrepet setter seg og begynne
 ### 1
 Å være objektiv betyr vanligvis å se ting som de er, uavhengig av hvem som ser. Men objektivitet finnes i tre former, og de er svært forskjellige.
 
-**Formell** objektivitet er fullkommen. Den gjelder ren logikk og matematikk: konklusjonen ligger allerede i utgangspunktet, og analysen gjør den bare synlig. Brukes logikken til å beskrive noe utenfor oss, forsvinner denne fullkomne sikkerheten, fordi beskrivelsen bare kan komme nær det den beskriver. Men når vi undersøker det som allerede ligger i vår egen tenkning og handling, beholdes den – for i *jeg er* er den som vet og det som vites ett og det samme.
+**Formell** objektivitet er fullkommen. Den gjelder ren logikk og matematikk: konklusjonen ligger allerede i utgangspunktet, og analysen gjør den bare synlig. Når slik innsikt brukes på noe, finnes to tilfeller. Brukes den til å beskrive noe utenfor oss, kan beskrivelsen bare komme nær det den beskriver, og sikkerheten blir betinget. Brukes den på det som allerede ligger i vår egen tenkning og handling, beholdes den fullkomne sikkerheten – for i *jeg er* er den som vet og det som vites ett og det samme.
 
 **Erfaringsbasert** objektivitet er betinget. Den gjelder kunnskap om verden rundt oss – det naturvitenskapen undersøker – og avhenger av begrepene vi møter verden med. Derfor må den kunne sjekkes av flere, gjennom observasjon og gjentakelse.
 
@@ -95,7 +103,7 @@ Språket stabiliserer. En operasjon får et navn, begrepet setter seg og begynne
 ### 2
 Objektivitet betyr kunnskap som ikke avhenger av den enkeltes synspunkt. Men den finnes i tre modi – tre former med svært ulik status.
 
-**Formell**, perfekt objektivitet hører til analytisk kunnskap, som logikk og matematikk: konklusjonene ligger allerede i premissene, og analysen gjør bare eksplisitt det som var der. Når et formelt system brukes til å modellere noe eksternt, mister anvendelsen denne sikkerheten, fordi modellen bare tilnærmer seg det den beskriver. Meta-epistemologien er annerledes: den analyserer det som allerede ligger i tenkningen og handlingen analysen selv aktualiseres gjennom. I førstepersonsvisshet – *jeg er* – sammenfaller den som vet og det som vites i samme akt. Det er ingenting eksternt å tilnærme seg, så gyldigheten bevares.
+**Formell**, perfekt objektivitet hører til analytisk kunnskap, som logikk og matematikk: konklusjonene ligger allerede i premissene, og analysen gjør bare eksplisitt det som var der. Anvendt formell innsikt har to former, avhengig av om referenten – det analysen gjelder – er ekstern eller intern. Er referenten ekstern, som når et formelt system modellerer et fenomen, tilnærmer modellen seg bare det den beskriver, og anvendelsen blir betinget. Er referenten intern – det som allerede ligger i tenkningen og handlingen analysen selv aktualiseres gjennom – er anvendelsen apodiktisk, altså nødvendig gyldig. Det er meta-epistemologiens tilfelle: i førstepersonsvisshet – *jeg er* – sammenfaller den som vet og det som vites i samme akt.
 
 **Empirisk**, kontingent objektivitet hører til kunnskap om eksterne fenomener. Den er betinget av begrepene og kategoriene vi møter fenomenene med, og må derfor være intersubjektivt verifiserbar – mulig for flere å kontrollere gjennom observasjon og repetisjon.
 
@@ -106,12 +114,12 @@ Objektivitet betyr kunnskap som ikke avhenger av den enkeltes synspunkt. Men den
 ### 1
 Teleosofi er satt sammen av de greske ordene *telos*, mål, og *sofia*, visdom: visdom om målrettethet. Den handler om mennesket som et vesen som er rettet mot noe – noe vi vil, søker eller forsøker å nå. Å være rettet mot noe er ikke en egenskap som ligger lagret inne i mennesket, slik en ting kan ha en farge; det er formen på det å være, slik det virkeliggjøres i det man gjør.
 
-Del I handlet om forutsetningene for all kunnskap. Det er grunnlaget teleosofien bygger på. Teleosofien handler om det som er særegent menneskelig – og rekker likevel over alt vi har tilgang til, fordi ingen undersøkelse kan tre ut av det ståstedet der mennesker vet og handler.
+Del I handlet om forutsetningene for all kunnskap. Det er grunnlaget teleosofien bygger på. Nå vendes det samme verktøyet mot *jeg er* – stedet der den som vet og det som vites er ett og det samme. Teleosofien handler om det som er særegent menneskelig – og rekker likevel over alt vi har tilgang til, fordi ingen undersøkelse kan tre ut av det ståstedet der mennesker vet og handler.
 
 ### 2
 Teleosofi – av gresk *telos*, mål – betyr visdom om målrettethet. Objektet er mennesket som målrettet væren: et vesen som er rettet mot mål. Målrettethet er ikke en egenskap lagret i en menneskelig substans, men formen til aktualisert væren-i-handling – å være som noe man gjør.
 
-Meta-epistemologien i Del I er den bredere grunnen og gir teleosofien dens fundament. Teleosofien er smal i objekt – det som er særegent menneskelig – men rekker alt som er tilgjengelig for oss. Grunnen er at ingen undersøkelse kan tre ut av perspektivet der menneskelig viten og handling aktualiseres.
+Meta-epistemologien i Del I er den bredere grunnen og gir teleosofien dens fundament. Instrumentet vendes nå mot *jeg er*, fordi det er det direkte tilgjengelige førstepersonsfaktumet: punktet der den som vet og det som vites, sammenfaller i én akt. Teleosofien er smal i objekt – det som er særegent menneskelig – men rekker alt som er tilgjengelig for oss. Grunnen er at ingen undersøkelse kan tre ut av perspektivet der menneskelig viten og handling aktualiseres.
 
 ## i-am
 
@@ -233,7 +241,7 @@ Oppgaven er å se forskjell på et nyttig lån og det å la grammatikken gjøre 
 ### 2
 Når vi beskriver verden i tredjeperson, låner vi alltid språk for væren, mening og handling. *Elektronet er i superposisjon. Datamaskinen prosesserer informasjon. Naturlig seleksjon velger ut de best tilpassede.* Ingen av disse beskrivelsene handler om et jeg, men alle bruker ord som har sin opprinnelse der.
 
-Rammeverket gir lånene navn: **ontonomi** er lån av «jeg er» for å stabilisere identitet, **noonomi** er lån av «jeg tenker» for å forstå prosessering og beregning, og **teleonomi** er lån av «jeg handler» for å forstå funksjon. Lånene er alltid uunnværlige og ikke feil i seg selv. Feilen er å lese det lånte språket som om beskrivelsen selv etablerte væren, mening eller mål slik de er aktualisert i første person.
+Rammeverket gir lånene navn: **ontonomi** er lån av «jeg er» for å stabilisere identitet, **noonomi** er lån av «jeg tenker» for å forstå prosessering og beregning, og **teleonomi** er lån av «jeg handler» for å forstå funksjon. Ontonomi må ikke forveksles med ontologi, som studerer væren selv. Og i en noonomisk beskrivelse blir meningen tilgjengelig gjennom et fortolkende subjekt. Lånene er alltid uunnværlige og ikke feil i seg selv. Feilen er å lese det lånte språket som om beskrivelsen selv etablerte væren, mening eller mål slik de er aktualisert i første person.
 
 [tabell]
 
@@ -250,7 +258,7 @@ Hva skiller en handling fra en bevegelse? Ikke det vi kan se, men at den er styr
 
 Å lage teori er også målrettet handling: man skiller, forbinder, setter ord på, prøver ut følger, svarer på innvendinger og søker en konklusjon. Teori om handling er derfor allerede et eksempel på det den handler om.
 
-Verdi oppstår hos den som erfarer: å verdsette er en forbindelse virkeliggjort av et vesen som er rettet mot noe. Handling er fornuftig i formen fordi handling er å forbinde midler med et mål. Målene selv er verken fornuftige eller ufornuftige; om midlene faktisk når målet, er et spørsmål om evnen til å virke.
+Verdi oppstår hos den som erfarer: å verdsette er en forbindelse virkeliggjort av et vesen som er rettet mot noe. Handling er alltid fornuftig i formen, fordi å handle er å bruke midler for å nå et mål slik den som handler forstår det. Målene selv er verken fornuftige eller ufornuftige. Om de valgte midlene faktisk når målet, er et annet spørsmål: det gjelder evnen til å virke.
 
 ### 2
 > *Ago* gjenkjent i andre person: *jeg handler* – *du handler*.
@@ -261,7 +269,7 @@ Handling er atferd regulert av telos – et mål. Observerbar bevegelse er derfo
 
 Å teoretisere er selv målrettet virksomhet: en teoretiker skiller, relaterer, begrepsliggjør, prøver implikasjoner og søker en konklusjon. Teori om handling er dermed allerede et tilfelle av praksisen den analyserer – teori om praksis gjennom praktisert teoretisering.
 
-Verdi konstitueres ved subjektpolen: å verdsette er en relasjon aktualisert av et målrettet vesen. At verdier er subjektive, er selv et objektivt faktum. Handling er rasjonell i form fordi den relaterer midler til et mål; målene selv er verken rasjonelle eller irrasjonelle. Om midlene faktisk når målet, er et spørsmål om effektivitet.
+Verdi konstitueres ved subjektpolen: å verdsette er en relasjon aktualisert av et målrettet vesen. At verdier er subjektive, er selv et objektivt faktum. Handling er nødvendigvis rasjonell i formen, fordi å handle er å anvende midler relativt til et mål slik aktøren forstår det. Målene selv er verken rasjonelle eller irrasjonelle. Rasjonaliteten hører altså til formen; effektivitet hører til forholdet mellom konkrete mål og midler – om midlene faktisk når målet.
 
 ## social
 
