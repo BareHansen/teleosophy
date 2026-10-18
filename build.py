@@ -241,7 +241,7 @@ UI = {
    axioms=["Distinction is relation.", "I am."],
    sub="Two insights, and the analytical unpacking of what follows from them.", scroll="Scroll",
    other=("NO", "Norsk", "https://teleosofiskinstitutt.no/", "no"),
-   locale="en_US", locale_alt="nb_NO",
+   locale="en_US", locale_alt="nb_NO", manifest="site.webmanifest",
    og_alt="The mark of the Institute of Teleosophy — a circle divided by one stroke, cream and navy — centred on the sun at the horizon.",
    footer=["A registered non-profit research institute in Norway.", "Wiki content at meta-epistemology.org is published under CC BY 4.0."]),
  "no": dict(src="no.html", out="no.html", lang="no",
@@ -251,7 +251,7 @@ UI = {
    axioms=["Distinksjon er relasjon.", "Jeg er."],
    sub="To innsikter, og den analytiske utpakkingen av det som følger av dem.", scroll="Bla",
    other=("EN", "English", "https://instituteofteleosophy.org/", "en"),
-   locale="nb_NO", locale_alt="en_US",
+   locale="nb_NO", locale_alt="en_US", manifest="site-no.webmanifest",
    og_alt="Teleosofisk Institutts merke — en sirkel delt av én strek, krem og marine — med sentrum i solen ved horisonten.",
    footer=["En registrert ideell forskningsstiftelse i Norge.", "Innholdet i wikien på meta-epistemology.org er publisert under CC BY 4.0."]),
 }
@@ -424,8 +424,11 @@ def build(lang):
 <meta name="description" content="{desc}">
 <meta name="theme-color" content="#050b16">
 <link rel="canonical" href="{u["canon"]}">
+<link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" href="images/mark.svg" type="image/svg+xml">
+<link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="manifest" href="{u["manifest"]}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{u["brand"]}">
 <meta property="og:title" content="{u["title"]}">
