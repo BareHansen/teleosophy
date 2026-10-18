@@ -34,6 +34,9 @@
 (function () {
   "use strict";
 
+  /* Tells the inline script in <head> that this file runs; without it the page shows all text unanimated */
+  window.fieldReady = true;
+
   var root = document.documentElement;
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var sections = Array.prototype.slice.call(document.querySelectorAll("[data-stage]"));

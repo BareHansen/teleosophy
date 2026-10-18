@@ -10,6 +10,7 @@ Usage (from anywhere):  python3 teleosofisk/build.py
   writes  teleosofisk/public/index.html, public/no.html   (what is published)
 Optional: python3 build.py <source-dir> <out-dir>
 """
+import hashlib
 import copy, os, re, sys
 from bs4 import BeautifulSoup, NavigableString
 
@@ -309,6 +310,8 @@ def sentence(text):
 
 
 def build(lang):
+    # Cache-busting: the asset URLs change whenever the files change, so browsers never mix old and new
+    ver = {f: hashlib.md5(open(os.path.join(OUT, f), "rb").read()).hexdigest()[:10] for f in ("styles.css", "site.js")}
     u = UI[lang]
     src = BeautifulSoup(open(f"{SRC}/{u['src']}", encoding="utf-8"), "html.parser")
     secs = {s["id"]: kids(s) for s in src.select("section")}
@@ -451,8 +454,8 @@ def build(lang):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">
-<link rel="stylesheet" href="styles.css">
-<script>document.documentElement.className += " js";</script>
+<link rel="stylesheet" href="styles.css?v={ver["styles.css"]}">
+<script>document.documentElement.className += " js"; setTimeout(function () {{ if (!window.fieldReady) document.documentElement.className = document.documentElement.className.replace(" js", ""); }}, 4000);</script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="b97d4ee5-205d-4a35-af86-c001f4d36a56" data-domains="instituteofteleosophy.org,teleosofiskinstitutt.no"></script>
 </head>
 <body>
@@ -504,7 +507,7 @@ def build(lang):
   </p>
 </footer>
 
-<script src="site.js" defer></script>
+<script src="site.js?v={ver["site.js"]}" defer></script>
 </body>
 </html>
 '''
