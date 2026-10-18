@@ -79,6 +79,22 @@ body.past-hero .veil { opacity: 1; }
 .bar-links .lang { border: 1px solid var(--line); padding: 0.35rem 0.6rem; border-radius: 2px; }
 .bar-links .lang:hover { border-color: var(--cream-3); }
 
+/* ------------------------------------------------------------- reading level (Enkel – Standard – Teknisk) */
+
+html[data-level="1"] [data-lv]:not([data-lv="1"]),
+html[data-level="2"] [data-lv]:not([data-lv="2"]),
+html[data-level="3"] [data-lv]:not([data-lv="3"]) { display: none; }
+
+.level { display: none; align-items: center; gap: 0.6rem; font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--cream-3); cursor: pointer; }
+html.js .level { display: flex; }
+.level-name { color: var(--cream); min-width: 6.2em; }
+.level input { -webkit-appearance: none; appearance: none; width: 4.6rem; height: 1.4rem; margin: 0; background: transparent; cursor: pointer; }
+.level input::-webkit-slider-runnable-track { height: 1px; background: linear-gradient(90deg, var(--cream-3), var(--gold)); }
+.level input::-moz-range-track { height: 1px; background: linear-gradient(90deg, var(--cream-3), var(--gold)); }
+.level input::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 12px; height: 12px; margin-top: -5.5px; border-radius: 50%; background: var(--gold); border: 2px solid var(--deep); box-shadow: 0 0 0 1px var(--gold); }
+.level input::-moz-range-thumb { width: 10px; height: 10px; border-radius: 50%; background: var(--gold); border: 2px solid var(--deep); box-shadow: 0 0 0 1px var(--gold); }
+.level input:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+
 /* ------------------------------------------------------------- rail */
 
 .rail { position: fixed; right: calc(var(--gutter) * 0.45); top: 50%; transform: translateY(-50%); z-index: 15; }
@@ -269,6 +285,8 @@ html:not(.gl) .hero-inner { background: rgba(5,11,22,0.55); padding: 1.5rem 2rem
 }
 
 @media (max-width: 480px) { .bar-links .kb { display: none; } }
+@media (max-width: 1100px) { .level-label { display: none; } }
+@media (max-width: 380px) { .level-name { min-width: 0; } .level input { width: 3.6rem; } }
 
 /* ------------------------------------------------------------- small screens: the figure lives in a band */
 

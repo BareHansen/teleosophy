@@ -178,8 +178,8 @@ S = [
       label=T("Genuine and borrowed language", "Genuint og lånt språk"),
       head=T("Ontonomy. Noonomy. Teleonomy.", "Ontonomi. Noonomi. Teleonomi."),
       body=[("src", "teleosophy", 17), ("comp", "onomies"),
-            ("html", T("<p>Borrowing is often indispensable. The analytical task is to distinguish functional descriptive use from grammatical reification.</p>",
-                       "<p>Lån er ofte uunnværlig. Den analytiske oppgaven er å skille funksjonell beskrivende bruk fra grammatisk tingliggjøring.</p>"))]),
+            ("html", T("<p>Borrowing is always indispensable. The analytical task is to distinguish functional descriptive use from grammatical reification.</p>",
+                       "<p>Lån er alltid uunnværlig. Den analytiske oppgaven er å skille funksjonell beskrivende bruk fra grammatisk tingliggjøring.</p>"))]),
  dict(id="action", part=2, rail=T("The action axiom", "Handlingsaksiomet"),
       label=T("The action axiom", "Handlingsaksiomet"),
       head=T("Human action is purposeful behavior.", "Menneskelig handling er målrettet adferd."),
@@ -213,6 +213,13 @@ COMP = {
    {"cols": [("Sum", "væren"), ("Cogito", "mening"), ("Ago", "formål")],
     "rows": [("Første person", "aktualisert", ["Ontologi", "Noesis", "Teleologi"]),
              ("Tredje person", "lånt i beskrivelse", ["Ontonomi", "Noonomi", "Teleonomi"])]}),
+ "onomies-simple": T(
+   {"cols": [("Sum", "I am"), ("Cogito", "I think"), ("Ago", "I act")],
+    "rows": [("I", "made real", ["The study of being", "Meaning-making", "The study of aims"]),
+             ("Seen from outside", "borrowed in description", ["Ontonomy", "Noonomy", "Teleonomy"])]},
+   {"cols": [("Sum", "jeg er"), ("Cogito", "jeg tenker"), ("Ago", "jeg handler")],
+    "rows": [("Jeg", "virkeliggjort", ["Læren om å være", "Meningsskaping", "Læren om mål"]),
+             ("Sett utenfra", "lånt i beskrivelse", ["Ontonomi", "Noonomi", "Teleonomi"])]}),
  "timeline": T(
    [("Childhood", "Two fingertips brought ever closer: there is no smallest unit. Everything doubling in size together, undetectably: size is relational."),
     ("2008", "Ludwig von Mises, Human Action: the action axiom as analytical foundation."),
@@ -238,7 +245,7 @@ UI = {
  "en": dict(src="index.html", out="index.html", lang="en",
    title="Institute of Teleosophy — formal meta-epistemology",
    canon="https://instituteofteleosophy.org/", brand="Institute of Teleosophy", brand2="Teleosofisk Institutt",
-   kb="Knowledge base", more="Read more", less="Close", rail="Sections", skip="Skip to content",
+   kb="Knowledge base", level="Reading level", more="Read more", less="Close", rail="Sections", skip="Skip to content",
    axioms=["Distinction is relation.", "I am."],
    sub="Two insights, and the analytical unpacking of what follows from them.", scroll="Scroll",
    other=("NO", "Norsk", "https://teleosofiskinstitutt.no/", "no"),
@@ -248,7 +255,7 @@ UI = {
  "no": dict(src="no.html", out="no.html", lang="no",
    title="Teleosofisk Institutt — formell meta-epistemologi",
    canon="https://teleosofiskinstitutt.no/", brand="Teleosofisk Institutt", brand2="Institute of Teleosophy",
-   kb="Kunnskapsbase", more="Les mer", less="Lukk", rail="Seksjoner", skip="Hopp til innholdet",
+   kb="Kunnskapsbase", level="Lesenivå", more="Les mer", less="Lukk", rail="Seksjoner", skip="Hopp til innholdet",
    axioms=["Distinksjon er relasjon.", "Jeg er."],
    sub="To innsikter, og den analytiske utpakkingen av det som følger av dem.", scroll="Bla",
    other=("EN", "English", "https://instituteofteleosophy.org/", "en"),
@@ -268,8 +275,10 @@ def kids(sec):
 # away the first-person perspective: first and second person are the subject pole,
 # third person the object pole, of the relational distinction self/non-self.
 FIXES = {
- "en": [("abstracts from the first-person pole", "abstracts away the first-person perspective")],
- "no": [("abstraherer fra førstepersonspolen", "abstraherer bort førstepersonsperspektivet")],
+ "en": [("abstracts from the first-person pole", "abstracts away the first-person perspective"),
+        ("Such borrowing is often", "Such borrowing is always")],
+ "no": [("abstraherer fra førstepersonspolen", "abstraherer bort førstepersonsperspektivet"),
+        ("Slike lån er ofte uunnværlige", "Slike lån er alltid uunnværlige")],
 }
 
 
@@ -303,6 +312,59 @@ def clean(el, lang):
     return el
 
 
+# --------------------------------------------------------------- reading levels
+# levels/<lang>.md holds levels 1 (simple) and 2 (standard) per section; level 3 (technical)
+# is the original prose. Headings and labels are the same on every level.
+
+LEVEL_NAMES = {"en": ["Simple", "Standard", "Technical"], "no": ["Enkel", "Standard", "Teknisk"]}
+LEVEL_DEFAULT = 2
+LEVEL_MARKERS = {"[kjede]": "chain", "[tabell]": "onomies", "[tabell-enkel]": "onomies-simple"}
+
+
+def inline_md(text):
+    import html as _h
+    t = _h.escape(text, quote=False)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"(?<![*\w])\*(?!\s)(.+?)(?<!\s)\*(?![*\w])", r"<em>\1</em>", t)
+    return t
+
+
+def load_levels(lang):
+    """{section_id: {level: {"lead": html|None, "body": [("html", str) | ("comp", name)]}}}"""
+    path = os.path.join(HERE, "levels", f"{lang}.md")
+    out, sec, lv, buf = {}, None, None, []
+
+    def flush():
+        if sec is None or lv is None:
+            return
+        entry = out.setdefault(sec, {}).setdefault(lv, {"lead": None, "body": []})
+        para = " ".join(x.strip() for x in buf).strip()
+        if not para:
+            return
+        if para in LEVEL_MARKERS:
+            entry["body"].append(("comp", LEVEL_MARKERS[para]))
+        elif para.startswith("> "):
+            entry["lead"] = inline_md(para[2:])
+        else:
+            entry["body"].append(("html", f"<p>{inline_md(para)}</p>"))
+
+    for line in open(path, encoding="utf-8").read().splitlines():
+        if line.startswith("## "):
+            flush(); buf = []
+            sec, lv = line[3:].strip(), None
+        elif line.startswith("### "):
+            flush(); buf = []
+            lv = int(line[4:].strip())
+        elif line.startswith("# "):
+            continue
+        elif not line.strip():
+            flush(); buf = []
+        else:
+            buf.append(line)
+    flush()
+    return out
+
+
 def sentence(text):
     text = re.sub(r"\s+", " ", text).strip()
     m = re.match(r"(.+?\.)\s", text + " ")
@@ -313,6 +375,7 @@ def build(lang):
     # Cache-busting: the asset URLs change whenever the files change, so browsers never mix old and new
     ver = {f: hashlib.md5(open(os.path.join(OUT, f), "rb").read()).hexdigest()[:10] for f in ("styles.css", "site.js")}
     u = UI[lang]
+    levels = load_levels(lang)
     src = BeautifulSoup(open(f"{SRC}/{u['src']}", encoding="utf-8"), "html.parser")
     secs = {s["id"]: kids(s) for s in src.select("section")}
     cards = secs["foundation"][3].select(".card dd")
@@ -353,8 +416,8 @@ def build(lang):
                 out.append(f'<div class="card"><p class="card-k">{who}<span>{sub}</span></p><p class="card-body">{txt}</p></div>')
             out.append("</div>")
             return "".join(out)
-        if name == "onomies":
-            d = COMP["onomies"][lang]
+        if name in ("onomies", "onomies-simple"):
+            d = COMP[name][lang]
             head = "".join(f'<th scope="col"><span class="f">{a}</span><span>{b}</span></th>' for a, b in d["cols"])
             rows = "".join(
                 f'<tr class="row-{i}"><th scope="row">{a}<span>{b}</span></th>' + "".join(f"<td>{c}</td>" for c in cells) + "</tr>"
@@ -386,12 +449,22 @@ def build(lang):
 
     sections = []
     for i, s in enumerate(S, 1):
-        lead = f'<p class="lead hl">{s["lead"][lang]}</p>' if s.get("lead") else ""
+        lv = levels.get(s["id"])
+        tech = ' data-lv="3"' if lv else ""
+        lead = f'<p class="lead hl"{tech}>{s["lead"][lang]}</p>' if s.get("lead") else ""
         body = "\n".join(item(x) for x in s.get("body", []))
+        alt = ""
+        if lv:
+            for n in sorted(lv):
+                e = lv[n]
+                if e["lead"]:
+                    alt += f'\n    <p class="lead hl" data-lv="{n}">{e["lead"]}</p>'
+                alt += f'\n    <div class="body prose hl" data-lv="{n}">\n' + \
+                       "\n".join(x[1] if x[0] == "html" else comp(x[1]) for x in e["body"]) + "\n    </div>"
         more = ""
         if s.get("more"):
             more = f'''
-    <details class="more">
+    <details class="more"{tech}>
       <summary><span class="more-open">{u["more"]}</span><span class="more-close">{u["less"]}</span><span class="more-icon" aria-hidden="true"></span></summary>
       <div class="prose hl">
 {chr(10).join(item(x) for x in s["more"])}
@@ -410,16 +483,16 @@ def build(lang):
         sections.append(f'''
 <section class="{cls}" id="{s["id"]}" data-stage="{i}" data-part="{s["part"]}" aria-labelledby="h-{s["id"]}">
   <div class="stage-inner">
-    {top}
+    {top}{alt}
     {lead}
-    <div class="body prose hl">
+    <div class="body prose hl"{tech}>
 {body}
     </div>{more}
   </div>
 </section>''')
 
     html = f'''<!DOCTYPE html>
-<html lang="{u["lang"]}">
+<html lang="{u["lang"]}" data-level="{LEVEL_DEFAULT}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -455,7 +528,7 @@ def build(lang):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">
 <link rel="stylesheet" href="styles.css?v={ver["styles.css"]}">
-<script>document.documentElement.className += " js"; setTimeout(function () {{ if (!window.fieldReady) document.documentElement.className = document.documentElement.className.replace(" js", ""); }}, 4000);</script>
+<script>document.documentElement.className += " js"; try {{ var lv = localStorage.getItem("level"); if (lv === "1" || lv === "2" || lv === "3") document.documentElement.setAttribute("data-level", lv); }} catch (e) {{}} setTimeout(function () {{ if (!window.fieldReady) document.documentElement.className = document.documentElement.className.replace(" js", ""); }}, 4000);</script>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="b97d4ee5-205d-4a35-af86-c001f4d36a56" data-domains="instituteofteleosophy.org,teleosofiskinstitutt.no"></script>
 </head>
 <body>
@@ -471,6 +544,7 @@ def build(lang):
   </a>
   <p class="partbar" aria-hidden="true"><span data-p="1"><b>I</b>{PART_NAMES[1][lang]}</span><span data-p="2"><b>II</b>{PART_NAMES[2][lang]}</span></p>
   <nav class="bar-links" aria-label="Site">
+    <label class="level" title="{u["level"]}"><span class="level-label">{u["level"]}</span><input type="range" min="1" max="3" step="1" value="{LEVEL_DEFAULT}" aria-label="{u["level"]}" data-names="{"|".join(LEVEL_NAMES[lang])}"><span class="level-name" aria-hidden="true">{LEVEL_NAMES[lang][LEVEL_DEFAULT - 1]}</span></label>
     <a href="https://meta-epistemology.org" class="kb">{u["kb"]} <span aria-hidden="true">↗</span></a>
     <a href="{o_href}" hreflang="{o_lang}" lang="{o_lang}" class="lang" title="{o_long}">{o_short}</a>
   </nav>
@@ -517,6 +591,7 @@ def build(lang):
     # The table column heads are formulations by construction; keep them as marked.
     out = str(doc)
     # Ego and Alter Ego are always capitalized, also in hyphenated compounds
+    out = re.sub(r'<em><em class="f">([^<]*)</em></em>', r'<em class="f">\1</em>', out)  # *I am* in level text
     out = re.sub(r"\b[Aa]lter([- ])[Ee]go\b", lambda m: "Alter" + m.group(1) + "Ego", out)
     if lang == "en":
         assert "purposive" not in out.lower(), "purposive found"

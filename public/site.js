@@ -53,6 +53,41 @@
   var clipB = 0; /* bottom edge (px) of the visible part of the canvas on small screens */
   function bandH() { return isBand() ? clipB : 0; }
 
+  /* ---------------------------------------------------------- reading level
+     Enkel / Standard / Teknisk (Simple / Standard / Technical). Every block of text that has
+     versions carries data-lv; CSS shows the one matching html[data-level]. The choice is kept
+     in this browser only. When the level changes, the section at the top of the view stays put. */
+  (function () {
+    var input = document.querySelector(".level input");
+    if (!input) return;
+    var names = (input.getAttribute("data-names") || "").split("|");
+    var nameEl = document.querySelector(".level-name");
+    function apply(v, user) {
+      var anchor = null, off = 0;
+      if (user) {
+        for (var i = 0; i < sections.length; i++) {
+          var r = sections[i].getBoundingClientRect();
+          if (r.bottom > bandH() + 80) { anchor = sections[i]; off = r.top; break; }
+        }
+      }
+      root.setAttribute("data-level", v);
+      input.value = v;
+      input.setAttribute("aria-valuetext", names[v - 1] || v);
+      if (nameEl) nameEl.textContent = names[v - 1] || v;
+      if (anchor) {
+        var d = anchor.getBoundingClientRect().top - off;
+        try { window.scrollTo({ top: window.pageYOffset + d, behavior: "instant" }); }
+        catch (e) { window.scrollTo(0, window.pageYOffset + d); }
+      }
+      if (user) {
+        try { localStorage.setItem("level", String(v)); } catch (e) {}
+        window.dispatchEvent(new Event("resize"));
+      }
+    }
+    apply(parseInt(root.getAttribute("data-level"), 10) || 2, false);
+    input.addEventListener("input", function () { apply(parseInt(input.value, 10), true); });
+  })();
+
   /* ---------------------------------------------------------- text reveal */
   if ("IntersectionObserver" in window) {
     var io = new IntersectionObserver(function (es) {

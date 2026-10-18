@@ -56,3 +56,11 @@ ssh-keyscan login.domeneshop.no | gh secret set DOMENESHOP_KNOWN_HOSTS -R BareHa
 
 Either revert the commit and push, or copy a backup back on the server:
 `cp -p ~/backups/teleosofisk-<timestamp>/* ~/www/`.
+
+## Reading levels
+
+The slider in the bar (Enkel – Standard – Teknisk / Simple – Standard – Technical) switches the
+prose of each section. *Teknisk* is the original text from `source/`; *Enkel* and *Standard* are
+written in `levels/no.md` and `levels/en.md` (plain paragraphs, see the header of each file), with
+the fixed vocabulary in `ORDLISTE.md`. Edit those files and run `python3 build.py`. Default is
+Standard; a visitor's choice is remembered in their browser.

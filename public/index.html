@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html data-level="2" lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
@@ -35,8 +35,8 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&amp;family=Jost:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;display=swap" rel="stylesheet"/>
-<link href="styles.css?v=04cc3a2884" rel="stylesheet"/>
-<script>document.documentElement.className += " js"; setTimeout(function () { if (!window.fieldReady) document.documentElement.className = document.documentElement.className.replace(" js", ""); }, 4000);</script>
+<link href="styles.css?v=e302a9c914" rel="stylesheet"/>
+<script>document.documentElement.className += " js"; try { var lv = localStorage.getItem("level"); if (lv === "1" || lv === "2" || lv === "3") document.documentElement.setAttribute("data-level", lv); } catch (e) {} setTimeout(function () { if (!window.fieldReady) document.documentElement.className = document.documentElement.className.replace(" js", ""); }, 4000);</script>
 <script data-domains="instituteofteleosophy.org,teleosofiskinstitutt.no" data-website-id="b97d4ee5-205d-4a35-af86-c001f4d36a56" defer="" src="https://cloud.umami.is/script.js"></script>
 </head>
 <body>
@@ -51,6 +51,7 @@
 </a>
 <p aria-hidden="true" class="partbar"><span data-p="1"><b>I</b>Meta-epistemology</span><span data-p="2"><b>II</b>Teleosophy</span></p>
 <nav aria-label="Site" class="bar-links">
+<label class="level" title="Reading level"><span class="level-label">Reading level</span><input aria-label="Reading level" data-names="Simple|Standard|Technical" max="3" min="1" step="1" type="range" value="2"/><span aria-hidden="true" class="level-name">Standard</span></label>
 <a class="kb" href="https://meta-epistemology.org">Knowledge base <span aria-hidden="true">↗</span></a>
 <a class="lang" href="https://teleosofiskinstitutt.no/" hreflang="no" lang="no" title="Norsk">NO</a>
 </nav>
@@ -91,13 +92,23 @@
 <p class="chapter-num">Part I</p>
 <h2 class="chapter-title" id="h-meta-epistemology">Meta-epistemology<span class="chapter-sub">The analytical lens</span></h2>
 <p class="chapter-statement hl">There is a common formal ground shared by all knowledge.</p>
-<p class="lead hl">Disciplines differ in content, method and object. They do not differ in whether knowing requires <span class="t">distinctions</span>, <span class="t">relations</span>, conceptual articulation, perspective and <span class="t">actualization</span>.</p>
-<div class="body prose hl">
+<p class="lead hl" data-lv="1">Different fields study different things with different methods. But in every field, knowing something requires the same: telling apart, connecting, putting into words, seeing from a standpoint, and something being made real.</p>
+<div class="body prose hl" data-lv="1">
+<p>The study of knowledge asks what we can know, and how a claim can be justified. Here a question is asked that comes first: what must already be made real for there to be any knowledge, justification, description, disagreement, measurement or claim at all? It is the question of the preconditions of knowledge.</p>
+<p>The answer is not a new theory competing with physics, biology or history. It is a description of the form every field already uses when it knows anything. That is why questions from very different fields can be examined on the same ground, without turning everything into one field.</p>
+</div>
+<p class="lead hl" data-lv="2">Disciplines differ in content, method and object. But all of them require the same in order to know: <span class="t">distinctions</span>, <span class="t">relations</span>, concepts, perspective and <span class="t">actualization</span> – something actually being made real.</p>
+<div class="body prose hl" data-lv="2">
+<p>Epistemology asks what can be known, and how a claim can be justified. <span class="t">Meta-epistemology</span> asks what must already be <span class="t">actualized</span> for there to be knowledge, justification, description, disagreement, measurement or claims at all.</p>
+<p>This is no new theory competing with physics, biology or history, but an account of the formal structure the disciplines already use. That is why questions from different fields can be examined at a common level, without reducing their content to a single science.</p>
+</div>
+<p class="lead hl" data-lv="3">Disciplines differ in content, method and object. They do not differ in whether knowing requires <span class="t">distinctions</span>, <span class="t">relations</span>, conceptual articulation, perspective and <span class="t">actualization</span>.</p>
+<div class="body prose hl" data-lv="3">
 <p>Epistemology asks what can be known and how a claim can be justified.
     <span class="t">Meta-epistemology</span> asks the prior question: what must already be <span class="t">actualized</span> for there to be
     knowledge, justification, description, disagreement, measurement or a claim at all.</p>
 </div>
-<details class="more">
+<details class="more" data-lv="3">
 <summary><span class="more-open">Read more</span><span class="more-close">Close</span><span aria-hidden="true" class="more-icon"></span></summary>
 <div class="prose hl">
 <p>The answer is not another theory competing with physics, biology or history.
@@ -114,7 +125,15 @@
 <div class="stage-inner">
 <p class="label">The epistemological reset</p>
 <h2 class="statement" id="h-metaphysics">Speculative metaphysics cannot serve as ground.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p>A claim that can neither be checked by observation nor proven by pure logic cannot carry knowledge. That is the problem with the idea that the world consists of hidden, finished things behind what we see – "bearers" or "substrates" that properties and connections are supposed to rest on. No one can check them, yet they are treated as the ground.</p>
+<p>The answer is not to put another such idea in their place. The unchecked ground is withdrawn. Instead, we examine the preconditions that are already made real wherever there is knowledge.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p>A claim that can neither be validated empirically nor justified as logical necessity cannot carry systematic knowledge. That is the problem with speculative metaphysics of substance: it posits hidden bearers or substrates behind things, and treats them as the ground of the properties and <span class="t">relations</span> we actually know.</p>
+<p>The answer is not to set one speculative metaphysics against another. The unwarranted ground is withdrawn, and <span class="t">meta-epistemology</span> takes its place: the study of the conditions already <span class="t">actualized</span> wherever knowledge occurs.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p>A claim that can neither be validated empirically nor anchored as pure logical
     necessity lacks the warrant required to carry systematic knowledge. This is the difficulty with
     <strong>speculative metaphysical substance <span class="t">ontology</span></strong>: it posits hidden bearers,
@@ -130,8 +149,18 @@
 <div class="stage-inner">
 <p class="label">The analytical instrument · the continuity axiom</p>
 <h2 class="statement" id="h-distinction">Distinction is relation.</h2>
-<p class="lead hl">To distinguish is already to relate.</p>
-<div class="body prose hl">
+<p class="lead hl" data-lv="1">To tell apart is already to connect.</p>
+<div class="body prose hl" data-lv="1">
+<p>When you tell something apart from something else, you connect them at the same time. A <span class="t">distinction</span> that connected nothing would tell nothing apart. The two sides do not first exist as finished things that are then linked; they become sides precisely through the telling apart that connects them.</p>
+<p>This is a point about how we think and know – not a claim that only connections exist. Connection must not be turned into a new "thing".</p>
+</div>
+<p class="lead hl" data-lv="2">To distinguish is already to relate.</p>
+<div class="body prose hl" data-lv="2">
+<p>This is the analytical instrument. A <span class="t">distinction</span> that related nothing would not distinguish. The two poles of a distinction are not finished things that are connected afterwards – they become available as poles through the distinguishing <span class="t">relation</span> itself.</p>
+<p>The point is analytical, not a doctrine that only <span class="t">relations</span> exist. <span class="t">Relation</span> must not be made into a new substance.</p>
+</div>
+<p class="lead hl" data-lv="3">To distinguish is already to relate.</p>
+<div class="body prose hl" data-lv="3">
 <p>The analytical instrument. To distinguish is already to relate: a <span class="t">distinction</span> that
         related nothing would not distinguish. The two poles of a distinction are not first
         available as finished things and only afterwards connected — they become available as poles
@@ -144,7 +173,19 @@
 <div class="stage-inner">
 <p class="label">Discretization, continuity, substantialism</p>
 <h2 class="statement statement-sm" id="h-discretization">The gap belongs to the distinction, not independently to what is distinguished.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p>To think, we must tell apart. Making something thinkable means dividing it into separate parts: drawing a boundary, or giving something an identity stable enough to think with. That is necessary, and telling apart is not the mistake. The mistake is forgetting that the boundary was drawn, and believing it existed by itself.</p>
+<p>Because a <span class="t">distinction</span> always connects its sides, the distinction alone can never create an absolute break between them. The gap belongs to the distinction, not to the things in themselves. This is not mathematics, not a hidden "substrate", and no claim about what physics will find.</p>
+<p aria-label="operation → distinction → stabilization → name → apparent thing" class="chain"><span>operation</span><span aria-hidden="true" class="arrow">→</span><span>distinction</span><span aria-hidden="true" class="arrow">→</span><span>stabilization</span><span aria-hidden="true" class="arrow">→</span><span>name</span><span aria-hidden="true" class="arrow">→</span><span>apparent thing</span></p>
+<p>Language makes things fixed. An operation gets a name, the name settles, and after a while it looks like a thing. The thing can be fully real and useful where it is used. The mistake – the idea that the world consists of finished things – is believing it existed before and independently of the connections it was told apart through. The remedy is not to stop using nouns, but to keep the connection visible – also for the framework's own words.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p>Thinking requires <span class="t">distinctions</span>. To make something conceptually available is to <span class="t">discretize</span>: to draw a boundary or give something an identity stable enough to think with. This is indispensable, and the <span class="t">distinction</span> is not the error. The error is forgetting that the boundary is the result of an operation, and reading it as independent and fundamental.</p>
+<p><span class="t">Continuity</span> follows from the instrument: because a <span class="t">distinction</span> already relates its poles, it cannot by itself establish an absolute break between them. The gap belongs to the distinction, not to what is distinguished. This is not mathematical continuity, not a hidden substrate, and no claim about physics.</p>
+<p aria-label="operation → distinction → stabilization → name → apparent thing" class="chain"><span>operation</span><span aria-hidden="true" class="arrow">→</span><span>distinction</span><span aria-hidden="true" class="arrow">→</span><span>stabilization</span><span aria-hidden="true" class="arrow">→</span><span>name</span><span aria-hidden="true" class="arrow">→</span><span>apparent thing</span></p>
+<p>Language stabilizes: an operation is named, the concept settles and begins to look like a thing. The thing can be fully real and indispensable where it is used. <span class="t">Substantialism</span> is reading it as an independent bearer that existed before the <span class="t">relations</span> it was articulated through. The correction is not to stop using nouns, but to keep the <span class="t">relation</span> visible – also for the framework's own terms.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p>Thought requires <span class="t">distinctions</span>. To make something conceptually available is to
     <strong><span class="t">discretize</span></strong>: to articulate a boundary, identity or unit stable enough to think
     with. This is indispensable, and drawing the <span class="t">distinction</span> is not the error. The error is
@@ -171,10 +212,20 @@
 <div class="stage-inner">
 <p class="label">Objectivity</p>
 <h2 class="statement" id="h-objectivity">Objectivity, in three modes.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p><strong>Formal</strong> objectivity is perfect. It belongs to pure logic: the conclusion is already in the starting point, and analysis only makes it visible. When logic is used to describe something outside us, this perfect certainty is lost. But when we examine what already lies in our own thinking and acting, it is kept – because in <em class="f">I am</em>, the one who knows and what is known are one and the same.</p>
+<p><strong>Experiential</strong> objectivity is conditional. It belongs to knowledge of the world around us, and depends on the concepts we meet the world with. That is why it must be checkable by others, through observation and repetition.</p>
+<p><strong>Ultimate</strong> objectivity – knowing something from no standpoint at all – is impossible. Knowing requires a standpoint, a standpoint requires telling apart, and to tell apart is to connect. This impossible limit shows what objectivity actually requires.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p><strong>Formal</strong>, perfect objectivity belongs to analytic knowledge: the conclusions already lie in the premises. When a formal system is used to model something external, the application loses this certainty. <span class="t">Meta-epistemology</span> is different: it analyses what already lies in the thinking and acting through which the analysis itself is <span class="t">actualized</span>. In <span class="t">first-person</span> certainty – <em class="f">I am</em> – the knower and the known coincide, so validity is preserved.</p>
+<p><strong>Empirical</strong>, contingent objectivity belongs to knowledge of external phenomena. It is conditioned by the concepts we meet phenomena with, and must be intersubjectively verifiable through observation and repetition.</p>
+<p><strong>Ultimate</strong>, impossible objectivity is a perspective without perspective. Knowledge requires perspective, perspective requires <span class="t">distinction</span>, and <span class="t">distinction is relation</span>. Ultimate objectivity is therefore not a higher degree, but the limit that makes the conditions of objectivity visible.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <div class="cards cards-3"><div class="card"><p class="card-k">Formal</p><p class="card-body">Formal, perfect objectivity belongs to analytical knowledge.</p></div><div class="card"><p class="card-k">Empirical</p><p class="card-body">Empirical, contingent objectivity belongs to knowledge of external phenomena.</p></div><div class="card"><p class="card-k">Ultimate</p><p class="card-body">Ultimate, impossible objectivity is the limiting concept of a perspectiveless perspective.</p></div></div>
 </div>
-<details class="more">
+<details class="more" data-lv="3">
 <summary><span class="more-open">Read more</span><span class="more-close">Close</span><span aria-hidden="true" class="more-icon"></span></summary>
 <div class="prose hl">
 <p><strong>Formal, perfect objectivity</strong> belongs to analytical
@@ -210,7 +261,15 @@
 <p class="chapter-num">Part II</p>
 <h2 class="chapter-title" id="h-teleosophy">Teleosophy<span class="chapter-sub">Wisdom of purposefulness</span></h2>
 <p class="chapter-statement hl">The analytical instrument turned toward the fact: <em class="f">I am</em>.</p>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p><span class="t">Teleosophy</span> means wisdom about purposefulness. It is about the human being as a being directed toward something. Being directed toward something is not a property stored inside a person; it is the form of being, as it is made real in what one does.</p>
+<p>The preconditions of knowledge from Part I are the ground <span class="t">teleosophy</span> builds on. Teleosophy is about what is distinctly human – and still reaches everything available to us, because no inquiry can step outside the standpoint where human beings know and act.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p><span class="t">Teleosophy</span> means wisdom about purposefulness. Its object is the human being as <span class="t">purposeful being</span>. Purposefulness is not a property stored in a human substance, but the form of <span class="t">actualized</span> <span class="t">being-in-action</span> – being as something one does.</p>
+<p><span class="t">Meta-epistemology</span> is the broader ground and gives <span class="t">teleosophy</span> its foundation. Teleosophy is narrow in object – what is distinctly human – yet reaches everything available to us, because no inquiry can step outside the perspective in which human knowing and acting are <span class="t">actualized</span>.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p><span class="t">Teleosophy</span> means <strong>wisdom of purposefulness</strong>. Its object is
     the human being as <span class="t">purposeful being</span>. Purposefulness is not a property stored inside a human
     substance; it is the form of <span class="t">actualized</span> <span class="t">being-in-action</span>. Logically, <span class="t">meta-epistemology</span> is the
@@ -225,7 +284,13 @@
 <div class="stage-inner">
 <p class="label">The fact · the being axiom</p>
 <h2 class="statement" id="h-i-am">I am.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p>This is being, made real as <em class="f">I</em> – the fact everything else here is turned toward. It is being with nothing more added: the place where the one who knows and what is known are one and the same. It is not found by measuring from outside, and it cannot be mistaken the way a claim that something exists can.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p>Being <span class="t">actualized</span> in the <span class="t">first person</span> – the fact the instrument is turned toward. It is being without further predicate: the point where knower and known coincide in one act. It is not established through <span class="t">third-person</span> measurement, and it cannot be mistaken the way a claim that an X exists can.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p>Being <span class="t">actualized</span> in the <span class="t">first person</span>, and the fact toward which the instrument is
         turned. It is being expressed without a further predicate: the point at which knower and
         known coincide in a single act. It is not established by <span class="t">third-person</span> measurement, and it
@@ -237,8 +302,20 @@
 <div class="stage-inner">
 <p class="label">Ontology recovered</p>
 <h2 class="statement" id="h-ontology">The human being is the human who is.</h2>
-<p class="lead hl"><span class="t">Ontology</span> is the study of being — being as <span class="t">relational actuality</span>, not a hidden substance behind appearances.</p>
-<div class="body prose hl">
+<p class="lead hl" data-lv="1"><span class="t">Ontology</span> is the study of being – being as making connection real, not a hidden thing behind what we see.</p>
+<div class="body prose hl" data-lv="1">
+<p>This does not discard the study of being. What falls is the idea of hidden, finished things as the ground. The study of being regains its literal task: the human being who is. What we have direct access to, from within, is not an imagined substrate, but <em class="f">I am</em>.</p>
+<p>The question then becomes what follows from being made real through connections – not what hidden thing must lie behind. That is why the framework can say, without reservation: human being is being directed toward something. Not that it appears so or feels so, but that it holds for being itself.</p>
+<p>To be and to exist are not the same. <em class="f">I am</em> is being made real from within, with nothing added. "X exists" is a claim made by telling apart, and such a claim can be mistaken in a way <em class="f">I am</em> cannot.</p>
+</div>
+<p class="lead hl" data-lv="2"><span class="t">Ontology</span> is the study of being – being as <span class="t">relational actuality</span>, not a hidden substance behind phenomena.</p>
+<div class="body prose hl" data-lv="2">
+<p>None of this discards <span class="t">ontology</span>. What collapses is speculative substance ontology as foundation. Ontology resumes its literal task: human being is the human being who is, and the directly available <span class="t">first-person</span> fact is not a hypothetical substrate, but <em class="f">I am</em>.</p>
+<p><span class="t">Ontology</span> then asks what follows from being <span class="t">actualized</span> through <span class="t">relation</span>, not what substance must lie behind. That is why the framework can claim, ontologically and without qualification: human being is <span class="t">purposeful being</span> – not that it appears so, but that it holds for being itself.</p>
+<p>Being and existence are not the same. <em class="f">I am</em> is <span class="t">first-person</span> <span class="t">actualization</span> without predicate. "X exists" is a claim made within a <span class="t">distinction</span>, and can be mistaken in a way <em class="f">I am</em> cannot.</p>
+</div>
+<p class="lead hl" data-lv="3"><span class="t">Ontology</span> is the study of being — being as <span class="t">relational actuality</span>, not a hidden substance behind appearances.</p>
+<div class="body prose hl" data-lv="3">
 <p>None of this rejects <span class="t">ontology</span>. What collapses is speculative substance
     ontology as a <strong>foundation</strong> — not the study of being. Ontology resumes its literal
     task. The human being is the human who <strong>is</strong>, and the directly available
@@ -256,7 +333,21 @@
 <div class="stage-inner">
 <p class="label">The distinctly human form of being</p>
 <h2 class="statement statement-sm" id="h-human-form">Narratively mediated metacognitive self-awareness actualized.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p>Being, as a human being has access to it from within, can be said with the expression above. It is dense, so here it is unpacked:</p>
+<p><strong>Narratively mediated</strong> – we recognize ourselves through language, and <em class="f">I am</em> is already an understanding of one's own reality through language. Here this means that a now can be held together with a then – not storytelling or autobiography.</p>
+<p><strong>Metacognitive</strong> – in <em class="f">I am</em>, knowing becomes its own object: I know that <em class="f">I am</em>.</p>
+<p><strong>Self-awareness</strong> – the form is the form of an <em class="f">I</em>. Not merely that something is, but <em class="f">I am</em>.</p>
+<p><strong><span class="t">Actualized</span></strong> – made real: being as something happening, not a dormant capacity, a stored property or a hidden thing.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p>Being, as it is available in the human <span class="t">first person</span>, is <span class="t">narratively mediated metacognitive self-awareness actualized</span>. The expression is deliberately compressed:</p>
+<p><strong>Narratively mediated</strong> – human recognition goes through words, and <em class="f">I am</em> is already a <span class="t">narrative structure</span>: an organization in time and meaning that lets a now be held in <span class="t">relation</span> to a then. Not storytelling or literary form.</p>
+<p><strong>Metacognitive</strong> – in <em class="f">I am</em>, cognition takes its own <span class="t">actualization</span> as object.</p>
+<p><strong>Self-awareness</strong> – the form is <span class="t">first-person</span>al: not merely <em class="f">there is</em>, but <em class="f">I am</em>.</p>
+<p><strong><span class="t">Actualized</span></strong> – being in act, not a dormant capacity, a stored property or a hidden substance.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p>Being, as available in the human <span class="t">first person</span>, is <strong>narratively mediated
     metacognitive self-awareness <span class="t">actualized</span></strong>. The phrase is compressed deliberately.</p>
 <dl class="cards cards-2 facets">
@@ -288,7 +379,15 @@
 <div class="stage-inner">
 <p class="label">Being · thinking · acting</p>
 <h2 class="statement" id="h-sum-cogito-ago">Sum. Cogito. Ago.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p><em class="f">I am</em>, <em class="f">I think</em> and <em class="f">I act</em> are three ways of seeing one and the same making-real – not three steps, layers, parts or causes. Thinking already presupposes an <em class="f">I</em>, and thinking is already something one does. Seen from within, being, thinking and acting are one: three sides of one act, which we can tell apart in analysis.</p>
+<p>This was once formulated <em class="f">Sum et Cogito, ergo Ago</em> – "<em class="f">I am</em> and <em class="f">I think</em>, therefore <em class="f">I act</em>". But "therefore" suggests that one comes first and causes the other. The mature form removes the arrow.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p>Three perspectives on one <span class="t">actualization</span> – not three stages, layers, components or causes. <em class="f">Cogito</em> already implies an <em class="f">I</em>, and thinking is already something done. From the <span class="t">first person</span>, being is thinking is acting: dimensions we can distinguish analytically, of one act.</p>
+<p>The earlier formulation <em class="f">Sum et Cogito, ergo Ago</em> was productive but not precise enough, because <em class="f">ergo</em> ("therefore") introduced priority and causality. The mature form removes the arrow.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p>Three perspectives on one <span class="t">actualization</span> — not three stages, layers, components or
         causes. <em class="f">Cogito</em> already implies an <em class="f">I</em>, and thinking is already something done. From the first
         person, being is thinking is acting: analytically distinguishable dimensions of a single
@@ -301,7 +400,13 @@
 <div class="stage-inner">
 <p class="label">Narrative structure is telos</p>
 <h2 class="statement" id="h-purposeful-being">Human being is purposeful being.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p>Understanding one's own reality through language and having an aim are not two different mechanisms. Language is what makes it possible to be directed toward something: the situation now can be held together with an aim not yet made real – and that aim guides what we do now. Concrete aims are parts we tell apart within this larger purposefulness.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p><span class="t">Narrative structure</span> and <span class="t">telos</span> are not two mechanisms. Narrative structure makes directedness possible: a present situation can be held in <span class="t">relation</span> to an aim not yet <span class="t">actualized</span>, and this aim regulates behaviour now. Concrete goals are analytical <span class="t">discretizations</span> within the broader <span class="t">teleological</span> structure.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p><span class="t">Narrative structure</span> and <span class="t">telos</span> are not two mechanisms. Narrative structure is
     what makes directedness possible: a present situation can be held in <span class="t">relation</span> to an end that is
     not yet <span class="t">actualized</span>, and that end, present as a narratively structured relation, regulates
@@ -314,12 +419,26 @@
 <div class="stage-inner">
 <p class="label">The persons</p>
 <h2 class="statement" id="h-persons">First, second and third person.</h2>
-<p class="lead hl">Analytically distinct perspectives, not separate realms. First and <span class="t">second person</span> are the <span class="t">subject pole</span>, <span class="t">third person</span> the object pole, of the <span class="t">relation</span>al <span class="t">distinction</span> self/non-self.</p>
-<div class="body prose hl">
+<p class="lead hl" data-lv="1">Three ways of seeing, not three separate worlds. I and you are the one who experiences; what is seen from outside is what is experienced – in the <span class="t">distinction</span> between self and non-self.</p>
+<div class="body prose hl" data-lv="1">
+<p><strong>I</strong> – being made real from within: <em class="f">I am</em>, <em class="f">I think</em>, <em class="f">I act</em>.</p>
+<p><strong>You – the other I</strong> – how another is met as <em class="f">you</em>: a counterpart, one who experiences. It is derived from my own I, and is not proof of a hidden inner life in the other. Here the fundamental insight about action holds: <em class="f">I act</em> – <em class="f">you act</em>.</p>
+<p><strong>Seen from outside – no I</strong> – description with the standpoint of the I taken away, so that descriptions can be fixed and compared by many. Setting the I aside is not the mistake; the mistake is believing that the description from outside comes before what it sets aside.</p>
+<p>Something can function as "the other I" in a connection without thereby being shown to be an <em class="f">I</em>, or something that acts toward aims.</p>
+</div>
+<p class="lead hl" data-lv="2">Analytically distinct perspectives, not separate spheres. First and <span class="t">second person</span> are the <span class="t">subject pole</span> – the one who experiences – and <span class="t">third person</span> is the object pole – what is experienced.</p>
+<div class="body prose hl" data-lv="2">
+<p><strong><span class="t">First person</span> – <span class="t">Ego</span>.</strong> Direct <span class="t">actualization</span>: <em class="f">I am</em>, <em class="f">I think</em>, <em class="f">I act</em>.</p>
+<p><strong><span class="t">Second person</span> – <span class="t">Alter Ego</span>.</strong> The category under which another is met as <em class="f">you</em>: a counterpart, a <span class="t">subject pole</span>. Derived from <span class="t">Ego</span>, and not empirical proof of a hidden inner life in the other. Here the <span class="t">action axiom</span> holds: <em class="f">I act</em> – <em class="f">you act</em>.</p>
+<p><strong><span class="t">Third person</span> – No <span class="t">Ego</span>.</strong> Description that abstracts away the <span class="t">first-person</span> perspective, so that descriptions can be stabilized and compared intersubjectively. The error is not the abstraction, but treating it as prior to the <span class="t">actualization</span> it abstracts from.</p>
+<p>A system can function as <span class="t">Alter Ego</span> in a <span class="t">relation</span> without thereby being established as an <span class="t">Ego</span> or a <span class="t">teleological</span> agent.</p>
+</div>
+<p class="lead hl" data-lv="3">Analytically distinct perspectives, not separate realms. First and <span class="t">second person</span> are the <span class="t">subject pole</span>, <span class="t">third person</span> the object pole, of the <span class="t">relation</span>al <span class="t">distinction</span> self/non-self.</p>
+<div class="body prose hl" data-lv="3">
 <div class="cards cards-3 persons"><div class="card"><p class="card-k">First person<span>Ego</span></p><p class="card-body">Direct <span class="t">actualization</span>: <em class="f">I am. I think. I act.</em></p></div><div class="card"><p class="card-k">Second person<span>Alter Ego</span></p><p class="card-body">The <span class="t">relation</span>al category under which another is met as <em class="f">you</em> — a counterpart, a <span class="t">subject pole</span>. Derived from <span class="t">Ego</span>; not empirical proof of another hidden interior. Here the <span class="t">action axiom</span> applies: <em class="f">I act</em> — <em class="f">you act</em>.</p></div><div class="card"><p class="card-k">Third person<span>No Ego</span></p><p class="card-body">Description that abstracts away the <span class="t">first-person</span> perspective, so that descriptions can be stabilized and compared intersubjectively. The mistake is not the abstraction, but treating it as prior to the <span class="t">actualization</span> it abstracts from.</p></div></div>
 <p>A system can function as an <span class="t">Alter Ego</span> in a <span class="t">relation</span> without thereby being established as an <span class="t">Ego</span> or <span class="t">teleological</span> agent.</p>
 </div>
-<details class="more">
+<details class="more" data-lv="3">
 <summary><span class="more-open">Read more</span><span class="more-close">Close</span><span aria-hidden="true" class="more-icon"></span></summary>
 <div class="prose hl">
 <p>First, second and <span class="t">third person</span> are analytically distinct perspectives, not
@@ -342,15 +461,28 @@
 <div class="stage-inner">
 <p class="label">Genuine and borrowed language</p>
 <h2 class="statement" id="h-borrowed-language">Ontonomy. Noonomy. Teleonomy.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p>When we describe something from outside, we always borrow words that really belong to the I: "<em class="f">I am</em>", "<em class="f">I think</em>" and "<em class="f">I act</em>". <em>The dog is hungry. The computer works and thinks. The flower turns toward the sun.</em></p>
+<p>Each borrowing has a name. <strong><span class="t">Ontonomy</span></strong> is lending "<em class="f">I am</em>" to give something a stable identity. <strong><span class="t">Noonomy</span></strong> is lending "<em class="f">I think</em>" to understand how something processes or computes. <strong><span class="t">Teleonomy</span></strong> is lending "<em class="f">I act</em>" to understand what function something has.</p>
+<p>Such borrowing is always necessary, and not wrong in itself. The error is reading the borrowing as though the description itself turned what it describes into an <em class="f">I</em> that is, thinks or acts.</p>
+<div class="onomies-wrap"><table class="onomies"><thead><tr><td></td><th scope="col"><span class="f">Sum</span><span><em class="f">I am</em></span></th><th scope="col"><span class="f">Cogito</span><span><em class="f">I think</em></span></th><th scope="col"><span class="f">Ago</span><span><em class="f">I act</em></span></th></tr></thead><tbody><tr class="row-0"><th scope="row">I<span>made real</span></th><td>The study of being</td><td>Meaning-making</td><td>The study of aims</td></tr><tr class="row-1"><th scope="row">Seen from outside<span>borrowed in description</span></th><td><span class="t">Ontonomy</span></td><td><span class="t">Noonomy</span></td><td><span class="t">Teleonomy</span></td></tr></tbody></table></div>
+<p>The task is to tell a useful borrowing apart from letting grammar turn the borrowing into a thing.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p>When we describe the world in the <span class="t">third person</span>, we always borrow the language of being, meaning and action. <em>The electron is in superposition. The computer processes information. Natural selection selects the fittest.</em></p>
+<p>The framework names the borrowings: <strong><span class="t">ontonomy</span></strong> borrows "<em class="f">I am</em>" to stabilize identity, <strong><span class="t">noonomy</span></strong> borrows "<em class="f">I think</em>" to understand processing and computation, and <strong><span class="t">teleonomy</span></strong> borrows "<em class="f">I act</em>" to understand function. These borrowings are always indispensable and not errors in themselves. The error is reading the borrowed language as though the description itself established being, meaning or aims as they are <span class="t">actualized</span> in the <span class="t">first person</span>.</p>
+<div class="onomies-wrap"><table class="onomies"><thead><tr><td></td><th scope="col"><span class="f">Sum</span><span>being</span></th><th scope="col"><span class="f">Cogito</span><span>meaning</span></th><th scope="col"><span class="f">Ago</span><span>purpose</span></th></tr></thead><tbody><tr class="row-0"><th scope="row"><span class="t">First person</span><span><span class="t">actualized</span></span></th><td><span class="t">Ontology</span></td><td><span class="t">Noesis</span></td><td><span class="t">Teleology</span></td></tr><tr class="row-1"><th scope="row"><span class="t">Third person</span><span>borrowed in description</span></th><td><span class="t">Ontonomy</span></td><td><span class="t">Noonomy</span></td><td><span class="t">Teleonomy</span></td></tr></tbody></table></div>
+<p>The task is to distinguish useful descriptive use from letting grammar turn the borrowing into something that exists.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p>Where being-, meaning- and purpose-language is carried over into <span class="t">third-person</span>
     description, the framework marks the borrowing: <strong><span class="t">ontonomy</span></strong> for stabilized being
     and identity categories, <strong><span class="t">noonomy</span></strong> for meaning, information and knowledge
-    categories, <strong><span class="t">teleonomy</span></strong> for purpose categories. Such borrowing is often
+    categories, <strong><span class="t">teleonomy</span></strong> for purpose categories. Such borrowing is always
     indispensable and is not in itself an error. The error is reading the borrowed language as
     though the description itself established <span class="t">first-person</span> being, <span class="t">actualized</span> meaning or <span class="t">telos</span>.</p>
 <div class="onomies-wrap"><table class="onomies"><thead><tr><td></td><th scope="col"><span class="f">Sum</span><span>being</span></th><th scope="col"><span class="f">Cogito</span><span>meaning</span></th><th scope="col"><span class="f">Ago</span><span>purpose</span></th></tr></thead><tbody><tr class="row-0"><th scope="row"><span class="t">First person</span><span><span class="t">actualized</span></span></th><td><span class="t">Ontology</span></td><td><span class="t">Noesis</span></td><td><span class="t">Teleology</span></td></tr><tr class="row-1"><th scope="row"><span class="t">Third person</span><span>borrowed in description</span></th><td><span class="t">Ontonomy</span></td><td><span class="t">Noonomy</span></td><td><span class="t">Teleonomy</span></td></tr></tbody></table></div>
-<p>Borrowing is often indispensable. The analytical task is to distinguish functional descriptive use from grammatical reification.</p>
+<p>Borrowing is always indispensable. The analytical task is to distinguish functional descriptive use from grammatical reification.</p>
 </div>
 </div>
 </section>
@@ -358,8 +490,22 @@
 <div class="stage-inner">
 <p class="label">The action axiom</p>
 <h2 class="statement" id="h-action">Human action is purposeful behavior.</h2>
-<p class="lead hl"><em class="f">Ago</em> recognized in the <span class="t">second person</span>.</p>
-<div class="body prose hl">
+<p class="lead hl" data-lv="1"><em class="f">I act</em>, recognized in another: <em class="f">you act</em>.</p>
+<div class="body prose hl" data-lv="1">
+<p>I have direct access to the fact that <em class="f">I act</em>. When I meet another as <em class="f">you</em>, <em class="f">you act</em> becomes available – and the fundamental insight about action puts this into words. Whoever seriously denies it is themselves acting toward an aim.</p>
+<p>Action is behaviour guided by an aim. It is not about visible movement: thinking, choosing, planning, weighing an objection or holding an aim up against the situation is also action. The opposite of action is not irrational action, but behaviour that merely reacts or adapts, without an aim.</p>
+<p>Making theory is also purposeful action: one tells apart, connects, puts into words, tests consequences, answers objections and seeks a conclusion. A theory of action is therefore already an example of what it is about.</p>
+<p>Value arises with the one who experiences: valuing is a connection made real by a being directed toward something. Action is rational in form because action is connecting means to an aim. Aims themselves are neither rational nor irrational; whether the means actually reach the aim is a question of the ability to have an effect.</p>
+</div>
+<p class="lead hl" data-lv="2"><em class="f">Ago</em> recognized in the <span class="t">second person</span>: <em class="f">I act</em> – <em class="f">you act</em>.</p>
+<div class="body prose hl" data-lv="2">
+<p>The direct access is <em class="f">I act</em>. Recognizing a counterpart as <em class="f">you</em> makes <em class="f">you act</em> available, and the axiom articulates this structure. A serious denial is itself behaviour directed toward an aim.</p>
+<p>Action is behaviour regulated by <span class="t">telos</span> – an aim. Observable movement is not the criterion: thinking, choosing, planning or weighing an objection is also action. The opposite of action is not irrational action, but behaviour that is reactive or adaptive without a narratively <span class="t">actualized</span> aim.</p>
+<p>Theorizing is itself purposeful activity. A theory of action is already an instance of the practice it analyses – theory of practice through practised theorizing.</p>
+<p>Value is constituted at the <span class="t">subject pole</span>: valuing is a <span class="t">relation</span> <span class="t">actualized</span> by a <span class="t">purposeful being</span>. Action is rational in form because it relates means to an aim; aims themselves are neither rational nor irrational. Whether the means achieve the aim is a question of <span class="t">efficacy</span>.</p>
+</div>
+<p class="lead hl" data-lv="3"><em class="f">Ago</em> recognized in the <span class="t">second person</span>.</p>
+<div class="body prose hl" data-lv="3">
 <p>This is <em class="f">Ago</em> recognized in the <span class="t">second person</span>. Direct access is <em class="f">I act</em>; recognition of a
         counterpart as <em class="f">you</em> makes <em class="f">you act</em> available, and the axiom articulates that structure. A
         serious denial of it is itself conduct directed toward an end.</p>
@@ -373,7 +519,7 @@
     action is already an instance of the practice it analyzes, and no bridge from theory to later
     application is required: <strong>theory of practice through practiced theorizing</strong>.</p>
 </div>
-<details class="more">
+<details class="more" data-lv="3">
 <summary><span class="more-open">Read more</span><span class="more-close">Close</span><span aria-hidden="true" class="more-icon"></span></summary>
 <div class="prose hl">
 <p>This is also the sense in which there is an observable phenomenon of which a
@@ -395,7 +541,15 @@
 <div class="stage-inner">
 <p class="label">Social reality</p>
 <h2 class="statement" id="h-social">Converging narrative structures.</h2>
-<div class="body prose hl">
+<div class="body prose hl" data-lv="1">
+<p>Society rests on our recognizing one another as "the other I", through shared ways of understanding reality through language. This makes it possible to talk together and cooperate on a large scale. Money, institutions, roles, laws and norms make sense because such understandings are shared enough. This does not mean society is made up – it shows what makes something a social phenomenon at all.</p>
+<p>Recognizing another as an <em class="f">I</em> also opens up ethics: the other can be met as one who experiences, with aims of their own that matter – or be treated merely as a means to one's own aims.</p>
+</div>
+<div class="body prose hl" data-lv="2">
+<p>Society and civilization rest on mutual recognition of <span class="t">Alter Ego</span> through converging <span class="t">narrative structures</span> – shared understanding that makes communication and coordination possible at scale. Money, institutions, roles, legal categories and norms become intelligible within such shared structures of meaning. This does not mean society is a fiction; it identifies the formal condition that makes something available as a social phenomenon.</p>
+<p>Recognizing an <span class="t">Alter Ego</span> also opens the ethical <span class="t">relation</span>: a counterpart can be met as a <span class="t">subject pole</span> with its own <span class="t">telos</span>, or treated solely as an object for one's own aims.</p>
+</div>
+<div class="body prose hl" data-lv="3">
 <p>Society and civilization depend on reciprocal recognition of <span class="t">Alter Ego</span> through
     converging <span class="t">narrative structures</span> that allow communication and coordination at scale. Money,
     institutions, roles, legal categories and norms become socially intelligible within sufficiently
@@ -448,6 +602,6 @@
 <a href="https://teleosofiskinstitutt.no/" hreflang="no" lang="no">Norsk</a>
 </p>
 </footer>
-<script defer="" src="site.js?v=de0bdef426"></script>
+<script defer="" src="site.js?v=257713efd3"></script>
 </body>
 </html>
