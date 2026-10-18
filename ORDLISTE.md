@@ -32,7 +32,7 @@ Det enkle trinnet sier det samme som det tekniske, bare uten fagord.
 | subjektpol / objektpol | den som erfarer / det som erfares | ✔ |
 | førstepersonsvisshet | vissheten innenfra, om at jeg er | ✔ |
 | tredjepersonsmåling / -beskrivelse | måling / beskrivelse utenfra | ✔ |
-| handlingsaksiomet | utgangspunktet om at vi handler | ? |
+| handlingsaksiomet | den grunnleggende innsikten om handling | ✔ |
 | narrativ struktur | forståelse av egen virkelighet gjennom språk | ✔ |
 | effektivitet | evnen til å virke | ✔ |
 
@@ -45,5 +45,5 @@ at uttrykket er et lån; bare ordlyden følger trinnet.
 | Lån | Enkel | Standard | Teknisk | Status |
 |---|---|---|---|---|
 | «jeg tenker» (noonomi) | «datamaskinen jobber og tenker» | «datamaskinen prosesserer informasjon» | – | ✔ |
-| «jeg er» (ontonomi) | – | – | – | venter på Stein |
-| «jeg handler» (teleonomi) | – | – | – | venter på Stein |
+| «jeg er» (ontonomi) | «hunden er sulten» | «elektronet er i superposisjon» | – | ✔ |
+| «jeg handler» (teleonomi) | «blomsten snur seg mot solen» | «naturlig seleksjon velger ut de best tilpassede» | – | enkel ✔, standard ? |
