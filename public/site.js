@@ -44,8 +44,8 @@
   var fadeEl = document.querySelector(".band-fade");
   var canvas = document.getElementById("field");
 
-  /* Must match the small-screen media query in styles.css: phones, and tablets held upright */
-  var bandMQ = window.matchMedia ? window.matchMedia("(max-width: 820px), (orientation: portrait) and (max-width: 1180px)") : null;
+  /* Must match the small-screen media query in styles.css: phones, tablets held upright, and near-square screens such as unfolded foldables */
+  var bandMQ = window.matchMedia ? window.matchMedia("(max-width: 820px), (max-aspect-ratio: 5/4) and (max-width: 1180px)") : null;
   function isBand() { return bandMQ ? bandMQ.matches : window.innerWidth <= 820; }
   var clipB = 0; /* bottom edge (px) of the visible part of the canvas on small screens */
   function bandH() { return isBand() ? clipB : 0; }

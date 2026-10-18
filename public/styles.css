@@ -272,7 +272,7 @@ html:not(.gl) .hero-inner { background: rgba(5,11,22,0.55); padding: 1.5rem 2rem
 
 /* ------------------------------------------------------------- small screens: the figure lives in a band */
 
-@media (max-width: 820px), (orientation: portrait) and (max-width: 1180px) {
+@media (max-width: 820px), (max-aspect-ratio: 5/4) and (max-width: 1180px) {
   /* full-size canvas, clipped by site.js: large on the landing view, a thin strip after it */
   html.gl #field { inset: 0; height: 100%; z-index: 3; clip-path: inset(0 0 calc(100svh - var(--hero-fig)) 0); }
   html.gl .bar { height: var(--bar); padding-top: 0; padding-bottom: 0; background: var(--deep); }
@@ -339,7 +339,7 @@ html:not(.gl) .stage.hero::after {
   background: url("images/mark-still.svg") 50% 50% / auto 86% no-repeat;
   filter: drop-shadow(0 0 1.2rem rgba(5, 11, 22, 0.35));
 }
-@media (max-width: 820px), (orientation: portrait) and (max-width: 1180px) {
+@media (max-width: 820px), (max-aspect-ratio: 5/4) and (max-width: 1180px) {
   html:not(.gl) .stage.hero { --strip: calc(var(--hero-fig) - var(--bar)); padding-top: calc(var(--hero-fig) + 1.5rem); }
   html:not(.gl) .stage.hero::before { -webkit-mask-image: none; mask-image: none; }
   html:not(.gl) .bar { height: var(--bar); padding-top: 0; padding-bottom: 0; }
