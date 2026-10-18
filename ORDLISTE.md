@@ -32,3 +32,12 @@ hverdagsuttrykk på det enkle trinnet. **Status:** ✔ = godkjent av Stein, ? = 
 | handlingsaksiomet | utgangspunktet om at vi handler | ? |
 | narrativ struktur | fortellingsform | ? |
 | effektivitet | evnen til å virke | ? |
+
+## Eksempler per trinn
+
+Eksemplene følger også slideren: samme sak, sagt enklere eller mer presist.
+
+| Begrep | Enkel | Standard | Presis | Status |
+|---|---|---|---|---|
+| noonomi | «datamaskinen jobber og tenker» | «datamaskinen prosesserer informasjon» | – | ✔ (enkel, standard) |
+| teleonomi | «hjertet *vil* pumpe blod» | – | – | ? |
