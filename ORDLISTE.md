@@ -13,28 +13,28 @@ Det enkle trinnet sier det samme som det tekniske, bare uten fagord.
 | noonomi | lån av «jeg tenker»: å låne ut *mening/tenkning* til noe for å forstå hvordan det behandler eller beregner | ✔ |
 | teleonomi | lån av «jeg handler»: å låne ut *handling* til noe for å forstå hvilken funksjon det har | ✔ |
 | epistemologi / epistemologisk | kunnskapslære / kunnskapsmessig | ✔ |
-| meta-epistemologi | forutsetningene for kunnskap | ? |
-| ontologi / ontologisk | læren om hva som er / værensmessig | ? |
-| distinksjon | det å skille (noe fra noe annet) | ? |
-| relasjon / relasjonell | forhold / som består i forhold | ? |
-| *Distinksjon er relasjon* | *Å skille er å forbinde* | ? |
-| aktualisert / aktualisering | virkeliggjort / virkeliggjøring | ? |
-| relasjonell aktualitet | virkelighet som består i forhold | ? |
-| substansialisme | tanken om at ting finnes for seg selv, uavhengig av forhold | ? |
-| diskretisere | dele opp i atskilte deler | ? |
-| kontinuitet | sammenheng uten brudd | ? |
-| telos / teleologi / teleologisk | mål / læren om mål / målrettet | ? |
-| teleosofi | visdom om målrettethet | ? |
-| målrettet væren | å være rettet mot noe som ennå ikke er | ? |
-| væren-i-handling | å være til gjennom å handle | ? |
-| første / andre / tredje person | jeg / du / sett utenfra | ? |
-| ego / alter ego / ingen ego | jeg / den andre / ingen | ? |
-| subjektpol / objektpol | den som erfarer / det som erfares | ? |
-| førstepersonsvisshet | vissheten innenfra, om at jeg er | ? |
-| tredjepersonsmåling / -beskrivelse | måling / beskrivelse utenfra | ? |
+| meta-epistemologi | forutsetningene for kunnskap | ✔ |
+| ontologi / ontologisk | læren om å være: *jeg er*, fra førsteperson | ✔ |
+| distinksjon | det å skille (noe fra noe annet) | ✔ |
+| relasjon / relasjonell | forbindelse / som forbinder | ✔ |
+| *Distinksjon er relasjon* | *Å skille er å forbinde* | ✔ |
+| aktualisert / aktualisering | virkeliggjort / virkeliggjøring | ✔ |
+| relasjonell aktualitet | virkeliggjøring av forbindelse | ✔ |
+| substansialisme | tanken om at verden består av ferdige ting, uavhengig av forbindelser | ✔ |
+| diskretisere | dele opp i atskilte deler | ✔ |
+| kontinuitet | sammenheng uten brudd | ✔ |
+| telos / teleologi / teleologisk | mål / læren om mål / målrettet | ✔ |
+| teleosofi | visdom om målrettethet | ✔ |
+| målrettet væren | å være rettet mot noe | ✔ |
+| væren-i-handling | å være som noe man gjør | ✔ |
+| første / andre / tredje person | jeg / du / sett utenfra | ✔ |
+| ego / alter ego / ingen ego | jeg / den andre jeg / ingen jeg | ✔ |
+| subjektpol / objektpol | den som erfarer / det som erfares | ✔ |
+| førstepersonsvisshet | vissheten innenfra, om at jeg er | ✔ |
+| tredjepersonsmåling / -beskrivelse | måling / beskrivelse utenfra | ✔ |
 | handlingsaksiomet | utgangspunktet om at vi handler | ? |
-| narrativ struktur | fortellingsform | ? |
-| effektivitet | evnen til å virke | ? |
+| narrativ struktur | forståelse av egen virkelighet gjennom språk | ✔ |
+| effektivitet | evnen til å virke | ✔ |
 
 ## Eksempler
 
