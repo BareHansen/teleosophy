@@ -87,7 +87,9 @@ html[data-level="3"] [data-lv]:not([data-lv="3"]) { display: none; }
 
 .level { display: none; align-items: center; gap: 0.6rem; font-family: var(--mono); font-size: 0.64rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--cream-3); cursor: pointer; }
 html.js .level { display: flex; }
-.level-name { color: var(--cream); min-width: 6.2em; }
+/* fixed width = the longest name (monospace), so switching level never moves anything */
+.level-name { color: var(--cream); white-space: nowrap; width: calc(8ch + 8 * 0.14em); }
+html[lang="en"] .level-name { width: calc(9ch + 9 * 0.14em); }
 .level input { -webkit-appearance: none; appearance: none; width: 4.6rem; height: 1.4rem; margin: 0; background: transparent; cursor: pointer; }
 .level input::-webkit-slider-runnable-track { height: 1px; background: linear-gradient(90deg, var(--cream-3), var(--gold)); }
 .level input::-moz-range-track { height: 1px; background: linear-gradient(90deg, var(--cream-3), var(--gold)); }
@@ -287,7 +289,7 @@ html:not(.gl) .hero-inner { background: rgba(5,11,22,0.55); padding: 1.5rem 2rem
 @media (max-width: 480px) { .bar-links .kb { display: none; } }
 @media (max-width: 1100px) { .level-label { display: none; } }
 @media (max-width: 820px), (max-aspect-ratio: 5/4) and (max-width: 1180px) { .level { gap: 0.45rem; margin-left: 0.75rem; } .level input { width: 2.8rem; } }
-@media (max-width: 380px) { .level-name { min-width: 0; } .level input { width: 2.4rem; } }
+@media (max-width: 380px) { .level input { width: 2.4rem; } }
 
 /* ------------------------------------------------------------- small screens: the figure lives in a band */
 
