@@ -271,6 +271,22 @@ Handling er atferd regulert av telos – et mål. Observerbar bevegelse er derfo
 
 Verdi konstitueres ved subjektpolen: å verdsette er en relasjon aktualisert av et målrettet vesen. At verdier er subjektive, er selv et objektivt faktum. Handling er nødvendigvis rasjonell i formen, fordi å handle er å anvende midler relativt til et mål slik aktøren forstår det. Målene selv er verken rasjonelle eller irrasjonelle. Rasjonaliteten hører altså til formen; effektivitet hører til forholdet mellom konkrete mål og midler – om midlene faktisk når målet.
 
+## time-causality
+
+### 1
+Tid og årsak – at noe skjer fordi noe annet skjedde – virker som det mest grunnleggende av alt. Men i rammeverket kommer de etter handlingen, ikke før. Vi forstår årsak og virkning fordi vi handler: hvis jeg gjør dette, regner jeg med at det skjer. Det er det som gjør det mulig å bruke midler nå for å nå et mål senere.
+
+Når vi tenker på tiden som en ting som finnes og flyter av seg selv, har vi gjort forventningen om at noe følger av noe, om til en ting. Dette er ikke fysikk, og sier ingenting om hvordan universet er bygd. Det sier noe om hvordan vi forstår tid.
+
+Varighet og størrelse fungerer på samme måte: begge er mål på forhold mellom ting. Hvis alt ble dobbelt så stort på én gang, ville ingen kunne merke det.
+
+### 2
+Tid og kausalitet er avledede tema i rammeverket – de bygger på handling, ikke omvendt. Kausalitet, forholdet mellom årsak og virkning, blir praktisk forståelig som en handlingsrelevant relasjon: hvis jeg gjør X, ventes Y å følge. Det er nettopp dette som gjør det mulig å rette midler nå mot et mål som ennå ikke er nådd.
+
+Når tid behandles som substans – som noe som finnes og flyter for seg selv – kan den karakteriseres som kausalitet lest som substans: forventningen om at noe følger av noe, stabilisert til en ting. Dette er en meta-epistemologisk analyse, ikke en fysisk teori om universets empiriske struktur.
+
+Størrelse og varighet er strukturelt analoge: begge er relasjonelle mål.
+
 ## social
 
 ### 1

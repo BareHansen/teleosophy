@@ -10,7 +10,8 @@
  *          mark is shown large; past it the clip narrows to a thin strip, and
  *          text scrolls below it without passing over the figure.
  *
- * Stages (data-stage) and what the figure shows:
+ * Figure states (data-fig) and what the figure shows. data-stage is the section's position;
+ * scrolling interpolates between the figure states of neighbouring sections.
  *   0 hero              the whole mark is drawn: stroke, poles, centre, crosshair, ring
  *  I  Meta-epistemology — cool; the instrument only (no centre, no crosshair)
  *   1 chapter           many contents, each with the same form
@@ -28,6 +29,7 @@
  *  12 persons           I, you (derived, mirrored), the third person (edge-on)
  *  13 borrowed language the figure tilted toward edge-on
  *  14 action            reciprocal relation between I and you
+ *     time and causality  (same figure as action: if I do X, Y is expected to follow)
  *  15 social reality    many counterparts, converging
  *  16 institute         rest
  */
@@ -114,6 +116,13 @@
       }
     }
     return sections.length && sections[0].getBoundingClientRect().top > mid ? 0 : sections.length - 1;
+  }
+
+  /* section position (possibly fractional) -> figure state */
+  function figOf(s) {
+    var n = sections.length - 1, a = Math.max(0, Math.min(n, Math.floor(s))), b = Math.min(n, a + 1), k = s - a;
+    var fa = +(sections[a].getAttribute("data-fig") || a), fb = +(sections[b].getAttribute("data-fig") || b);
+    return fa + (fb - fa) * Math.max(0, Math.min(1, k));
   }
 
   var activeIdx = -1;
@@ -648,7 +657,7 @@
     gl.uniform2f(U.u_c3, c3x, c3y);
     gl.uniform2f(U.u_mouse, mouse[0], mouse[1]);
     gl.uniform1f(U.u_time, reduce ? 12.0 : (now - t0) / 1000);
-    gl.uniform1f(U.u_stage, stage);
+    gl.uniform1f(U.u_stage, figOf(stage));
     gl.uniform1f(U.u_build, eb);
     gl.uniform1f(U.u_R, R);
     gl.uniform1f(U.u_shift, shift);

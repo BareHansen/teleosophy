@@ -199,6 +199,13 @@ S = [
       more=[("src", "teleosophy", 10), ("src", "teleosophy", 11), ("src", "teleosophy", 12),
             ("html", T("<p>Action is necessarily rational in its form: to act is already to employ means relative to an end, as understood by the actor. <strong>Ends are neither rational nor irrational.</strong> Rationality belongs to the form of action. Efficacy belongs to the relation between concrete ends and means: whether the chosen means actually achieve the end.</p>",
                        "<p>Handling er nødvendigvis rasjonell i formen: å handle er allerede å anvende midler relativt til et mål, slik aktøren forstår det. <strong>Mål er verken rasjonelle eller irrasjonelle.</strong> Rasjonaliteten hører til handlingens form. Effektiviteten hører til forholdet mellom konkrete mål og midler: hvorvidt de valgte midlene faktisk oppnår målet.</p>"))]),
+ dict(id="time-causality", part=2, fig=14, rail=T("Time and causality", "Tid og kausalitet"),
+      label=T("Time and causality", "Tid og kausalitet"),
+      head=T("If I do X, Y is expected to follow.", "Hvis jeg gjør X, ventes Y å følge."),
+      body=[("html", T("<p>Time and causality are derived subjects, not the primary foundation. Causality becomes practically intelligible as an action-relevant relation: if I do X, Y is expected to follow. This is what allows present means to be directed toward an end.</p>"
+                       "<p>The mature analysis can characterize substantialized time as causality read as substance. This is a derived meta-epistemological analysis, not a physical theory that settles the empirical structure of the universe. Size and duration are structurally analogous as relational measures.</p>",
+                       "<p>Tid og kausalitet er avledede tema, ikke det primære fundamentet. Kausalitet blir praktisk forståelig som en handlingsrelevant relasjon: hvis jeg gjør X, ventes Y å følge. Det er dette som gjør det mulig å rette foreliggende midler mot et mål.</p>"
+                       "<p>Den modne analysen kan karakterisere substansialisert tid som kausalitet lest som substans. Dette er en avledet meta-epistemologisk analyse, ikke en fysisk teori som avgjør universets empiriske struktur. Størrelse og varighet er strukturelt analoge som relasjonelle mål.</p>"))]),
  dict(id="social", part=2, rail=T("Social reality", "Sosial virkelighet"),
       label=T("Social reality", "Sosial virkelighet"),
       head=T("Converging narrative structures.", "Konvergerende narrative strukturer."),
@@ -467,6 +474,12 @@ def build(lang):
         f'      <li{GAP if i in GAPS else ""}><a href="#{sid}" data-i="{i}"><span class="tick"></span><span class="rail-label">{name}</span></a></li>'
         for sid, name, i in rail_items)
 
+    # data-stage: position of the section; data-fig: which state of the figure it shows
+    # (a section may share the figure of the one before it, e.g. time and causality with action)
+    figs, f = [], 0
+    for s in S:
+        f = s["fig"] if "fig" in s else f + 1
+        figs.append(f)
     sections = []
     for i, s in enumerate(S, 1):
         lv = levels.get(s["id"])
@@ -501,7 +514,7 @@ def build(lang):
     <h2 id="h-{s["id"]}" class="{hcls}">{heading(s["head"])}</h2>'''
             cls = "stage"
         sections.append(f'''
-<section class="{cls}" id="{s["id"]}" data-stage="{i}" data-part="{s["part"]}" aria-labelledby="h-{s["id"]}">
+<section class="{cls}" id="{s["id"]}" data-stage="{i}" data-fig="{figs[i - 1]}" data-part="{s["part"]}" aria-labelledby="h-{s["id"]}">
   <div class="stage-inner">
     {top}{alt}
     {lead}

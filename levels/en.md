@@ -272,6 +272,22 @@ Theorizing is itself purposeful activity: a theorist distinguishes, relates, con
 
 Value is constituted at the subject pole: valuing is a relation actualized by a purposeful being. That values are subjective is itself an objective fact. Action is necessarily rational in form, because to act is to employ means relative to an aim as understood by the actor. Aims themselves are neither rational nor irrational. Rationality thus belongs to the form; efficacy belongs to the relation between concrete ends and means – whether the means actually achieve the aim.
 
+## time-causality
+
+### 1
+Time and cause – that something happens because something else happened – seem like the most basic things of all. But in the framework they come after action, not before. We understand cause and effect because we act: if I do this, I expect that to happen. That is what makes it possible to use means now to reach an aim later.
+
+When we think of time as a thing that exists and flows by itself, we have turned the expectation that something follows from something into a thing. This is not physics, and says nothing about how the universe is built. It says something about how we understand time.
+
+Duration and size work the same way: both are measures of relations between things. If everything became twice as large at once, no one could notice.
+
+### 2
+Time and causality are derived subjects in the framework – they build on action, not the other way round. Causality, the relation between cause and effect, becomes practically intelligible as an action-relevant relation: if I do X, Y is expected to follow. That is precisely what allows means now to be directed toward an aim not yet reached.
+
+When time is treated as substance – as something that exists and flows by itself – it can be characterized as causality read as substance: the expectation that something follows from something, stabilized into a thing. This is a meta-epistemological analysis, not a physical theory of the empirical structure of the universe.
+
+Size and duration are structurally analogous: both are relational measures.
+
 ## social
 
 ### 1

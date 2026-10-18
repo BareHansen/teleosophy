@@ -40,6 +40,9 @@ dem, Teknisk forutsetter dem.
 | handlingsaksiomet | den grunnleggende innsikten om handling | ✔ |
 | narrativ struktur | forståelse av egen virkelighet gjennom språk | ✔ |
 | effektivitet | evnen til å virke | ✔ |
+| kausalitet | forholdet mellom årsak og virkning | ? |
+| substansialisert tid | tid tenkt som en ting som finnes og flyter av seg selv | ? |
+| relasjonelle mål | mål på forhold mellom ting | ? |
 
 ## Eksempler
 
