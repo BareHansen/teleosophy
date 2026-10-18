@@ -1,14 +1,17 @@
 # Ordliste for det enkle trinnet
 
-Arbeidsliste for slideren *Enkel – Standard – Presis*. Hvert fagord får ett fast
+Arbeidsliste for slideren *Enkel – Standard – Teknisk*. Hvert fagord får ett fast
 hverdagsuttrykk på det enkle trinnet. **Status:** ✔ = godkjent av Stein, ? = forslag.
+
+**Prinsipp:** Alle trinn forklarer presist. Trinnene skiller seg i språk, ikke i presisjon.
+Det enkle trinnet sier det samme som det tekniske, bare uten fagord.
 
 | Fagord | Enkelt uttrykk | Status |
 |---|---|---|
 | noesis / noetisk | meningsskaping: å skape mening gjennom tenkning, ved å ordne noe som en fortelling (narrativ strukturering) | ✔ |
-| ontonomi | å låne ut *væren* til noe for å gi det en stabil identitet | ✔ |
-| noonomi | å låne ut *mening/tenkning* til noe for å forstå hvordan det behandler eller beregner | ✔ |
-| teleonomi | å låne ut *handling* til noe for å forstå hvilken funksjon det har | ✔ |
+| ontonomi | lån av «jeg er»: å låne ut *væren* til noe for å gi det en stabil identitet | ✔ |
+| noonomi | lån av «jeg tenker»: å låne ut *mening/tenkning* til noe for å forstå hvordan det behandler eller beregner | ✔ |
+| teleonomi | lån av «jeg handler»: å låne ut *handling* til noe for å forstå hvilken funksjon det har | ✔ |
 | epistemologi / epistemologisk | kunnskapslære / kunnskapsmessig | ✔ |
 | meta-epistemologi | forutsetningene for kunnskap | ? |
 | ontologi / ontologisk | læren om hva som er / værensmessig | ? |
@@ -33,11 +36,14 @@ hverdagsuttrykk på det enkle trinnet. **Status:** ✔ = godkjent av Stein, ? = 
 | narrativ struktur | fortellingsform | ? |
 | effektivitet | evnen til å virke | ? |
 
-## Eksempler per trinn
+## Eksempler
 
-Eksemplene følger også slideren: samme sak, sagt enklere eller mer presist.
+Eksemplene på siden er de tre lånene: lån av «jeg er» (ontonomi), «jeg tenker» (noonomi)
+og «jeg handler» (teleonomi). Ingen andre eksempler. På hvert trinn forklares det presist
+at uttrykket er et lån; bare ordlyden følger trinnet.
 
-| Begrep | Enkel | Standard | Presis | Status |
+| Lån | Enkel | Standard | Teknisk | Status |
 |---|---|---|---|---|
-| noonomi | «datamaskinen jobber og tenker» | «datamaskinen prosesserer informasjon» | – | ✔ (enkel, standard) |
-| teleonomi | «hjertet *vil* pumpe blod» | – | – | ? |
+| «jeg tenker» (noonomi) | «datamaskinen jobber og tenker» | «datamaskinen prosesserer informasjon» | – | ✔ |
+| «jeg er» (ontonomi) | – | – | – | venter på Stein |
+| «jeg handler» (teleonomi) | – | – | – | venter på Stein |
