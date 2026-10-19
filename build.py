@@ -577,7 +577,7 @@ def build(lang):
   </a>
   <p class="partbar" aria-hidden="true"><span data-p="1"><b>I</b>{PART_NAMES[1][lang]}</span><span data-p="2"><b>II</b>{PART_NAMES[2][lang]}</span></p>
   <nav class="bar-links" aria-label="Site">
-    <div class="level-wrap"><button class="level-toggle" type="button" aria-expanded="false" aria-controls="level-panel" aria-label="{u["level"]}" title="{u["level"]}">Aa</button>    <label class="level" id="level-panel" title="{u["level"]}"><span class="level-label">{u["level"]}</span><input type="range" min="1" max="3" step="1" value="{LEVEL_DEFAULT}" aria-label="{u["level"]}" data-names="{"|".join(LEVEL_NAMES[lang])}"><span class="level-name" aria-hidden="true">{LEVEL_NAMES[lang][LEVEL_DEFAULT - 1]}</span></label></div>
+    <div class="level-wrap"><button class="level-toggle" type="button" aria-expanded="false" aria-controls="level-panel" aria-label="{u["level"]}" title="{u["level"]}"></button>    <label class="level" id="level-panel" title="{u["level"]}"><span class="level-label">{u["level"]}</span><input type="range" min="1" max="3" step="1" value="{LEVEL_DEFAULT}" aria-label="{u["level"]}" data-names="{"|".join(LEVEL_NAMES[lang])}"><span class="level-name" aria-hidden="true">{LEVEL_NAMES[lang][LEVEL_DEFAULT - 1]}</span></label></div>
     <a href="https://meta-epistemology.org" class="kb">{u["kb"]} <span aria-hidden="true">↗</span></a>
     <a href="{o_href}" hreflang="{o_lang}" lang="{o_lang}" class="lang" title="{o_long}">{o_short}</a>
   </nav>
