@@ -88,6 +88,18 @@
     }
     apply(parseInt(root.getAttribute("data-level"), 10) || 2, false);
     input.addEventListener("input", function () { apply(parseInt(input.value, 10), true); });
+
+    /* phones: the slider lives in a panel opened by a small button */
+    var wrap = document.querySelector(".level-wrap"), toggle = document.querySelector(".level-toggle");
+    if (wrap && toggle) {
+      var setOpen = function (open) {
+        wrap.classList.toggle("open", open);
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      };
+      toggle.addEventListener("click", function (e) { e.stopPropagation(); setOpen(!wrap.classList.contains("open")); });
+      document.addEventListener("click", function (e) { if (!wrap.contains(e.target)) setOpen(false); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") setOpen(false); });
+    }
   })();
 
   /* ---------------------------------------------------------- text reveal */
