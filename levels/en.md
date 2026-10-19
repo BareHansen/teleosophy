@@ -13,14 +13,14 @@ Format: `## section-id`, then `### 1` (Simple) and `### 2` (Standard). A line st
 ### 1
 > Physics, biology, history and every other field study different things with different methods. But in every field, knowing something requires the same: telling things apart, seeing how they connect, putting them into words, seeing them from a standpoint – and something actually becoming real for the one who knows.
 
-Philosophy has its own field for questions about knowledge: the study of knowledge, or epistemology. It asks what we can know, and how we can justify what we claim. Here a question is asked that comes even earlier: what must already be made real for there to be any knowledge, justification, description, disagreement, measurement or claim at all? It is the question of the preconditions of knowledge. "Meta" here means what lies before – hence the name meta-epistemology.
+Philosophy has its own field for questions about knowledge: the study of knowledge, or epistemology. It asks what we can know, and how we can justify what we claim. Here a more fundamental question is asked: what must already be made real for there to be any knowledge, justification, description, disagreement, measurement or claim at all? It is the question of the preconditions of knowledge – hence the name meta-epistemology: the study of knowledge turned to the very ground of knowledge.
 
 The answer is not a new theory competing with physics, biology or history. It is a description of the form every field already uses when it knows anything. That is why questions from very different fields can be examined on the same ground, without turning everything into one field.
 
 ### 2
 > Disciplines differ in content, method and object. But all of them require the same in order to know: distinctions (something being told apart from something else), relations (connections), concepts, perspective and actualization – something actually becoming real for the one who knows.
 
-Epistemology – the theory of knowledge – asks what can be known, and how a claim can be justified. Meta-epistemology asks the question that comes before: what must already be actualized for there to be knowledge, justification, description, disagreement, measurement or claims at all? It is not a question of what we know, but of what knowing presupposes.
+Epistemology – the theory of knowledge – asks what can be known, and how a claim can be justified. Meta-epistemology asks a more fundamental question: what must already be actualized for there to be knowledge, justification, description, disagreement, measurement or claims at all? It is not a question of what we know, but of what knowing presupposes.
 
 The answer is therefore no new theory competing with physics, biology or history. It is an account of the formal structure every discipline already uses when it knows anything. Because the structure is shared, questions from different fields can be examined at a common level – without reducing their content to a single science.
 

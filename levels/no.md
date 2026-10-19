@@ -12,14 +12,14 @@ begynner med `> ` er ingressen. Avsnitt skilles med tom linje. `**fet**`, `*kurs
 ### 1
 > Fysikk, biologi, historie og alle andre fag handler om ulike ting og bruker ulike metoder. Men i alle fag krever det å vite noe det samme: at man skiller ting fra hverandre, ser hvordan de henger sammen, setter ord på dem, ser dem fra et ståsted – og at noe faktisk blir virkelig for den som vet.
 
-Filosofien har et eget felt for spørsmål om kunnskap: kunnskapslæren, eller epistemologien. Den spør hva vi kan vite, og hvordan vi kan begrunne det vi påstår. Her stilles et spørsmål som kommer enda før: hva må allerede være virkeliggjort for at det i det hele tatt skal finnes kunnskap, begrunnelser, beskrivelser, uenighet, målinger eller påstander? Det er spørsmålet om forutsetningene for kunnskap. «Meta» betyr her det som ligger forut for – derav navnet meta-epistemologi.
+Filosofien har et eget felt for spørsmål om kunnskap: kunnskapslæren, eller epistemologien. Den spør hva vi kan vite, og hvordan vi kan begrunne det vi påstår. Her stilles et mer grunnleggende spørsmål: hva må allerede være virkeliggjort for at det i det hele tatt skal finnes kunnskap, begrunnelser, beskrivelser, uenighet, målinger eller påstander? Det er spørsmålet om forutsetningene for kunnskap – derav navnet meta-epistemologi: kunnskapslæren om selve grunnlaget for kunnskap.
 
 Svaret er ikke en ny teori som konkurrerer med fysikk, biologi eller historie. Det er en beskrivelse av den formen alle fag allerede bruker når de vet noe. Derfor kan spørsmål fra helt ulike fag undersøkes på samme grunnlag, uten at alt gjøres om til ett fag.
 
 ### 2
 > Fagene skiller seg i innhold, metode og objekt. Men alle krever det samme for å vite noe: distinksjoner (at noe skilles fra noe annet), relasjoner (forbindelser), begreper, perspektiv og aktualisering – at noe faktisk blir virkelig for den som vet.
 
-Epistemologien – kunnskapsteorien – spør hva som kan vites, og hvordan en påstand kan begrunnes. Meta-epistemologien stiller spørsmålet som kommer før: hva må allerede være aktualisert for at det skal finnes kunnskap, begrunnelse, beskrivelse, uenighet, måling eller påstander i det hele tatt? Det er ikke et spørsmål om hva vi vet, men om hva det å vite forutsetter.
+Epistemologien – kunnskapsteorien – spør hva som kan vites, og hvordan en påstand kan begrunnes. Meta-epistemologien stiller et mer grunnleggende spørsmål: hva må allerede være aktualisert for at det skal finnes kunnskap, begrunnelse, beskrivelse, uenighet, måling eller påstander i det hele tatt? Det er ikke et spørsmål om hva vi vet, men om hva det å vite forutsetter.
 
 Svaret er derfor ingen ny teori som konkurrerer med fysikk, biologi eller historie. Det er en redegjørelse for den formelle strukturen alle fagene allerede bruker når de vet noe. Fordi strukturen er felles, kan spørsmål fra ulike felt undersøkes på et felles nivå – uten at innholdet deres reduseres til én vitenskap.
 
