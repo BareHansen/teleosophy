@@ -11,6 +11,14 @@
 User-agent: Claude-User
 Allow: /
 
+# OpenAI bots (ChatGPT)
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: GPTBot
+Allow: /
+
 User-agent: *
 Disallow: /wiki/
 
